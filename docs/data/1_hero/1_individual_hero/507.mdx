@@ -1,0 +1,29 @@
+---
+id: 507
+slug: 507
+---
+
+import Image from "@theme/IdealImage";
+import { TableComponent } from "@site/src/components/SortableTable";
+import { mercenary_507, mercenary_507_attacks, mercenary_info_507, mercenary_attack_507 } from "@site/src/table/mercenaries_individual";
+
+# 507
+
+<div style = {{ display: "flex" }}>
+    
+    
+</div>
+
+## Mercenary Summary
+
+<TableComponent
+  columns={ mercenary_info_507 }
+  data={ mercenary_507 }
+/>
+
+## Mercenary Attacks
+
+<TableComponent
+  columns={ mercenary_attack_507 }
+  data={ mercenary_507_attacks }
+/>

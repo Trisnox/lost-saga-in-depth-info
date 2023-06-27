@@ -1,0 +1,29 @@
+---
+id: 147
+slug: 147
+---
+
+import Image from "@theme/IdealImage";
+import { TableComponent } from "@site/src/components/SortableTable";
+import { mercenary_147, mercenary_147_attacks, mercenary_info_147, mercenary_attack_147 } from "@site/src/table/mercenaries_individual";
+
+# 147
+
+<div style = {{ display: "flex" }}>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_n_147.jpg')}/>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_o_147.jpg')}/>
+</div>
+
+## Mercenary Summary
+
+<TableComponent
+  columns={ mercenary_info_147 }
+  data={ mercenary_147 }
+/>
+
+## Mercenary Attacks
+
+<TableComponent
+  columns={ mercenary_attack_147 }
+  data={ mercenary_147_attacks }
+/>

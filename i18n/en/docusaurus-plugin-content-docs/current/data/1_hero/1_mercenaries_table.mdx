@@ -1,0 +1,17 @@
+---
+id: Hero Data Table
+slug: hero_list_all
+---
+
+import { TableComponent } from "@site/src/components/SortableTable";
+import { mercenaries, column } from "@site/src/table/mercenaries_table";
+
+# Hero Data Table
+This section covers short information of each mercenary in a singular table.
+
+Use `Ctrl+F` (Windows), or `⋮ > Find in page` (Mobile) to search for specific hero.
+
+<TableComponent
+  columns={ column }
+  data={ mercenaries }
+/>

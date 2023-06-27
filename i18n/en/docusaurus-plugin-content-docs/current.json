@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Data": {
+    "message": "Data",
+    "description": "The label for category Data in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data.link.generated-index.description": {
+    "message": "Data that were collected here only cover hero/gear that were released on LSO client only.",
+    "description": "The generated-index page description for category Data in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Hero": {
+    "message": "Hero",
+    "description": "The label for category Hero in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Hero.link.generated-index.description": {
+    "message": "Data hero",
+    "description": "The generated-index page description for category Hero in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data Hero Individual": {
+    "message": "Individual Hero Data",
+    "description": "The label for category Data Hero Individual in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data Hero Individual.link.generated-index.description": {
+    "message": "Each hero information explained in detail.",
+    "description": "The generated-index page description for category Data Hero Individual in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Gear": {
+    "message": "Gear",
+    "description": "The label for category Gear in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Gear.link.generated-index.description": {
+    "message": "Gear Data",
+    "description": "The generated-index page description for category Gear in sidebar tutorialSidebar"
+  }
+}

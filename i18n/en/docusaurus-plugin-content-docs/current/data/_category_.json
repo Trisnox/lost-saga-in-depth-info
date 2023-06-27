@@ -1,0 +1,8 @@
+{
+  "label": "Data",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Data that were collected here only covers hero/gear that were released on LSO client only."
+  }
+}

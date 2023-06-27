@@ -1,0 +1,29 @@
+---
+id: 041
+slug: 041
+---
+
+import Image from "@theme/IdealImage";
+import { TableComponent } from "@site/src/components/SortableTable";
+import { mercenary_041, mercenary_041_attacks, mercenary_info_041, mercenary_attack_041 } from "@site/src/table/mercenaries_individual";
+
+# 041
+
+<div style = {{ display: "flex" }}>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_n_041.jpg')}/>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_o_041.jpg')}/>
+</div>
+
+## Mercenary Summary
+
+<TableComponent
+  columns={ mercenary_info_041 }
+  data={ mercenary_041 }
+/>
+
+## Mercenary Attacks
+
+<TableComponent
+  columns={ mercenary_attack_041 }
+  data={ mercenary_041_attacks }
+/>

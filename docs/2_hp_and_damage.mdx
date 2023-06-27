@@ -1,0 +1,32 @@
+---
+id: HP and Damage
+slug: char_info
+sidebar_position: 3
+---
+
+Secara default, player memiliki HP sebanyak 196.0 dan speed sebanyak 300.0
+
+```ini title="sp2_char.ini"
+;------------------------// 체력, 이동속도
+default_hp    = 196.0f
+default_speed = 300.0f
+```
+
+Berikut juga tabel untuk damage diterima dalam kondisi spesifik
+
+```ini title="sp2_char.ini"
+; // 피해율 (후면 / 다운 / 공중 / 빙결) (1 = 100%)
+back_attack_damage_rate     = 1.0f
+back_attack_gap_time        = 0
+blow_state_damage_rate      = 0.5f
+blow_state_push_power_rate  = 0.1f
+blow3_state_push_power_rate = 0.3f
+blow_state_blow_power_rate  = 1.0f
+float_state_damage_rate     = 0.5f
+frozen_damage_rate          = 0.5f
+```
+
+Berarti, jika musuh dalam kondisi udara, mereka hanya akan menerima 50% damage dari biasanya (`blow_state_damage_rate`).
+Tetapi, jika musuh dalam keadaan jatuh/down, mereka akan menerima 100% damage.
+
+Meskipun serangan dari belakang (`back_attack_damage_rate`) tertulis `1.0f`, damage yang diterima musuh tetap saja sama (tidak ada damage bonus).

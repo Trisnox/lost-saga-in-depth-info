@@ -1,0 +1,29 @@
+---
+id: 601
+slug: 601
+---
+
+import Image from "@theme/IdealImage";
+import { TableComponent } from "@site/src/components/SortableTable";
+import { mercenary_601, mercenary_601_attacks, mercenary_info_601, mercenary_attack_601 } from "@site/src/table/mercenaries_individual";
+
+# 601
+
+<div style = {{ display: "flex" }}>
+    
+    
+</div>
+
+## Mercenary Summary
+
+<TableComponent
+  columns={ mercenary_info_601 }
+  data={ mercenary_601 }
+/>
+
+## Mercenary Attacks
+
+<TableComponent
+  columns={ mercenary_attack_601 }
+  data={ mercenary_601_attacks }
+/>

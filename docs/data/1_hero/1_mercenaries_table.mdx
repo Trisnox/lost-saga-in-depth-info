@@ -1,0 +1,18 @@
+---
+id: Tabel Data Hero
+slug: hero_list_all
+---
+
+import { TableComponent } from "@site/src/components/SortableTable";
+import { mercenaries, column } from "@site/src/table/mercenaries_table";
+
+# Tabel Data Hero
+
+Bagian ini mencakupi informasi pendek dari semua hero dalam satu list yang panjang.
+
+Gunakan fitur `ctrl+f` (Windows) atau `⋮ > Find in page` (Mobile) untuk mencari hero spesifik.
+
+<TableComponent
+  columns={ column }
+  data={ mercenaries }
+/>

@@ -1,0 +1,29 @@
+---
+id: 509
+slug: 509
+---
+
+import Image from "@theme/IdealImage";
+import { TableComponent } from "@site/src/components/SortableTable";
+import { mercenary_509, mercenary_509_attacks, mercenary_info_509, mercenary_attack_509 } from "@site/src/table/mercenaries_individual";
+
+# 509
+
+<div style = {{ display: "flex" }}>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_n_509.jpg')}/>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_o_509.jpg')}/>
+</div>
+
+## Mercenary Summary
+
+<TableComponent
+  columns={ mercenary_info_509 }
+  data={ mercenary_509 }
+/>
+
+## Mercenary Attacks
+
+<TableComponent
+  columns={ mercenary_attack_509 }
+  data={ mercenary_509_attacks }
+/>

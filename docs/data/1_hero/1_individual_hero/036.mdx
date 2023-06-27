@@ -1,0 +1,29 @@
+---
+id: 036
+slug: 036
+---
+
+import Image from "@theme/IdealImage";
+import { TableComponent } from "@site/src/components/SortableTable";
+import { mercenary_036, mercenary_036_attacks, mercenary_info_036, mercenary_attack_036 } from "@site/src/table/mercenaries_individual";
+
+# 036
+
+<div style = {{ display: "flex" }}>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_n_036.jpg')}/>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_o_036.jpg')}/>
+</div>
+
+## Mercenary Summary
+
+<TableComponent
+  columns={ mercenary_info_036 }
+  data={ mercenary_036 }
+/>
+
+## Mercenary Attacks
+
+<TableComponent
+  columns={ mercenary_attack_036 }
+  data={ mercenary_036_attacks }
+/>

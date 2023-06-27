@@ -1,0 +1,29 @@
+---
+id: 202
+slug: 202
+---
+
+import Image from "@theme/IdealImage";
+import { TableComponent } from "@site/src/components/SortableTable";
+import { mercenary_202, mercenary_202_attacks, mercenary_info_202, mercenary_attack_202 } from "@site/src/table/mercenaries_individual";
+
+# 202
+
+<div style = {{ display: "flex" }}>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_n_202.jpg')}/>
+    
+</div>
+
+## Mercenary Summary
+
+<TableComponent
+  columns={ mercenary_info_202 }
+  data={ mercenary_202 }
+/>
+
+## Mercenary Attacks
+
+<TableComponent
+  columns={ mercenary_attack_202 }
+  data={ mercenary_202_attacks }
+/>

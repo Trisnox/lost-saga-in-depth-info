@@ -1,0 +1,29 @@
+---
+id: 090
+slug: 090
+---
+
+import Image from "@theme/IdealImage";
+import { TableComponent } from "@site/src/components/SortableTable";
+import { mercenary_090, mercenary_090_attacks, mercenary_info_090, mercenary_attack_090 } from "@site/src/table/mercenaries_individual";
+
+# 090
+
+<div style = {{ display: "flex" }}>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_n_090.jpg')}/>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_o_090.jpg')}/>
+</div>
+
+## Mercenary Summary
+
+<TableComponent
+  columns={ mercenary_info_090 }
+  data={ mercenary_090 }
+/>
+
+## Mercenary Attacks
+
+<TableComponent
+  columns={ mercenary_attack_090 }
+  data={ mercenary_090_attacks }
+/>

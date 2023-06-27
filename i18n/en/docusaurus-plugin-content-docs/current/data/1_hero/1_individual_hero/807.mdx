@@ -1,0 +1,29 @@
+---
+id: 807
+slug: 807
+---
+
+import Image from "@theme/IdealImage";
+import { TableComponent } from "@site/src/components/SortableTable";
+import { mercenary_807, mercenary_807_attacks, mercenary_info_807, mercenary_attack_807 } from "@site/src/table/mercenaries_individual";
+
+# 807
+
+<div style = {{ display: "flex" }}>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_n_807.jpg')}/>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_o_807.jpg')}/>
+</div>
+
+## Mercenary Summary
+
+<TableComponent
+  columns={ mercenary_info_807 }
+  data={ mercenary_807 }
+/>
+
+## Mercenary Attacks
+
+<TableComponent
+  columns={ mercenary_attack_807 }
+  data={ mercenary_807_attacks }
+/>

@@ -1,0 +1,29 @@
+---
+id: 074
+slug: 074
+---
+
+import Image from "@theme/IdealImage";
+import { TableComponent } from "@site/src/components/SortableTable";
+import { mercenary_074, mercenary_074_attacks, mercenary_info_074, mercenary_attack_074 } from "@site/src/table/mercenaries_individual";
+
+# 074
+
+<div style = {{ display: "flex" }}>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_n_074.jpg')}/>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_o_074.jpg')}/>
+</div>
+
+## Mercenary Summary
+
+<TableComponent
+  columns={ mercenary_info_074 }
+  data={ mercenary_074 }
+/>
+
+## Mercenary Attacks
+
+<TableComponent
+  columns={ mercenary_attack_074 }
+  data={ mercenary_074_attacks }
+/>

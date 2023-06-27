@@ -1,0 +1,29 @@
+---
+id: 103
+slug: 103
+---
+
+import Image from "@theme/IdealImage";
+import { TableComponent } from "@site/src/components/SortableTable";
+import { mercenary_103, mercenary_103_attacks, mercenary_info_103, mercenary_attack_103 } from "@site/src/table/mercenaries_individual";
+
+# 103
+
+<div style = {{ display: "flex" }}>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_n_103.jpg')}/>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_o_103.jpg')}/>
+</div>
+
+## Mercenary Summary
+
+<TableComponent
+  columns={ mercenary_info_103 }
+  data={ mercenary_103 }
+/>
+
+## Mercenary Attacks
+
+<TableComponent
+  columns={ mercenary_attack_103 }
+  data={ mercenary_103_attacks }
+/>

@@ -1,0 +1,29 @@
+---
+id: 020
+slug: 020
+---
+
+import Image from "@theme/IdealImage";
+import { TableComponent } from "@site/src/components/SortableTable";
+import { mercenary_020, mercenary_020_attacks, mercenary_info_020, mercenary_attack_020 } from "@site/src/table/mercenaries_individual";
+
+# 020
+
+<div style = {{ display: "flex" }}>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_n_020.jpg')}/>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_o_020.jpg')}/>
+</div>
+
+## Mercenary Summary
+
+<TableComponent
+  columns={ mercenary_info_020 }
+  data={ mercenary_020 }
+/>
+
+## Mercenary Attacks
+
+<TableComponent
+  columns={ mercenary_attack_020 }
+  data={ mercenary_020_attacks }
+/>

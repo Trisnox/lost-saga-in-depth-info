@@ -1,0 +1,29 @@
+---
+id: 058
+slug: 058
+---
+
+import Image from "@theme/IdealImage";
+import { TableComponent } from "@site/src/components/SortableTable";
+import { mercenary_058, mercenary_058_attacks, mercenary_info_058, mercenary_attack_058 } from "@site/src/table/mercenaries_individual";
+
+# 058
+
+<div style = {{ display: "flex" }}>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_n_058.jpg')}/>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_o_058.jpg')}/>
+</div>
+
+## Mercenary Summary
+
+<TableComponent
+  columns={ mercenary_info_058 }
+  data={ mercenary_058 }
+/>
+
+## Mercenary Attacks
+
+<TableComponent
+  columns={ mercenary_attack_058 }
+  data={ mercenary_058_attacks }
+/>

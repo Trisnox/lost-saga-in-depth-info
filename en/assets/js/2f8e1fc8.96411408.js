@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkls_data_scrape_project=self.webpackChunkls_data_scrape_project||[]).push([[418],{2417:e=>{e.exports=JSON.parse('{"permalink":"/lost-saga-in-depth-info/en/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

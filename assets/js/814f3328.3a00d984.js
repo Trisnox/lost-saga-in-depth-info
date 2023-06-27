@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkls_data_scrape_project=self.webpackChunkls_data_scrape_project||[]).push([[2535],{45641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Cara Baca Informasi Hero","permalink":"/blog/how-to-read-mercenary"},{"title":"Author\'s Note","permalink":"/blog/init-release"}]}')}}]);

@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Data-data hero, gear, dan mekanik Lost Saga Origin <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

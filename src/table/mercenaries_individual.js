@@ -14,7 +14,7 @@ export const mercenary_001 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "11.0, Landing Jump Hold D1 | 11.0, Charged D1 | 11.0, Charged D2 | 11.0, Charged D3",
+    Highest_Damage: "11.0, Jump Hold D1 | 11.0, Landing Jump Hold D1 | 11.0, Charged D1 | 11.0, Charged D2 | 11.0, Charged D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -107,6 +107,16 @@ export const mercenary_001_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "11.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.5",
+        "Air Juggle": "✓, 1.5",
+        "Down Hit": "✗",
+        "Push Power": "1.25",
+        "Frozen Break": "✗",
+        },
+
     Landing_Jump_Hold_D1: {
         "Damage": "11.0",
         "Defense Break": "✗",
@@ -175,11 +185,11 @@ export const mercenary_002 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "12.0, Charged D1 | 12.0, Charged D2 | 12.0, Charged D3",
+    Highest_Damage: "12.0, Jump Hold D1 | 12.0, Charged D1 | 12.0, Charged D2 | 12.0, Charged D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
-    Down_Hit: "Charged D1, Charged D2, Charged D3",
+    Down_Hit: "Jump Hold D1, Charged D1, Charged D2, Charged D3",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -235,6 +245,16 @@ export const mercenary_002_attacks = [{
         "Air Juggle": "✗, 0.75",
         "Down Hit": "✗",
         "Push Power": "1.25",
+        "Frozen Break": "✗",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "12.0",
+        "Defense Break": "✗",
+        "Juggle": "✓✓, 2.5",
+        "Air Juggle": "✓✓, 2.75",
+        "Down Hit": "✓",
+        "Push Power": "0.0",
         "Frozen Break": "✗",
         },
 
@@ -418,7 +438,7 @@ export const mercenary_005 = [{
     Sprint: "✗",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "12.0, Ground_D3",
+    Highest_Damage: "12.0, Ground D3",
     "360_Block": "✓",
     Deflect: "✗",
     Counter: "✗",
@@ -815,7 +835,7 @@ export const mercenary_009 = [{
     Sprint: "✗",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✓",
     Deflect: "✗",
     Counter: "✗",
@@ -876,7 +896,7 @@ export const mercenary_010 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "2",
-    Highest_Damage: "12.0, Ground_D2",
+    Highest_Damage: "12.0, Ground D2",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -1107,7 +1127,7 @@ export const mercenary_012 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "12.0, Counter_D1",
+    Highest_Damage: "12.0, Counter D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -1455,6 +1475,16 @@ export const mercenary_013_attacks = [{
                 },
             },
 
+    Jump_Hold_D1: {
+        "Damage": "7.0",
+        "Defense Break": "✗",
+        "Juggle": "✓✓, 1.75",
+        "Air Juggle": "✓✓, 2.25",
+        "Down Hit": "✗",
+        "Push Power": "0.75",
+        "Frozen Break": "✗",
+        },
+
             Charged_D1: {
                 
                 "1": {
@@ -1559,7 +1589,7 @@ export const mercenary_014 = [{
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Jump Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -1628,6 +1658,16 @@ export const mercenary_014_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "9.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✓, 1.5",
+        "Down Hit": "✓",
+        "Push Power": "0.5",
+        "Frozen Break": "✗",
+        },
+
     Charged_D1: {
         "Damage": "12.0",
         "Defense Break": "✗",
@@ -1666,7 +1706,7 @@ export const mercenary_015 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "11.0, Ground_D4",
+    Highest_Damage: "11.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -1830,7 +1870,7 @@ export const mercenary_016 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "16.0, Ground_D3",
+    Highest_Damage: "16.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -2072,7 +2112,7 @@ export const mercenary_018 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "2",
-    Highest_Damage: "11.0, Ground_D2",
+    Highest_Damage: "11.0, Ground D2",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -2307,11 +2347,11 @@ export const mercenary_020 = [{
     Sprint: "✗",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "14.0, Ground_D3",
+    Highest_Damage: "14.0, Ground D3",
     "360_Block": "✓",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -2359,6 +2399,16 @@ export const mercenary_020_attacks = [{
         "Push Power": "0.75",
         "Frozen Break": "✗",
         },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "10.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✓",
+        "Push Power": "1.25",
+        "Frozen Break": "✗",
+        },
 }];
 
 export const mercenary_021 = [{
@@ -2368,7 +2418,7 @@ export const mercenary_021 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Charged D1 | 10.0, Charged D2",
+    Highest_Damage: "12.0, Jump Hold D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -2428,6 +2478,16 @@ export const mercenary_021_attacks = [{
         "Air Juggle": "✓, 1.0",
         "Down Hit": "✗",
         "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "12.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.5",
+        "Air Juggle": "✓, 1.25",
+        "Down Hit": "✗",
+        "Push Power": "1.5",
         "Frozen Break": "✗",
         },
 
@@ -2502,7 +2562,7 @@ export const mercenary_022 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "16.0, Jump_D1",
+    Highest_Damage: "16.0, Jump D1",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -2593,7 +2653,7 @@ export const mercenary_023 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "13.0, Ground_D3",
+    Highest_Damage: "13.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -2805,11 +2865,11 @@ export const mercenary_025 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "13.0, Ground_D3",
+    Highest_Damage: "13.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -2858,6 +2918,16 @@ export const mercenary_025_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Landing_JUmp_Hold_D1: {
+        "Damage": "11.0",
+        "Defense Break": "✗",
+        "Juggle": "✓✓, 2.0",
+        "Air Juggle": "✓, 1.5",
+        "Down Hit": "✓",
+        "Push Power": "1.25",
+        "Frozen Break": "✗",
+        },
+
     Charged_D1: {
         "Damage": "11.0",
         "Defense Break": "✓",
@@ -2896,7 +2966,7 @@ export const mercenary_026 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "2",
-    Highest_Damage: "10.0, Ground_D2",
+    Highest_Damage: "10.0, Ground D2",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -3292,7 +3362,7 @@ export const mercenary_029 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "13.0, Ground_D3",
+    Highest_Damage: "13.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -3393,7 +3463,7 @@ export const mercenary_030 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "12.0, Ground_D4",
+    Highest_Damage: "12.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -3478,6 +3548,16 @@ export const mercenary_030_attacks = [{
                     "Frozen Break": "✗",
                 },
             },
+
+    Jump_Hold_D1: {
+        "Damage": "5.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.25",
+        "Air Juggle": "✗, 0.75",
+        "Down Hit": "✗",
+        "Push Power": "0.5",
+        "Frozen Break": "✗",
+        },
 
             Counter_D1: {
                 
@@ -3756,7 +3836,7 @@ export const mercenary_031 = [{
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -3830,6 +3910,16 @@ export const mercenary_031_attacks = [{
                     "Frozen Break": "✗",
                 },
             },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "9.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.75",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✓",
+        "Push Power": "1.75",
+        "Frozen Break": "✗",
+        },
 }];
 
 export const mercenary_032 = [{
@@ -3839,7 +3929,7 @@ export const mercenary_032 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "13.0, Ground_D3",
+    Highest_Damage: "13.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -3930,7 +4020,7 @@ export const mercenary_033 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "11.0, Ground_D3",
+    Highest_Damage: "11.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -4051,11 +4141,11 @@ export const mercenary_034 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "12.0, Ground_D3",
+    Highest_Damage: "12.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -4103,6 +4193,16 @@ export const mercenary_034_attacks = [{
         "Push Power": "1.45",
         "Frozen Break": "✗",
         },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✓, 1.25",
+        "Down Hit": "✓",
+        "Push Power": "1.5",
+        "Frozen Break": "✗",
+        },
 }];
 
 export const mercenary_035 = [{
@@ -4112,7 +4212,7 @@ export const mercenary_035 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "11.0, Ground_D3",
+    Highest_Damage: "11.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -4360,7 +4460,7 @@ export const mercenary_037 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "12.0, Ground_D3",
+    Highest_Damage: "12.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -4423,6 +4523,16 @@ export const mercenary_037_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "10.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.5",
+        "Air Juggle": "✗, 0.75",
+        "Down Hit": "✗",
+        "Push Power": "1.25",
+        "Frozen Break": "✗",
+        },
+
     Jump_Dash_Extend_D1: {
         "Damage": "10.0",
         "Defense Break": "✗",
@@ -4471,7 +4581,7 @@ export const mercenary_038 = [{
     Sprint: "✗",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✓",
     Deflect: "✓",
     Counter: "✗",
@@ -4857,11 +4967,11 @@ export const mercenary_041 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "17.0, Charged_D4",
+    Highest_Damage: "17.0, Charged D4",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -4930,6 +5040,16 @@ export const mercenary_041_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Landing_JUmp_Hold_D1: {
+        "Damage": "10.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.5",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✓",
+        "Push Power": "0.5",
+        "Frozen Break": "✗",
+        },
+
     Charged_D1: {
         "Damage": "13.0",
         "Defense Break": "✗",
@@ -4982,7 +5102,7 @@ export const mercenary_042 = [{
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
-    Down_Hit: "Charged D1, Charged D2, Charged D3, Charged D4",
+    Down_Hit: "Landing JUmp Hold D1, Charged D1, Charged D2, Charged D3, Charged D4",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -5063,6 +5183,16 @@ export const mercenary_042_attacks = [{
                     "Frozen Break": "✗",
                 },
             },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "10.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✓",
+        "Push Power": "1.25",
+        "Frozen Break": "✗",
+        },
 
     Counter_D1: {
         "Damage": "10.0",
@@ -5174,7 +5304,7 @@ export const mercenary_043 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "15.0, Charged_D3",
+    Highest_Damage: "15.0, Charged D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -5288,11 +5418,11 @@ export const mercenary_044 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Dash_Extend_D1",
+    Highest_Damage: "10.0, Dash Extend D1 | 10.0, Landing JUmp Hold D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -5347,6 +5477,16 @@ export const mercenary_044_attacks = [{
         "Juggle": "✗, 0.5",
         "Air Juggle": "✗, 0.25",
         "Down Hit": "✗",
+        "Push Power": "1.25",
+        "Frozen Break": "✗",
+        },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "10.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✓",
         "Push Power": "1.25",
         "Frozen Break": "✗",
         },
@@ -5598,7 +5738,7 @@ export const mercenary_046 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -6053,6 +6193,16 @@ export const mercenary_049_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.0",
+        "Air Juggle": "✗, 0.5",
+        "Down Hit": "✗",
+        "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
+
     Charged_D1: {
         "Damage": "8.0",
         "Defense Break": "✗",
@@ -6121,7 +6271,7 @@ export const mercenary_050 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "9.0, Ground_D4",
+    Highest_Damage: "9.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -6327,7 +6477,7 @@ export const mercenary_051 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "12.0, Ground_D4",
+    Highest_Damage: "12.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -6418,7 +6568,7 @@ export const mercenary_052 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "12.0, Dash_Extend_D1",
+    Highest_Damage: "12.0, Dash Extend D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -6848,6 +6998,16 @@ export const mercenary_054_attacks = [{
         "Push Power": "1.0",
         "Frozen Break": "✗",
         },
+
+    Jump_Hold_D1: {
+        "Damage": "6.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.5",
+        "Air Juggle": "✓✓, 2.25",
+        "Down Hit": "✗",
+        "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
 }];
 
 export const mercenary_055 = [{
@@ -6857,11 +7017,11 @@ export const mercenary_055 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Ground_D3",
+    Highest_Damage: "9.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -6909,6 +7069,16 @@ export const mercenary_055_attacks = [{
         "Push Power": "1.25",
         "Frozen Break": "✗",
         },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "7.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.5",
+        "Air Juggle": "✓✓, 2.5",
+        "Down Hit": "✓",
+        "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
 }];
 
 export const mercenary_056 = [{
@@ -6922,7 +7092,7 @@ export const mercenary_056 = [{
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -7036,6 +7206,16 @@ export const mercenary_056_attacks = [{
                     "Frozen Break": "✗",
                 },
             },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.25",
+        "Air Juggle": "✓, 1.25",
+        "Down Hit": "✓",
+        "Push Power": "0.75",
+        "Frozen Break": "✗",
+        },
 
     Charged_D1: {
         "Damage": "7.0",
@@ -7186,7 +7366,7 @@ export const mercenary_058 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "12.0, Ground_D3",
+    Highest_Damage: "12.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -7269,6 +7449,16 @@ export const mercenary_058_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "5.0",
+        "Defense Break": "✗",
+        "Juggle": "✓✓, 2.65",
+        "Air Juggle": "✓✓, 2.4",
+        "Down Hit": "✗",
+        "Push Power": "0.25",
+        "Frozen Break": "✗",
+        },
+
     Charged_D1: {
         "Damage": "7.0",
         "Defense Break": "✗",
@@ -7307,11 +7497,11 @@ export const mercenary_059 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "9.0, Ground D4 | 9.0, Dash D1 | 9.0, Jump D1 | 9.0, Counter D1",
+    Highest_Damage: "10.0, Jump Hold D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
-    Down_Hit: "✗",
+    Down_Hit: "Jump Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -7377,6 +7567,16 @@ export const mercenary_059_attacks = [{
         "Air Juggle": "✗, 0.75",
         "Down Hit": "✗",
         "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "10.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.5",
+        "Air Juggle": "✗, 0.0",
+        "Down Hit": "✓",
+        "Push Power": "0.75",
         "Frozen Break": "✗",
         },
 
@@ -7674,7 +7874,7 @@ export const mercenary_061 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "11.0, Ground_D3",
+    Highest_Damage: "11.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -7883,6 +8083,16 @@ export const mercenary_062_attacks = [{
         "Push Power": "1.0",
         "Frozen Break": "✗",
         },
+
+    Jump_Hold_D1: {
+        "Damage": "5.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.25",
+        "Air Juggle": "✓✓, 2.25",
+        "Down Hit": "✗",
+        "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
 }];
 
 export const mercenary_063 = [{
@@ -8023,7 +8233,7 @@ export const mercenary_064 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "9.0, Ground_D4",
+    Highest_Damage: "9.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -8101,6 +8311,16 @@ export const mercenary_064_attacks = [{
         "Defense Break": "✗",
         "Juggle": "✓, 1.25",
         "Air Juggle": "✓, 1.0",
+        "Down Hit": "✗",
+        "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "7.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.0",
+        "Air Juggle": "✗, 0.0",
         "Down Hit": "✗",
         "Push Power": "1.0",
         "Frozen Break": "✗",
@@ -8388,7 +8608,7 @@ export const mercenary_067 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "12.0, Ground_D3",
+    Highest_Damage: "12.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -8469,7 +8689,7 @@ export const mercenary_068 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "9.0, Ground_D4",
+    Highest_Damage: "9.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -8640,7 +8860,7 @@ export const mercenary_069 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Dash_Hold_D2",
+    Highest_Damage: "10.0, Dash Hold D2",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -8843,7 +9063,7 @@ export const mercenary_070 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "12.0, Ground_D3",
+    Highest_Damage: "12.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -8930,7 +9150,7 @@ export const mercenary_071 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "9.0, Counter_D1",
+    Highest_Damage: "9.0, Counter D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -9120,7 +9340,7 @@ export const mercenary_072 = [{
     Sprint: "✗",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Ground_D4",
+    Highest_Damage: "10.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -9281,7 +9501,7 @@ export const mercenary_073 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Dash_Extend_D1",
+    Highest_Damage: "9.0, Dash Extend D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -9493,7 +9713,7 @@ export const mercenary_074 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "11.0, Ground_D3",
+    Highest_Damage: "11.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -9640,7 +9860,7 @@ export const mercenary_075 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "9.0, Dash_Extend_D1",
+    Highest_Damage: "9.0, Dash Extend D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -9805,7 +10025,7 @@ export const mercenary_077 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "8.0, Ground_D4",
+    Highest_Damage: "8.0, Ground D4 | 8.0, Jump Hold D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -9911,6 +10131,16 @@ export const mercenary_077_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✗",
+        "Push Power": "0.0",
+        "Frozen Break": "✗",
+        },
+
     Jump_Dash_Extend_D1: {
         "Damage": "5.0",
         "Defense Break": "✗",
@@ -9979,7 +10209,7 @@ export const mercenary_078 = [{
     Sprint: "✗",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✓",
     Deflect: "✗",
     Counter: "✓",
@@ -10050,7 +10280,7 @@ export const mercenary_079 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✓",
     Deflect: "✗",
     Counter: "✗",
@@ -10161,11 +10391,11 @@ export const mercenary_080 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Ground D3 | 9.0, Dash Extend D1",
+    Highest_Damage: "9.0, Ground D3 | 9.0, Dash Extend D1 | 9.0, Landing JUmp Hold D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -10234,6 +10464,16 @@ export const mercenary_080_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Landing_JUmp_Hold_D1: {
+        "Damage": "9.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.5",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✓",
+        "Push Power": "0.5",
+        "Frozen Break": "✗",
+        },
+
     Counter_D1: {
         "Damage": "8.0",
         "Defense Break": "✗",
@@ -10282,7 +10522,7 @@ export const mercenary_081 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -10403,7 +10643,7 @@ export const mercenary_082 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "8.0, Ground D3 | 8.0, Ground D4 | 8.0, Dash D1 | 8.0, Charged D1 | 8.0, Charged D2 | 8.0, Charged D3 | 8.0, Charged D4",
+    Highest_Damage: "8.0, Ground D3 | 8.0, Ground D4 | 8.0, Dash D1 | 8.0, Jump Hold D1 | 8.0, Charged D1 | 8.0, Charged D2 | 8.0, Charged D3 | 8.0, Charged D4",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -10489,6 +10729,16 @@ export const mercenary_082_attacks = [{
                 },
             },
 
+    Jump_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.5",
+        "Air Juggle": "✓, 1.5",
+        "Down Hit": "✗",
+        "Push Power": "0.5",
+        "Frozen Break": "✗",
+        },
+
     Counter_D1: {
         "Damage": "7.0",
         "Defense Break": "✗",
@@ -10547,7 +10797,7 @@ export const mercenary_083 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Ground_D4",
+    Highest_Damage: "10.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -10864,7 +11114,7 @@ export const mercenary_085 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -10945,7 +11195,7 @@ export const mercenary_086 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "11.0, Ground_D3",
+    Highest_Damage: "11.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -11066,11 +11316,11 @@ export const mercenary_087 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "9.0, Ground_D4",
+    Highest_Damage: "9.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "Dash D1, Landing Jump Hold D1",
+    Down_Hit: "Dash D1, Jump Hold D1, Landing Jump Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -11136,6 +11386,16 @@ export const mercenary_087_attacks = [{
         "Air Juggle": "✗, 0.0",
         "Down Hit": "✗",
         "Push Power": "1.25",
+        "Frozen Break": "✗",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.25",
+        "Air Juggle": "✗, 0.75",
+        "Down Hit": "✓",
+        "Push Power": "0.75",
         "Frozen Break": "✗",
         },
 
@@ -11399,7 +11659,7 @@ export const mercenary_090 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -11480,7 +11740,7 @@ export const mercenary_091 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Jump_D1",
+    Highest_Damage: "10.0, Jump D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -11702,7 +11962,7 @@ export const mercenary_093 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Ground_D4",
+    Highest_Damage: "10.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -11803,11 +12063,11 @@ export const mercenary_094 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "9.0, Ground_D4",
+    Highest_Damage: "9.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
-    Down_Hit: "Landing Jump Hold D1",
+    Down_Hit: "Jump Hold D1, Landing Jump Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -11896,6 +12156,16 @@ export const mercenary_094_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.5",
+        "Air Juggle": "✗, 0.5",
+        "Down Hit": "✓",
+        "Push Power": "1.75",
+        "Frozen Break": "✗",
+        },
+
     Landing_Jump_Hold_D1: {
         "Damage": "8.0",
         "Defense Break": "✗",
@@ -11974,7 +12244,7 @@ export const mercenary_095 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Ground_D3",
+    Highest_Damage: "9.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -12065,11 +12335,11 @@ export const mercenary_096 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground D3 | 10.0, Dash Extend D1 | 10.0, Jump D1 | 10.0, Landing Jump Hold D1",
+    Highest_Damage: "10.0, Ground D3 | 10.0, Dash Extend D1 | 10.0, Jump D1 | 10.0, Jump Hold D1 | 10.0, Landing Jump Hold D1",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "Landing Jump Hold D1",
+    Down_Hit: "Jump Hold D1, Landing Jump Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -12145,6 +12415,16 @@ export const mercenary_096_attacks = [{
         "Air Juggle": "✗, 0.0",
         "Down Hit": "✗",
         "Push Power": "1.25",
+        "Frozen Break": "✗",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "10.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✓",
+        "Push Power": "1.5",
         "Frozen Break": "✗",
         },
 
@@ -12279,6 +12559,16 @@ export const mercenary_097_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.5",
+        "Air Juggle": "✗, 0.5",
+        "Down Hit": "✗",
+        "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
+
     Landing_Jump_Hold_D1: {
         "Damage": "8.0",
         "Defense Break": "✗",
@@ -12307,7 +12597,7 @@ export const mercenary_098 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -12547,7 +12837,7 @@ export const mercenary_099 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -12628,7 +12918,7 @@ export const mercenary_100 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -12759,7 +13049,7 @@ export const mercenary_101 = [{
     Sprint: "✗",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Ground_D4",
+    Highest_Damage: "10.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -12913,7 +13203,7 @@ export const mercenary_102 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Counter_D1",
+    Highest_Damage: "10.0, Counter D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -13044,11 +13334,11 @@ export const mercenary_103 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "9.0, Ground_D4",
+    Highest_Damage: "9.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "Landing Jump Hold D1",
+    Down_Hit: "Jump Hold D1, Landing Jump Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -13147,6 +13437,16 @@ export const mercenary_103_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✓",
+        "Push Power": "1.75",
+        "Frozen Break": "✗",
+        },
+
     Landing_Jump_Hold_D1: {
         "Damage": "8.0",
         "Defense Break": "✗",
@@ -13165,7 +13465,7 @@ export const mercenary_104 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "11.0, Ground_D3",
+    Highest_Damage: "15.0, Jump Hold D1",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -13251,6 +13551,16 @@ export const mercenary_104_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "15.0",
+        "Defense Break": "✗",
+        "Juggle": "✓✓, 3.5",
+        "Air Juggle": "✓✓, 3.5",
+        "Down Hit": "✗",
+        "Push Power": "0.5",
+        "Frozen Break": "✓",
+        },
+
     Jump_Dash_Extend_D1: {
         "Damage": "9.0",
         "Defense Break": "✗",
@@ -13269,7 +13579,7 @@ export const mercenary_105 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -13380,7 +13690,7 @@ export const mercenary_106 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "9.0, Ground_D4",
+    Highest_Damage: "9.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -13453,6 +13763,16 @@ export const mercenary_106_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "3.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✗, 0.0",
+        "Down Hit": "✗",
+        "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
+
     Landing_Jump_Hold_D1: {
         "Damage": "5.0",
         "Defense Break": "✗",
@@ -13481,7 +13801,7 @@ export const mercenary_107 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Ground_D3",
+    Highest_Damage: "9.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -13592,7 +13912,7 @@ export const mercenary_108 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "9.0, Ground_D4",
+    Highest_Damage: "9.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -13870,7 +14190,7 @@ export const mercenary_110 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "2",
-    Highest_Damage: "12.0, Ground_D2",
+    Highest_Damage: "12.0, Ground D2",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -13951,7 +14271,7 @@ export const mercenary_111 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "8.0, Jump_D1",
+    Highest_Damage: "8.0, Jump D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -14487,7 +14807,7 @@ export const mercenary_115 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Counter_D1",
+    Highest_Damage: "9.0, Counter D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -14931,7 +15251,7 @@ export const mercenary_118 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✓",
     Deflect: "✗",
     Counter: "✗",
@@ -15042,11 +15362,11 @@ export const mercenary_119 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "8.0, Ground D4 | 8.0, Dash D1 | 8.0, Dash Extend D2 | 8.0, Dash Hold D1 | 8.0, Jump D2",
+    Highest_Damage: "12.0, Jump Hold D1",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Jump Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -15175,6 +15495,16 @@ export const mercenary_119_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "12.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✗, 0.5",
+        "Down Hit": "✓",
+        "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
+
     Charged_D1: {
         "Damage": "5.0",
         "Defense Break": "✗",
@@ -15223,7 +15553,7 @@ export const mercenary_120 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "15.0, Counter_D1",
+    Highest_Damage: "15.0, Counter D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -15370,7 +15700,7 @@ export const mercenary_121 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Ground_D4",
+    Highest_Damage: "10.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -15511,7 +15841,7 @@ export const mercenary_122 = [{
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "Dash Extend D1",
+    Down_Hit: "Dash Extend D1, Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -15589,6 +15919,16 @@ export const mercenary_122_attacks = [{
         "Push Power": "1.5",
         "Frozen Break": "✗",
         },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "7.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.5",
+        "Air Juggle": "✓✓, 2.5",
+        "Down Hit": "✓",
+        "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
 }];
 
 export const mercenary_123 = [{
@@ -15598,7 +15938,7 @@ export const mercenary_123 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "9.0, Jump_D1",
+    Highest_Damage: "9.0, Jump D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -15883,6 +16223,16 @@ export const mercenary_123_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "4.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.25",
+        "Air Juggle": "✗, 0.25",
+        "Down Hit": "✗",
+        "Push Power": "0.25",
+        "Frozen Break": "✗",
+        },
+
     Landing_Jump_Hold_D1: {
         "Damage": "5.0",
         "Defense Break": "✗",
@@ -15980,7 +16330,7 @@ export const mercenary_124 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "2",
-    Highest_Damage: "12.0, Ground_D2",
+    Highest_Damage: "12.0, Ground D2",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -16104,7 +16454,7 @@ export const mercenary_125 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Counter_D1",
+    Highest_Damage: "10.0, Counter D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -16225,7 +16575,7 @@ export const mercenary_126 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Dash_Extend_D3",
+    Highest_Damage: "10.0, Dash Extend D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -16510,7 +16860,7 @@ export const mercenary_128 = [{
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
-    Down_Hit: "Landing Jump Hold D1",
+    Down_Hit: "Jump Hold D1, Landing Jump Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -16616,6 +16966,16 @@ export const mercenary_128_attacks = [{
         "Air Juggle": "✓✓, 1.75",
         "Down Hit": "✗",
         "Push Power": "1.25",
+        "Frozen Break": "✗",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.25",
+        "Air Juggle": "✗, 0.75",
+        "Down Hit": "✓",
+        "Push Power": "0.75",
         "Frozen Break": "✗",
         },
 
@@ -16786,6 +17146,16 @@ export const mercenary_129_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "6.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.5",
+        "Air Juggle": "✗, 0.75",
+        "Down Hit": "✗",
+        "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
+
     Landing_Jump_Hold_D1: {
         "Damage": "6.0",
         "Defense Break": "✗",
@@ -16827,7 +17197,7 @@ export const mercenary_130 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "12.0, Dash_Extend_D1",
+    Highest_Damage: "12.0, Dash Extend D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -16948,11 +17318,11 @@ export const mercenary_131 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Ground D4 | 10.0, Counter D1",
+    Highest_Damage: "10.0, Ground D4 | 10.0, Landing JUmp Hold D1 | 10.0, Counter D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -17048,6 +17418,16 @@ export const mercenary_131_attacks = [{
         "Air Juggle": "✓✓, 2.0",
         "Down Hit": "✗",
         "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "10.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.5",
+        "Air Juggle": "✓✓, 2.5",
+        "Down Hit": "✓",
+        "Push Power": "1.5",
         "Frozen Break": "✗",
         },
 
@@ -17224,7 +17604,7 @@ export const mercenary_133 = [{
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -17346,6 +17726,16 @@ export const mercenary_133_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Landing_JUmp_Hold_D1: {
+        "Damage": "7.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.5",
+        "Air Juggle": "✓, 1.5",
+        "Down Hit": "✓",
+        "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
+
     Counter_D1: {
         "Damage": "8.0",
         "Defense Break": "✗",
@@ -17433,7 +17823,7 @@ export const mercenary_134 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Ground_D4",
+    Highest_Damage: "10.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -17546,6 +17936,16 @@ export const mercenary_134_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "7.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.5",
+        "Air Juggle": "✗, 0.25",
+        "Down Hit": "✗",
+        "Push Power": "0.5",
+        "Frozen Break": "✗",
+        },
+
     Counter_D1: {
         "Damage": "7.0",
         "Defense Break": "✗",
@@ -17564,7 +17964,7 @@ export const mercenary_135 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "2",
-    Highest_Damage: "12.0, Ground_D2",
+    Highest_Damage: "12.0, Ground D2",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -17707,11 +18107,11 @@ export const mercenary_136 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Counter D1 | 9.0, Counter D1 | 9.0, Counter D1",
+    Highest_Damage: "9.0, Jump Hold D1 | 9.0, Counter D1 | 9.0, Counter D1 | 9.0, Counter D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
-    Down_Hit: "✗",
+    Down_Hit: "Jump Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -17786,6 +18186,16 @@ export const mercenary_136_attacks = [{
         "Juggle": "✗, 0.5",
         "Air Juggle": "✗, 0.25",
         "Down Hit": "✗",
+        "Push Power": "1.25",
+        "Frozen Break": "✗",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "9.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.25",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✓",
         "Push Power": "1.25",
         "Frozen Break": "✗",
         },
@@ -17992,7 +18402,7 @@ export const mercenary_138 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Ground_D3",
+    Highest_Damage: "9.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -18103,7 +18513,7 @@ export const mercenary_139 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Jump_D1",
+    Highest_Damage: "10.0, Jump D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -18194,7 +18604,7 @@ export const mercenary_140 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "8.0, Dash_Extend_D2",
+    Highest_Damage: "8.0, Dash Extend D2",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -18497,7 +18907,7 @@ export const mercenary_141 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Dash_Extend_D2",
+    Highest_Damage: "10.0, Dash Extend D2",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -19017,7 +19427,7 @@ export const mercenary_145 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "2",
-    Highest_Damage: "10.0, Dash_Extend_D1",
+    Highest_Damage: "10.0, Dash Extend D1",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -19098,7 +19508,7 @@ export const mercenary_146 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Jump_Dash_Extend_D1",
+    Highest_Damage: "10.0, Jump Dash Extend D1",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -19363,7 +19773,7 @@ export const mercenary_148 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Dash_Extend_D1",
+    Highest_Damage: "9.0, Dash Extend D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -19457,7 +19867,7 @@ export const mercenary_149 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Ground_D4",
+    Highest_Damage: "10.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -20239,7 +20649,7 @@ export const mercenary_154 = [{
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Jump Hold D1, Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -20337,6 +20747,26 @@ export const mercenary_154_attacks = [{
         "Push Power": "1.0",
         "Frozen Break": "✗",
         },
+
+    Jump_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.5",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✓",
+        "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✗, 0.75",
+        "Down Hit": "✓",
+        "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
 }];
 
 export const mercenary_155 = [{
@@ -20429,6 +20859,16 @@ export const mercenary_155_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "0.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✓✓, 2.0",
+        "Down Hit": "✗",
+        "Push Power": "1.5",
+        "Frozen Break": "✗",
+        },
+
             Counter_D1: {
                 
                 "1": {
@@ -20460,7 +20900,7 @@ export const mercenary_156 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "15.0, Dash_Extend_D2",
+    Highest_Damage: "15.0, Dash Extend D2",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -20612,6 +21052,16 @@ export const mercenary_156_attacks = [{
         "Juggle": "✓, 1.0",
         "Air Juggle": "✓✓, 3.0",
         "Down Hit": "✓",
+        "Push Power": "0.75",
+        "Frozen Break": "✗",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "7.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✓✓, 3.25",
+        "Down Hit": "✗",
         "Push Power": "0.75",
         "Frozen Break": "✗",
         },
@@ -20839,6 +21289,16 @@ export const mercenary_157_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "5.0",
+        "Defense Break": "✗",
+        "Juggle": "✓✓, 3.25",
+        "Air Juggle": "✓✓, 3.5",
+        "Down Hit": "✗",
+        "Push Power": "0.0",
+        "Frozen Break": "✗",
+        },
+
             Jump_Dash_Extend_D1: {
                 
                 "1": {
@@ -20890,7 +21350,7 @@ export const mercenary_158 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Dash_Extend_D1",
+    Highest_Damage: "9.0, Dash Extend D1",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -20998,6 +21458,16 @@ export const mercenary_158_attacks = [{
                     "Frozen Break": "✗",
                 },
             },
+
+    Jump_Hold_D1: {
+        "Damage": "7.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.5",
+        "Air Juggle": "✗, 0.75",
+        "Down Hit": "✗",
+        "Push Power": "0.5",
+        "Frozen Break": "✗",
+        },
 
     Charged_D1: {
         "Damage": "7.0",
@@ -21148,11 +21618,11 @@ export const mercenary_160 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Jump_D1",
+    Highest_Damage: "10.0, Jump D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -21228,6 +21698,16 @@ export const mercenary_160_attacks = [{
         "Air Juggle": "✗, 0.0",
         "Down Hit": "✗",
         "Push Power": "1.25",
+        "Frozen Break": "✗",
+        },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "7.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.5",
+        "Air Juggle": "✓✓, 2.5",
+        "Down Hit": "✓",
+        "Push Power": "1.0",
         "Frozen Break": "✗",
         },
 
@@ -21431,6 +21911,16 @@ export const mercenary_161_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "2.0",
+        "Defense Break": "✗",
+        "Juggle": "✓✓, 2.5",
+        "Air Juggle": "✓✓, 3.0",
+        "Down Hit": "✗",
+        "Push Power": "0.25",
+        "Frozen Break": "✗",
+        },
+
             Jump_Dash_Extend_D1: {
                 
                 "1": {
@@ -21476,7 +21966,7 @@ export const mercenary_162 = [{
     "360_Block": "✓",
     Deflect: "✗",
     Counter: "✗",
-    Down_Hit: "Jump D1",
+    Down_Hit: "Jump D1, Jump Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -21543,6 +22033,16 @@ export const mercenary_162_attacks = [{
         "Down Hit": "✓",
         "Push Power": "1.75",
         "Frozen Break": "✗",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "4.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✓",
+        "Push Power": "1.0",
+        "Frozen Break": "0",
         },
 }];
 
@@ -21656,6 +22156,16 @@ export const mercenary_163_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "7.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.5",
+        "Air Juggle": "✗, 0.75",
+        "Down Hit": "✗",
+        "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
+
     Jump_Dash_Extend_D1: {
         "Damage": "9.0",
         "Defense Break": "✗",
@@ -21694,7 +22204,7 @@ export const mercenary_164 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Counter_D1",
+    Highest_Damage: "10.0, Counter D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -22030,7 +22540,7 @@ export const mercenary_166 = [{
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
-    Down_Hit: "✗",
+    Down_Hit: "Jump Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -22119,6 +22629,16 @@ export const mercenary_166_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "6.0",
+        "Defense Break": "✗",
+        "Juggle": "✓✓, 3.25",
+        "Air Juggle": "✓✓, 3.65",
+        "Down Hit": "✓",
+        "Push Power": "0.25",
+        "Frozen Break": "✗",
+        },
+
     Counter_D1: {
         "Damage": "8.0",
         "Defense Break": "✗",
@@ -22137,7 +22657,7 @@ export const mercenary_167 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "8.0, Ground D1 | 8.0, Ground D2 | 8.0, Jump D1 | 8.0, Jump D2",
+    Highest_Damage: "8.0, Ground D1 | 8.0, Ground D2 | 8.0, Jump D1 | 8.0, Jump D2 | 8.0, Jump Hold D1",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -22263,6 +22783,16 @@ export const mercenary_167_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✗",
+        "Push Power": "0.0",
+        "Frozen Break": "✗",
+        },
+
     Jump_Dash_Extend_D1: {
         "Damage": "5.0",
         "Defense Break": "✗",
@@ -22281,11 +22811,11 @@ export const mercenary_168 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "8.0, Ground D3 | 8.0, Jump Dash Extend D1 | 8.0, Landing Jump Hold D1 | 8.0, Counter D1",
+    Highest_Damage: "8.0, Ground D3 | 8.0, Jump Hold D1 | 8.0, Jump Dash Extend D1 | 8.0, Landing Jump Hold D1 | 8.0, Counter D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
-    Down_Hit: "Dash Hold D1, Landing Jump Hold D1",
+    Down_Hit: "Dash Hold D1, Jump Hold D1, Landing Jump Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -22381,6 +22911,16 @@ export const mercenary_168_attacks = [{
         "Air Juggle": "✓✓, 2.0",
         "Down Hit": "✗",
         "Push Power": "0.25",
+        "Frozen Break": "✗",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.25",
+        "Air Juggle": "✗, 0.75",
+        "Down Hit": "✓",
+        "Push Power": "0.75",
         "Frozen Break": "✗",
         },
 
@@ -22593,7 +23133,7 @@ export const mercenary_170 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "9.0, Charged_D1",
+    Highest_Damage: "9.0, Charged D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -22852,11 +23392,11 @@ export const mercenary_171 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "11.0, Ground_D4",
+    Highest_Damage: "11.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
-    Down_Hit: "Landing Jump Hold D1, Charged D3, Charged D4",
+    Down_Hit: "Jump Hold D1, Landing Jump Hold D1, Charged D3, Charged D4",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -22945,6 +23485,16 @@ export const mercenary_171_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "9.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.25",
+        "Air Juggle": "✗, 0.75",
+        "Down Hit": "✓",
+        "Push Power": "0.75",
+        "Frozen Break": "✗",
+        },
+
     Landing_Jump_Hold_D1: {
         "Damage": "10.0",
         "Defense Break": "✗",
@@ -23013,11 +23563,11 @@ export const mercenary_172 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Jump_D1",
+    Highest_Damage: "10.0, Jump D1 | 10.0, Landing JUmp Hold D1",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -23105,6 +23655,16 @@ export const mercenary_172_attacks = [{
         "Push Power": "1.25",
         "Frozen Break": "✗",
         },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "10.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.25",
+        "Air Juggle": "✗, 0.5",
+        "Down Hit": "✓",
+        "Push Power": "0.75",
+        "Frozen Break": "✗",
+        },
 }];
 
 export const mercenary_173 = [{
@@ -23114,7 +23674,7 @@ export const mercenary_173 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "9.0, Ground D4 | 9.0, Jump Dash Extend D1",
+    Highest_Damage: "9.0, Ground D4 | 9.0, Jump Hold D1 | 9.0, Jump Dash Extend D1",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -23174,6 +23734,16 @@ export const mercenary_173_attacks = [{
         "Air Juggle": "✓✓, 3.5",
         "Down Hit": "✗",
         "Push Power": "0.25",
+        "Frozen Break": "✗",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "9.0",
+        "Defense Break": "✗",
+        "Juggle": "✓✓, 3.75",
+        "Air Juggle": "✓✓, 3.5",
+        "Down Hit": "✗",
+        "Push Power": "0.5",
         "Frozen Break": "✗",
         },
 
@@ -23239,7 +23809,7 @@ export const mercenary_174 = [{
     "360_Block": "✓",
     Deflect: "✗",
     Counter: "✗",
-    Down_Hit: "Dash Hold D1, Jump D2",
+    Down_Hit: "Dash Hold D1, Jump D2, Jump Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -23327,6 +23897,16 @@ export const mercenary_174_attacks = [{
         "Push Power": "1.0",
         "Frozen Break": "✗",
         },
+
+    Jump_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✓✓, 3.25",
+        "Air Juggle": "✓✓, 3.5",
+        "Down Hit": "✓",
+        "Push Power": "0.0",
+        "Frozen Break": "✗",
+        },
 }];
 
 export const mercenary_175 = [{
@@ -23336,7 +23916,7 @@ export const mercenary_175 = [{
     Sprint: "✗",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Jump_D2",
+    Highest_Damage: "10.0, Jump D2",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -23518,11 +24098,11 @@ export const mercenary_177 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Dash_Hold_D2",
+    Highest_Damage: "9.0, Dash Hold D2",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Jump Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -23608,6 +24188,16 @@ export const mercenary_177_attacks = [{
         "Air Juggle": "✗, 0.5",
         "Down Hit": "✗",
         "Push Power": "1.25",
+        "Frozen Break": "✗",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "0.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.5",
+        "Air Juggle": "✓✓, 1.75",
+        "Down Hit": "✓",
+        "Push Power": "0.75",
         "Frozen Break": "✗",
         },
 
@@ -23790,11 +24380,11 @@ export const mercenary_179 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "8.0, Ground D1 | 8.0, Ground D2 | 8.0, Dash D1",
+    Highest_Damage: "8.0, Ground D1 | 8.0, Ground D2 | 8.0, Dash D1 | 8.0, Landing JUmp Hold D1",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -23970,6 +24560,16 @@ export const mercenary_179_attacks = [{
                     "Frozen Break": "✗",
                 },
             },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✓✓, 4.25",
+        "Air Juggle": "✓✓, 4.25",
+        "Down Hit": "✓",
+        "Push Power": "0.5",
+        "Frozen Break": "✗",
+        },
 }];
 
 export const mercenary_180 = [{
@@ -23983,7 +24583,7 @@ export const mercenary_180 = [{
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Jump Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -24061,6 +24661,16 @@ export const mercenary_180_attacks = [{
         "Push Power": "1.0",
         "Frozen Break": "✗",
         },
+
+    Jump_Hold_D1: {
+        "Damage": "7.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.5",
+        "Air Juggle": "✗, 0.5",
+        "Down Hit": "✓",
+        "Push Power": "2.0",
+        "Frozen Break": "✗",
+        },
 }];
 
 export const mercenary_181 = [{
@@ -24070,7 +24680,7 @@ export const mercenary_181 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "9.0, Dash_Extend_D1",
+    Highest_Damage: "9.0, Dash Extend D1",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -24308,7 +24918,7 @@ export const mercenary_183 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "8.0, Ground_D3",
+    Highest_Damage: "8.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -24548,7 +25158,7 @@ export const mercenary_184 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "8.0, Dash_Extend_D2",
+    Highest_Damage: "8.0, Dash Extend D2",
     "360_Block": "✓",
     Deflect: "✗",
     Counter: "✗",
@@ -24662,7 +25272,7 @@ export const mercenary_185 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Ground_D3",
+    Highest_Damage: "9.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -25477,6 +26087,16 @@ export const mercenary_191_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✗",
+        "Push Power": "0.0",
+        "Frozen Break": "✗",
+        },
+
     Jump_Dash_Extend_D1: {
         "Damage": "0.0",
         "Defense Break": "✗",
@@ -25828,7 +26448,7 @@ export const mercenary_195 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Ground_D3",
+    Highest_Damage: "9.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -26020,7 +26640,7 @@ export const mercenary_197 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "9.0, Counter_D1",
+    Highest_Damage: "9.0, Counter D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -26297,7 +26917,7 @@ export const mercenary_199 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Ground_D3",
+    Highest_Damage: "9.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -26408,7 +27028,7 @@ export const mercenary_200 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Dash_Hold_D1",
+    Highest_Damage: "9.0, Dash Hold D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -26621,7 +27241,7 @@ export const mercenary_201 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "2",
-    Highest_Damage: "12.0, Dash_Extend_D1",
+    Highest_Damage: "12.0, Dash Extend D1",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -26692,11 +27312,11 @@ export const mercenary_202 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -26754,6 +27374,16 @@ export const mercenary_202_attacks = [{
         "Push Power": "1.0",
         "Frozen Break": "✗",
         },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "9.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✓, 1.25",
+        "Down Hit": "✓",
+        "Push Power": "0.75",
+        "Frozen Break": "✗",
+        },
 }];
 
 export const mercenary_203 = [{
@@ -26763,7 +27393,7 @@ export const mercenary_203 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Ground_D3",
+    Highest_Damage: "9.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -27095,6 +27725,16 @@ export const mercenary_205_attacks = [{
         "Air Juggle": "✓✓, 2.35",
         "Down Hit": "✗",
         "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "5.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✗",
+        "Push Power": "0.0",
         "Frozen Break": "✗",
         },
 
@@ -27776,7 +28416,7 @@ export const mercenary_211 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Ground_D4",
+    Highest_Damage: "10.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -27907,7 +28547,7 @@ export const mercenary_212 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Ground_D4",
+    Highest_Damage: "10.0, Ground D4",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -28384,7 +29024,7 @@ export const mercenary_216 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -28485,7 +29125,7 @@ export const mercenary_217 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "2",
-    Highest_Damage: "11.0, Jump_D1",
+    Highest_Damage: "11.0, Jump D1",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -28546,7 +29186,7 @@ export const mercenary_218 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✓",
     Deflect: "✗",
     Counter: "✗",
@@ -28711,7 +29351,7 @@ export const mercenary_220 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "5",
-    Highest_Damage: "10.0, Jump_D3",
+    Highest_Damage: "10.0, Jump D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -28893,11 +29533,11 @@ export const mercenary_222 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
-    Down_Hit: "Jump D1, Jump D2, Landing Jump Hold D1",
+    Down_Hit: "Jump D1, Jump D2, Jump Hold D1, Landing Jump Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -29095,6 +29735,16 @@ export const mercenary_222_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "0.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.25",
+        "Air Juggle": "✗, 0.75",
+        "Down Hit": "✓",
+        "Push Power": "0.75",
+        "Frozen Break": "✗",
+        },
+
     Landing_Jump_Hold_D1: {
         "Damage": "8.0",
         "Defense Break": "✗",
@@ -29224,7 +29874,7 @@ export const mercenary_224 = [{
     Sprint: "✓",
     Jump: "3",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -29557,7 +30207,7 @@ export const mercenary_227 = [{
     Sprint: "✗",
     Jump: "2",
     Attack_Length: "2",
-    Highest_Damage: "8.5, Ground_D2",
+    Highest_Damage: "8.5, Ground D2",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -30469,11 +31119,11 @@ export const mercenary_233 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "11.0, Ground_D3",
+    Highest_Damage: "11.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -30539,6 +31189,16 @@ export const mercenary_233_attacks = [{
         "Air Juggle": "✗, 0.5",
         "Down Hit": "✗",
         "Push Power": "1.4",
+        "Frozen Break": "✗",
+        },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "10.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.5",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✓",
+        "Push Power": "0.5",
         "Frozen Break": "✗",
         },
 }];
@@ -30675,7 +31335,7 @@ export const mercenary_235 = [{
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "Dash Hold D1, Charged D1, Charged D2, Charged D3",
+    Down_Hit: "Dash Hold D1, Landing JUmp Hold D1, Charged D1, Charged D2, Charged D3",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -30804,6 +31464,16 @@ export const mercenary_235_attacks = [{
         "Air Juggle": "✓, 1.0",
         "Down Hit": "✗",
         "Push Power": "1.5",
+        "Frozen Break": "✗",
+        },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "5.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.5",
+        "Air Juggle": "✓✓, 2.5",
+        "Down Hit": "✓",
+        "Push Power": "1.0",
         "Frozen Break": "✗",
         },
 
@@ -30978,7 +31648,7 @@ export const mercenary_236 = [{
     "360_Block": "✓",
     Deflect: "✗",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -31036,6 +31706,16 @@ export const mercenary_236_attacks = [{
         "Push Power": "1.0",
         "Frozen Break": "0",
         },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✓✓, 2.7",
+        "Air Juggle": "✓✓, 2.5",
+        "Down Hit": "✓",
+        "Push Power": "0.3",
+        "Frozen Break": "✗",
+        },
 }];
 
 export const mercenary_237 = [{
@@ -31045,7 +31725,7 @@ export const mercenary_237 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Ground D4 | 10.0, Charged D7",
+    Highest_Damage: "11.0, Jump Hold D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -31171,6 +31851,16 @@ export const mercenary_237_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "11.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.5",
+        "Air Juggle": "✓, 1.5",
+        "Down Hit": "✗",
+        "Push Power": "1.25",
+        "Frozen Break": "✗",
+        },
+
     Charged_D1: {
         "Damage": "3.0",
         "Defense Break": "✗",
@@ -31253,7 +31943,7 @@ export const mercenary_238 = [{
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Landing JUmp Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -31319,6 +32009,16 @@ export const mercenary_238_attacks = [{
         "Air Juggle": "✗, 0.0",
         "Down Hit": "✗",
         "Push Power": "0.0",
+        "Frozen Break": "✗",
+        },
+
+    Landing_JUmp_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✓✓, 2.9",
+        "Air Juggle": "✓✓, 2.5",
+        "Down Hit": "✓",
+        "Push Power": "0.3",
         "Frozen Break": "✗",
         },
 }];
@@ -31903,6 +32603,16 @@ export const mercenary_241_attacks = [{
         "Damage": "10.0",
         "Defense Break": "✗",
         "Juggle": "✗, 0.5",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✗",
+        "Push Power": "1.0",
+        "Frozen Break": "✗",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "9.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
         "Air Juggle": "✓, 1.0",
         "Down Hit": "✗",
         "Push Power": "1.0",
@@ -32531,7 +33241,7 @@ export const mercenary_245 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Dash Extend D3 | 10.0, Landing Jump Hold D1 | 10.0, Counter D1",
+    Highest_Damage: "10.0, Dash Extend D3 | 10.0, Jump Hold D1 | 10.0, Landing Jump Hold D1 | 10.0, Counter D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -32644,6 +33354,16 @@ export const mercenary_245_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "10.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.5",
+        "Air Juggle": "✓, 1.5",
+        "Down Hit": "✗",
+        "Push Power": "1.25",
+        "Frozen Break": "✗",
+        },
+
     Landing_Jump_Hold_D1: {
         "Damage": "10.0",
         "Defense Break": "✗",
@@ -32672,7 +33392,7 @@ export const mercenary_246 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Counter_D1",
+    Highest_Damage: "10.0, Counter D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -32792,6 +33512,16 @@ export const mercenary_246_attacks = [{
         "Air Juggle": "✗, 0.15",
         "Down Hit": "✗",
         "Push Power": "1.25",
+        "Frozen Break": "✗",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.5",
+        "Air Juggle": "✗, 0.1",
+        "Down Hit": "✗",
+        "Push Power": "1.5",
         "Frozen Break": "✗",
         },
 
@@ -33023,7 +33753,7 @@ export const mercenary_248 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Landing_Jump_Hold_D1",
+    Highest_Damage: "10.0, Landing Jump Hold D1",
     "360_Block": "✓",
     Deflect: "✗",
     Counter: "✓",
@@ -33164,7 +33894,7 @@ export const mercenary_249 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Dash_Extend_D1",
+    Highest_Damage: "10.0, Dash Extend D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -33257,6 +33987,16 @@ export const mercenary_249_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "2.0",
+        "Defense Break": "✗",
+        "Juggle": "✗, 0.5",
+        "Air Juggle": "✗, 0.5",
+        "Down Hit": "✗",
+        "Push Power": "1.5",
+        "Frozen Break": "✗",
+        },
+
     Jump_Dash_Extend_D1: {
         "Damage": "6.0",
         "Defense Break": "✗",
@@ -33285,7 +34025,7 @@ export const mercenary_505 = [{
     Sprint: "✗",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "12.0, Ground_D3",
+    Highest_Damage: "12.0, Ground D3",
     "360_Block": "✓",
     Deflect: "✗",
     Counter: "✗",
@@ -33457,7 +34197,7 @@ export const mercenary_509 = [{
     Sprint: "✗",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✓",
     Deflect: "✗",
     Counter: "✗",
@@ -33522,7 +34262,7 @@ export const mercenary_514 = [{
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
-    Down_Hit: "✗",
+    Down_Hit: "Jump Hold D1",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
@@ -33591,6 +34331,16 @@ export const mercenary_514_attacks = [{
         "Frozen Break": "✗",
         },
 
+    Jump_Hold_D1: {
+        "Damage": "9.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.0",
+        "Air Juggle": "✓, 1.5",
+        "Down Hit": "✓",
+        "Push Power": "0.5",
+        "Frozen Break": "✗",
+        },
+
     Charged_D1: {
         "Damage": "12.0",
         "Defense Break": "✗",
@@ -33629,7 +34379,7 @@ export const mercenary_601 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "16.0, Jump_D1",
+    Highest_Damage: "18.0, Jump D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -33673,7 +34423,7 @@ export const mercenary_601_attacks = [{
         },
 
     Ground_D4: {
-        "Damage": "5.0",
+        "Damage": "8.0",
         "Defense Break": "✗",
         "Juggle": "✓, 1.0",
         "Air Juggle": "✓✓, 2.5",
@@ -33683,7 +34433,7 @@ export const mercenary_601_attacks = [{
         },
 
     Dash_Replace1: {
-        "Damage": "8.0",
+        "Damage": "9.0",
         "Defense Break": "✗",
         "Juggle": "✗, 0.0",
         "Air Juggle": "✗, 0.0",
@@ -33693,7 +34443,7 @@ export const mercenary_601_attacks = [{
         },
 
     Dash_Extend_D1: {
-        "Damage": "8.0",
+        "Damage": "9.0",
         "Defense Break": "✗",
         "Juggle": "✓✓, 3.5",
         "Air Juggle": "✓✓, 3.0",
@@ -33703,12 +34453,22 @@ export const mercenary_601_attacks = [{
         },
 
     Jump_D1: {
-        "Damage": "16.0",
+        "Damage": "18.0",
         "Defense Break": "✗",
         "Juggle": "✓, 1.0",
         "Air Juggle": "✓✓, 1.75",
         "Down Hit": "✗",
         "Push Power": "0.75",
+        "Frozen Break": "✗",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "10.0",
+        "Defense Break": "✗",
+        "Juggle": "✓, 1.25",
+        "Air Juggle": "✓, 1.0",
+        "Down Hit": "✗",
+        "Push Power": "1.25",
         "Frozen Break": "✗",
         },
 
@@ -33730,7 +34490,7 @@ export const mercenary_807 = [{
     Sprint: "✗",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "13.0, Counter_D1",
+    Highest_Damage: "13.0, Counter D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -33851,7 +34611,7 @@ export const mercenary_885 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground_D3",
+    Highest_Damage: "10.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -33932,7 +34692,7 @@ export const mercenary_902 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Counter_D1",
+    Highest_Damage: "10.0, Counter D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -34063,7 +34823,7 @@ export const mercenary_920 = [{
     Sprint: "✓",
     Jump: "2",
     Attack_Length: "4",
-    Highest_Damage: "15.0, Counter_D1",
+    Highest_Damage: "15.0, Counter D1",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✓",
@@ -34210,7 +34970,7 @@ export const mercenary_926 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Dash_Extend_D3",
+    Highest_Damage: "10.0, Dash Extend D3",
     "360_Block": "✗",
     Deflect: "✓",
     Counter: "✗",
@@ -34380,7 +35140,7 @@ export const mercenary_938 = [{
     Sprint: "✓",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Ground_D3",
+    Highest_Damage: "9.0, Ground D3",
     "360_Block": "✗",
     Deflect: "✗",
     Counter: "✗",
@@ -34486,2601 +35246,2601 @@ export const mercenary_938_attacks = [{
 
 
 export const mercenary_info_001 = Object.keys(mercenary_001[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_001 = Object.keys(mercenary_001_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_002 = Object.keys(mercenary_002[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_002 = Object.keys(mercenary_002_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_003 = Object.keys(mercenary_003[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_003 = Object.keys(mercenary_003_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_004 = Object.keys(mercenary_004[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_004 = Object.keys(mercenary_004_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_005 = Object.keys(mercenary_005[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_005 = Object.keys(mercenary_005_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_006 = Object.keys(mercenary_006[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_006 = Object.keys(mercenary_006_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_007 = Object.keys(mercenary_007[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_007 = Object.keys(mercenary_007_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_008 = Object.keys(mercenary_008[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_008 = Object.keys(mercenary_008_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_009 = Object.keys(mercenary_009[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_009 = Object.keys(mercenary_009_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_010 = Object.keys(mercenary_010[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_010 = Object.keys(mercenary_010_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_011 = Object.keys(mercenary_011[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_011 = Object.keys(mercenary_011_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_012 = Object.keys(mercenary_012[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_012 = Object.keys(mercenary_012_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_013 = Object.keys(mercenary_013[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_013 = Object.keys(mercenary_013_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_014 = Object.keys(mercenary_014[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_014 = Object.keys(mercenary_014_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_015 = Object.keys(mercenary_015[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_015 = Object.keys(mercenary_015_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_016 = Object.keys(mercenary_016[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_016 = Object.keys(mercenary_016_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_017 = Object.keys(mercenary_017[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_017 = Object.keys(mercenary_017_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_018 = Object.keys(mercenary_018[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_018 = Object.keys(mercenary_018_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_019 = Object.keys(mercenary_019[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_019 = Object.keys(mercenary_019_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_020 = Object.keys(mercenary_020[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_020 = Object.keys(mercenary_020_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_021 = Object.keys(mercenary_021[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_021 = Object.keys(mercenary_021_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_022 = Object.keys(mercenary_022[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_022 = Object.keys(mercenary_022_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_023 = Object.keys(mercenary_023[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_023 = Object.keys(mercenary_023_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_024 = Object.keys(mercenary_024[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_024 = Object.keys(mercenary_024_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_025 = Object.keys(mercenary_025[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_025 = Object.keys(mercenary_025_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_026 = Object.keys(mercenary_026[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_026 = Object.keys(mercenary_026_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_027 = Object.keys(mercenary_027[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_027 = Object.keys(mercenary_027_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_028 = Object.keys(mercenary_028[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_028 = Object.keys(mercenary_028_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_029 = Object.keys(mercenary_029[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_029 = Object.keys(mercenary_029_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_030 = Object.keys(mercenary_030[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_030 = Object.keys(mercenary_030_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_031 = Object.keys(mercenary_031[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_031 = Object.keys(mercenary_031_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_032 = Object.keys(mercenary_032[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_032 = Object.keys(mercenary_032_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_033 = Object.keys(mercenary_033[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_033 = Object.keys(mercenary_033_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_034 = Object.keys(mercenary_034[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_034 = Object.keys(mercenary_034_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_035 = Object.keys(mercenary_035[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_035 = Object.keys(mercenary_035_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_036 = Object.keys(mercenary_036[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_036 = Object.keys(mercenary_036_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_037 = Object.keys(mercenary_037[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_037 = Object.keys(mercenary_037_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_038 = Object.keys(mercenary_038[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_038 = Object.keys(mercenary_038_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_039 = Object.keys(mercenary_039[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_039 = Object.keys(mercenary_039_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_040 = Object.keys(mercenary_040[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_040 = Object.keys(mercenary_040_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_041 = Object.keys(mercenary_041[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_041 = Object.keys(mercenary_041_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_042 = Object.keys(mercenary_042[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_042 = Object.keys(mercenary_042_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_043 = Object.keys(mercenary_043[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_043 = Object.keys(mercenary_043_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_044 = Object.keys(mercenary_044[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_044 = Object.keys(mercenary_044_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_045 = Object.keys(mercenary_045[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_045 = Object.keys(mercenary_045_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_046 = Object.keys(mercenary_046[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_046 = Object.keys(mercenary_046_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_047 = Object.keys(mercenary_047[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_047 = Object.keys(mercenary_047_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_048 = Object.keys(mercenary_048[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_048 = Object.keys(mercenary_048_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_049 = Object.keys(mercenary_049[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_049 = Object.keys(mercenary_049_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_050 = Object.keys(mercenary_050[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_050 = Object.keys(mercenary_050_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_051 = Object.keys(mercenary_051[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_051 = Object.keys(mercenary_051_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_052 = Object.keys(mercenary_052[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_052 = Object.keys(mercenary_052_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_053 = Object.keys(mercenary_053[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_053 = Object.keys(mercenary_053_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_054 = Object.keys(mercenary_054[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_054 = Object.keys(mercenary_054_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_055 = Object.keys(mercenary_055[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_055 = Object.keys(mercenary_055_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_056 = Object.keys(mercenary_056[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_056 = Object.keys(mercenary_056_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_057 = Object.keys(mercenary_057[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_057 = Object.keys(mercenary_057_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_058 = Object.keys(mercenary_058[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_058 = Object.keys(mercenary_058_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_059 = Object.keys(mercenary_059[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_059 = Object.keys(mercenary_059_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_060 = Object.keys(mercenary_060[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_060 = Object.keys(mercenary_060_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_061 = Object.keys(mercenary_061[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_061 = Object.keys(mercenary_061_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_062 = Object.keys(mercenary_062[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_062 = Object.keys(mercenary_062_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_063 = Object.keys(mercenary_063[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_063 = Object.keys(mercenary_063_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_064 = Object.keys(mercenary_064[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_064 = Object.keys(mercenary_064_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_065 = Object.keys(mercenary_065[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_065 = Object.keys(mercenary_065_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_066 = Object.keys(mercenary_066[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_066 = Object.keys(mercenary_066_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_067 = Object.keys(mercenary_067[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_067 = Object.keys(mercenary_067_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_068 = Object.keys(mercenary_068[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_068 = Object.keys(mercenary_068_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_069 = Object.keys(mercenary_069[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_069 = Object.keys(mercenary_069_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_070 = Object.keys(mercenary_070[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_070 = Object.keys(mercenary_070_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_071 = Object.keys(mercenary_071[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_071 = Object.keys(mercenary_071_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_072 = Object.keys(mercenary_072[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_072 = Object.keys(mercenary_072_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_073 = Object.keys(mercenary_073[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_073 = Object.keys(mercenary_073_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_074 = Object.keys(mercenary_074[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_074 = Object.keys(mercenary_074_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_075 = Object.keys(mercenary_075[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_075 = Object.keys(mercenary_075_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_076 = Object.keys(mercenary_076[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_076 = Object.keys(mercenary_076_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_077 = Object.keys(mercenary_077[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_077 = Object.keys(mercenary_077_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_078 = Object.keys(mercenary_078[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_078 = Object.keys(mercenary_078_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_079 = Object.keys(mercenary_079[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_079 = Object.keys(mercenary_079_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_080 = Object.keys(mercenary_080[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_080 = Object.keys(mercenary_080_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_081 = Object.keys(mercenary_081[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_081 = Object.keys(mercenary_081_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_082 = Object.keys(mercenary_082[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_082 = Object.keys(mercenary_082_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_083 = Object.keys(mercenary_083[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_083 = Object.keys(mercenary_083_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_084 = Object.keys(mercenary_084[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_084 = Object.keys(mercenary_084_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_085 = Object.keys(mercenary_085[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_085 = Object.keys(mercenary_085_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_086 = Object.keys(mercenary_086[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_086 = Object.keys(mercenary_086_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_087 = Object.keys(mercenary_087[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_087 = Object.keys(mercenary_087_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_088 = Object.keys(mercenary_088[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_088 = Object.keys(mercenary_088_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_089 = Object.keys(mercenary_089[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_089 = Object.keys(mercenary_089_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_090 = Object.keys(mercenary_090[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_090 = Object.keys(mercenary_090_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_091 = Object.keys(mercenary_091[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_091 = Object.keys(mercenary_091_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_092 = Object.keys(mercenary_092[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_092 = Object.keys(mercenary_092_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_093 = Object.keys(mercenary_093[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_093 = Object.keys(mercenary_093_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_094 = Object.keys(mercenary_094[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_094 = Object.keys(mercenary_094_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_095 = Object.keys(mercenary_095[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_095 = Object.keys(mercenary_095_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_096 = Object.keys(mercenary_096[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_096 = Object.keys(mercenary_096_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_097 = Object.keys(mercenary_097[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_097 = Object.keys(mercenary_097_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_098 = Object.keys(mercenary_098[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_098 = Object.keys(mercenary_098_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_099 = Object.keys(mercenary_099[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_099 = Object.keys(mercenary_099_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_100 = Object.keys(mercenary_100[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_100 = Object.keys(mercenary_100_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_101 = Object.keys(mercenary_101[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_101 = Object.keys(mercenary_101_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_102 = Object.keys(mercenary_102[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_102 = Object.keys(mercenary_102_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_103 = Object.keys(mercenary_103[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_103 = Object.keys(mercenary_103_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_104 = Object.keys(mercenary_104[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_104 = Object.keys(mercenary_104_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_105 = Object.keys(mercenary_105[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_105 = Object.keys(mercenary_105_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_106 = Object.keys(mercenary_106[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_106 = Object.keys(mercenary_106_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_107 = Object.keys(mercenary_107[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_107 = Object.keys(mercenary_107_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_108 = Object.keys(mercenary_108[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_108 = Object.keys(mercenary_108_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_109 = Object.keys(mercenary_109[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_109 = Object.keys(mercenary_109_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_110 = Object.keys(mercenary_110[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_110 = Object.keys(mercenary_110_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_111 = Object.keys(mercenary_111[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_111 = Object.keys(mercenary_111_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_112 = Object.keys(mercenary_112[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_112 = Object.keys(mercenary_112_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_113 = Object.keys(mercenary_113[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_113 = Object.keys(mercenary_113_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_114 = Object.keys(mercenary_114[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_114 = Object.keys(mercenary_114_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_115 = Object.keys(mercenary_115[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_115 = Object.keys(mercenary_115_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_116 = Object.keys(mercenary_116[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_116 = Object.keys(mercenary_116_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_117 = Object.keys(mercenary_117[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_117 = Object.keys(mercenary_117_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_118 = Object.keys(mercenary_118[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_118 = Object.keys(mercenary_118_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_119 = Object.keys(mercenary_119[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_119 = Object.keys(mercenary_119_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_120 = Object.keys(mercenary_120[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_120 = Object.keys(mercenary_120_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_121 = Object.keys(mercenary_121[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_121 = Object.keys(mercenary_121_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_122 = Object.keys(mercenary_122[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_122 = Object.keys(mercenary_122_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_123 = Object.keys(mercenary_123[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_123 = Object.keys(mercenary_123_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_124 = Object.keys(mercenary_124[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_124 = Object.keys(mercenary_124_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_125 = Object.keys(mercenary_125[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_125 = Object.keys(mercenary_125_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_126 = Object.keys(mercenary_126[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_126 = Object.keys(mercenary_126_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_127 = Object.keys(mercenary_127[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_127 = Object.keys(mercenary_127_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_128 = Object.keys(mercenary_128[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_128 = Object.keys(mercenary_128_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_129 = Object.keys(mercenary_129[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_129 = Object.keys(mercenary_129_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_130 = Object.keys(mercenary_130[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_130 = Object.keys(mercenary_130_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_131 = Object.keys(mercenary_131[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_131 = Object.keys(mercenary_131_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_132 = Object.keys(mercenary_132[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_132 = Object.keys(mercenary_132_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_133 = Object.keys(mercenary_133[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_133 = Object.keys(mercenary_133_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_134 = Object.keys(mercenary_134[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_134 = Object.keys(mercenary_134_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_135 = Object.keys(mercenary_135[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_135 = Object.keys(mercenary_135_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_136 = Object.keys(mercenary_136[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_136 = Object.keys(mercenary_136_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_137 = Object.keys(mercenary_137[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_137 = Object.keys(mercenary_137_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_138 = Object.keys(mercenary_138[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_138 = Object.keys(mercenary_138_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_139 = Object.keys(mercenary_139[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_139 = Object.keys(mercenary_139_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_140 = Object.keys(mercenary_140[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_140 = Object.keys(mercenary_140_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_141 = Object.keys(mercenary_141[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_141 = Object.keys(mercenary_141_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_142 = Object.keys(mercenary_142[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_142 = Object.keys(mercenary_142_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_143 = Object.keys(mercenary_143[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_143 = Object.keys(mercenary_143_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_144 = Object.keys(mercenary_144[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_144 = Object.keys(mercenary_144_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_145 = Object.keys(mercenary_145[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_145 = Object.keys(mercenary_145_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_146 = Object.keys(mercenary_146[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_146 = Object.keys(mercenary_146_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_147 = Object.keys(mercenary_147[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_147 = Object.keys(mercenary_147_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_148 = Object.keys(mercenary_148[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_148 = Object.keys(mercenary_148_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_149 = Object.keys(mercenary_149[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_149 = Object.keys(mercenary_149_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_150 = Object.keys(mercenary_150[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_150 = Object.keys(mercenary_150_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_151 = Object.keys(mercenary_151[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_151 = Object.keys(mercenary_151_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_152 = Object.keys(mercenary_152[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_152 = Object.keys(mercenary_152_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_153 = Object.keys(mercenary_153[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_153 = Object.keys(mercenary_153_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_154 = Object.keys(mercenary_154[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_154 = Object.keys(mercenary_154_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_155 = Object.keys(mercenary_155[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_155 = Object.keys(mercenary_155_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_156 = Object.keys(mercenary_156[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_156 = Object.keys(mercenary_156_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_157 = Object.keys(mercenary_157[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_157 = Object.keys(mercenary_157_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_158 = Object.keys(mercenary_158[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_158 = Object.keys(mercenary_158_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_159 = Object.keys(mercenary_159[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_159 = Object.keys(mercenary_159_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_160 = Object.keys(mercenary_160[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_160 = Object.keys(mercenary_160_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_161 = Object.keys(mercenary_161[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_161 = Object.keys(mercenary_161_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_162 = Object.keys(mercenary_162[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_162 = Object.keys(mercenary_162_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_163 = Object.keys(mercenary_163[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_163 = Object.keys(mercenary_163_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_164 = Object.keys(mercenary_164[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_164 = Object.keys(mercenary_164_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_165 = Object.keys(mercenary_165[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_165 = Object.keys(mercenary_165_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_166 = Object.keys(mercenary_166[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_166 = Object.keys(mercenary_166_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_167 = Object.keys(mercenary_167[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_167 = Object.keys(mercenary_167_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_168 = Object.keys(mercenary_168[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_168 = Object.keys(mercenary_168_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_169 = Object.keys(mercenary_169[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_169 = Object.keys(mercenary_169_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_170 = Object.keys(mercenary_170[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_170 = Object.keys(mercenary_170_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_171 = Object.keys(mercenary_171[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_171 = Object.keys(mercenary_171_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_172 = Object.keys(mercenary_172[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_172 = Object.keys(mercenary_172_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_173 = Object.keys(mercenary_173[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_173 = Object.keys(mercenary_173_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_174 = Object.keys(mercenary_174[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_174 = Object.keys(mercenary_174_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_175 = Object.keys(mercenary_175[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_175 = Object.keys(mercenary_175_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_176 = Object.keys(mercenary_176[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_176 = Object.keys(mercenary_176_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_177 = Object.keys(mercenary_177[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_177 = Object.keys(mercenary_177_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_178 = Object.keys(mercenary_178[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_178 = Object.keys(mercenary_178_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_179 = Object.keys(mercenary_179[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_179 = Object.keys(mercenary_179_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_180 = Object.keys(mercenary_180[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_180 = Object.keys(mercenary_180_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_181 = Object.keys(mercenary_181[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_181 = Object.keys(mercenary_181_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_182 = Object.keys(mercenary_182[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_182 = Object.keys(mercenary_182_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_183 = Object.keys(mercenary_183[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_183 = Object.keys(mercenary_183_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_184 = Object.keys(mercenary_184[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_184 = Object.keys(mercenary_184_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_185 = Object.keys(mercenary_185[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_185 = Object.keys(mercenary_185_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_186 = Object.keys(mercenary_186[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_186 = Object.keys(mercenary_186_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_187 = Object.keys(mercenary_187[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_187 = Object.keys(mercenary_187_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_188 = Object.keys(mercenary_188[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_188 = Object.keys(mercenary_188_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_189 = Object.keys(mercenary_189[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_189 = Object.keys(mercenary_189_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_190 = Object.keys(mercenary_190[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_190 = Object.keys(mercenary_190_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_191 = Object.keys(mercenary_191[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_191 = Object.keys(mercenary_191_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_192 = Object.keys(mercenary_192[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_192 = Object.keys(mercenary_192_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_193 = Object.keys(mercenary_193[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_193 = Object.keys(mercenary_193_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_194 = Object.keys(mercenary_194[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_194 = Object.keys(mercenary_194_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_195 = Object.keys(mercenary_195[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_195 = Object.keys(mercenary_195_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_196 = Object.keys(mercenary_196[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_196 = Object.keys(mercenary_196_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_197 = Object.keys(mercenary_197[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_197 = Object.keys(mercenary_197_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_198 = Object.keys(mercenary_198[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_198 = Object.keys(mercenary_198_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_199 = Object.keys(mercenary_199[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_199 = Object.keys(mercenary_199_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_200 = Object.keys(mercenary_200[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_200 = Object.keys(mercenary_200_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_201 = Object.keys(mercenary_201[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_201 = Object.keys(mercenary_201_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_202 = Object.keys(mercenary_202[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_202 = Object.keys(mercenary_202_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_203 = Object.keys(mercenary_203[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_203 = Object.keys(mercenary_203_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_204 = Object.keys(mercenary_204[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_204 = Object.keys(mercenary_204_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_205 = Object.keys(mercenary_205[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_205 = Object.keys(mercenary_205_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_206 = Object.keys(mercenary_206[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_206 = Object.keys(mercenary_206_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_207 = Object.keys(mercenary_207[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_207 = Object.keys(mercenary_207_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_208 = Object.keys(mercenary_208[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_208 = Object.keys(mercenary_208_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_209 = Object.keys(mercenary_209[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_209 = Object.keys(mercenary_209_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_210 = Object.keys(mercenary_210[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_210 = Object.keys(mercenary_210_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_211 = Object.keys(mercenary_211[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_211 = Object.keys(mercenary_211_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_212 = Object.keys(mercenary_212[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_212 = Object.keys(mercenary_212_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_213 = Object.keys(mercenary_213[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_213 = Object.keys(mercenary_213_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_214 = Object.keys(mercenary_214[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_214 = Object.keys(mercenary_214_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_215 = Object.keys(mercenary_215[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_215 = Object.keys(mercenary_215_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_216 = Object.keys(mercenary_216[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_216 = Object.keys(mercenary_216_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_217 = Object.keys(mercenary_217[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_217 = Object.keys(mercenary_217_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_218 = Object.keys(mercenary_218[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_218 = Object.keys(mercenary_218_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_219 = Object.keys(mercenary_219[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_219 = Object.keys(mercenary_219_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_220 = Object.keys(mercenary_220[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_220 = Object.keys(mercenary_220_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_221 = Object.keys(mercenary_221[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_221 = Object.keys(mercenary_221_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_222 = Object.keys(mercenary_222[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_222 = Object.keys(mercenary_222_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_223 = Object.keys(mercenary_223[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_223 = Object.keys(mercenary_223_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_224 = Object.keys(mercenary_224[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_224 = Object.keys(mercenary_224_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_225 = Object.keys(mercenary_225[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_225 = Object.keys(mercenary_225_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_226 = Object.keys(mercenary_226[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_226 = Object.keys(mercenary_226_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_227 = Object.keys(mercenary_227[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_227 = Object.keys(mercenary_227_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_228 = Object.keys(mercenary_228[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_228 = Object.keys(mercenary_228_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_229 = Object.keys(mercenary_229[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_229 = Object.keys(mercenary_229_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_230 = Object.keys(mercenary_230[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_230 = Object.keys(mercenary_230_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_231 = Object.keys(mercenary_231[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_231 = Object.keys(mercenary_231_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_232 = Object.keys(mercenary_232[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_232 = Object.keys(mercenary_232_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_233 = Object.keys(mercenary_233[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_233 = Object.keys(mercenary_233_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_234 = Object.keys(mercenary_234[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_234 = Object.keys(mercenary_234_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_235 = Object.keys(mercenary_235[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_235 = Object.keys(mercenary_235_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_236 = Object.keys(mercenary_236[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_236 = Object.keys(mercenary_236_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_237 = Object.keys(mercenary_237[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_237 = Object.keys(mercenary_237_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_238 = Object.keys(mercenary_238[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_238 = Object.keys(mercenary_238_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_239 = Object.keys(mercenary_239[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_239 = Object.keys(mercenary_239_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_240 = Object.keys(mercenary_240[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_240 = Object.keys(mercenary_240_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_241 = Object.keys(mercenary_241[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_241 = Object.keys(mercenary_241_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_242 = Object.keys(mercenary_242[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_242 = Object.keys(mercenary_242_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_243 = Object.keys(mercenary_243[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_243 = Object.keys(mercenary_243_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_244 = Object.keys(mercenary_244[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_244 = Object.keys(mercenary_244_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_245 = Object.keys(mercenary_245[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_245 = Object.keys(mercenary_245_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_246 = Object.keys(mercenary_246[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_246 = Object.keys(mercenary_246_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_247 = Object.keys(mercenary_247[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_247 = Object.keys(mercenary_247_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_248 = Object.keys(mercenary_248[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_248 = Object.keys(mercenary_248_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_249 = Object.keys(mercenary_249[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_249 = Object.keys(mercenary_249_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_505 = Object.keys(mercenary_505[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_505 = Object.keys(mercenary_505_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_507 = Object.keys(mercenary_507[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_507 = Object.keys(mercenary_507_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_509 = Object.keys(mercenary_509[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_509 = Object.keys(mercenary_509_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_514 = Object.keys(mercenary_514[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_514 = Object.keys(mercenary_514_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_601 = Object.keys(mercenary_601[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_601 = Object.keys(mercenary_601_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_807 = Object.keys(mercenary_807[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_807 = Object.keys(mercenary_807_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_885 = Object.keys(mercenary_885[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_885 = Object.keys(mercenary_885_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_902 = Object.keys(mercenary_902[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_902 = Object.keys(mercenary_902_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_920 = Object.keys(mercenary_920[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_920 = Object.keys(mercenary_920_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_926 = Object.keys(mercenary_926[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_926 = Object.keys(mercenary_926_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_info_938 = Object.keys(mercenary_938[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));
 
 export const mercenary_attack_938 = Object.keys(mercenary_938_attacks[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));

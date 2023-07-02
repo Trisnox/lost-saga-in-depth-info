@@ -1,0 +1,29 @@
+---
+id: 024 lv1
+slug: 024_lv1
+---
+
+import Image from "@theme/IdealImage";
+import { TableComponent } from "@site/src/components/SortableTable";
+import { mercenary_024_lv1, mercenary_024_lv1_attacks, mercenary_info_024_lv1, mercenary_attack_024_lv1 } from "@site/src/table/mercenaries_individual";
+
+# 024_lv1
+
+<div style = {{ display: "flex" }}>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_n_024.jpg')}/>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_o_024.jpg')}/>
+</div>
+
+## Mercenary Summary
+
+<TableComponent
+  columns={ mercenary_info_024_lv1 }
+  data={ mercenary_024_lv1 }
+/>
+
+## Mercenary Attacks
+
+<TableComponent
+  columns={ mercenary_attack_024_lv1 }
+  data={ mercenary_024_lv1_attacks }
+/>

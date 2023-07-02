@@ -1,0 +1,29 @@
+---
+id: 042 lv3
+slug: 042_lv3
+---
+
+import Image from "@theme/IdealImage";
+import { TableComponent } from "@site/src/components/SortableTable";
+import { mercenary_042_lv3, mercenary_042_lv3_attacks, mercenary_info_042_lv3, mercenary_attack_042_lv3 } from "@site/src/table/mercenaries_individual";
+
+# 042_lv3
+
+<div style = {{ display: "flex" }}>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_n_042.jpg')}/>
+    <Image img={require('@site/static/img/mercenaries/illust/thum_char_view_o_042.jpg')}/>
+</div>
+
+## Mercenary Summary
+
+<TableComponent
+  columns={ mercenary_info_042_lv3 }
+  data={ mercenary_042_lv3 }
+/>
+
+## Mercenary Attacks
+
+<TableComponent
+  columns={ mercenary_attack_042_lv3 }
+  data={ mercenary_042_lv3_attacks }
+/>

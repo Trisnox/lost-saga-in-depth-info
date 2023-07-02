@@ -8,63 +8,6 @@ import traceback
 import sys
 from ext.modified_parser import ModConfigParser
 from configparser import NoOptionError, DuplicateSectionError, MissingSectionHeaderError
-"""
-basic_information = [
-		'id',
-		# 'icon', #it will use mercenary ID as the icon later on
-		'name', # all alternative name including in-file name will be included
-		'rarity', # 2 = premium, 3 = rare, 4 = unique, 6 = idol... idfk what is 5???
-		'basic_attack_length', # self explanatory, the data is provided
-		'dash_attack_replacement', # if dash type is EXTEND_ASSAULT_DASH, then yes
-        'highest_damage', # highest damage in single attack
-		'max_jump', # self explanatory, the data is provided
-        '360_defend', # self explanatory, the data is provided
-		'can_deflect', # it is named 'cancel', some deflect may doesn't have counter
-		'can_counter', # some are named 'cancel' and the rest are 'counter', refer to the deflect info
-		'have_down_hit', # self explanatory
-		'have_gauge',
-		'unique_property'
-        ]
-
-        attack_information = [
-            'damage',
-            'defense_break', # if defense_break_type is 1, then yes
-            'down_hit', # if enable_down_attack = 1, it can hit downed enemy
-            'juggle', # if blow power is > 1.0, then it will juggle the enemy, 0.5 doesn't seem do though. RE: if it's 1, then it's conditional, means it either push them or juggle them, above that will make them float slightly higher, else doesn't
-            # 'piercing', # if char_piercing = 0, it means it can only hit single target re: seems only available for dummy character
-            # 'target_debuff', # not yet
-            'push_power',
-            'frozen_break',
-            'air_push_power',
-            'downed_push_power',
-            'defense_push_power',
-            'ball_push',
-            'gangxi_push'
-        ]
-
-# dev note: let's try check for dash_attack_type_count instead of analyzing every dash to check wherever it can sprint or not
-indicators = [
-        "max_combo", # Normal #normal_attack0{0}_type1
-        "dash_type", # Dash #dash_attack_type1 #attack_type1 for assault
-        "dash_attack_type_count", # ~D1 #dash_attack_type{0}
-        "extra_dash_max_cnt", # ~D2 #extra_dash_attack{0}_type_count #extra_dash_attack{0}_type{1}
-        # "extra_dash_attack1_type_count", # ~D2 #extra_dash_attack{0}_type1 actually recursive
-        "extend_dash_max_cnt", # alt D~ #extend_dash_attack{0}_type_count #extend_dash_attack{0}_type{1}
-        "max_jump_cnt", # Jump #jump_type for some
-        "jump_max_combo", # Jump +D #jump_attack{0}_type_count #jump_attack{0}_type{1}
-        "extend_jump_max_cnt", # Jump D~ #extend_jump_attack{0}_type_count #extend_jump_attack{0}_type{1}
-        "enable_jump_dash", # # Jump >> #dash_jump_attack_type_count #dash_jump_attack_type{1}
-        "dash_action_attack_type_count", # >> for those dash are replaced
-        "dash_jump_attack_add_attack_cnt", # >>+D #dash_jump_attack_add_attack{0}_type_count #dash_jump_attack_add_attack{0}_type{1}
-        "defense_weak_attack_push", # Deflect
-        "enable_counter_attack", # Counter #counter_attack_type_count #counter_attack_type{1}
-        "enable_defence_counter_attack", # can deflect and counter, dayum #defence_counter_attack_type_count #defence_counter_attack_type{1}
-        "charge_time", # Charge #extend_attack_cnt #extend_attack0{0}_type_count #extend_attack0{0}_type{1}
-        "extra_gauge_enable", # Gauge
-        "max_gauge", # Gauge...
-        "max_bullet" # Bullet
-    ]
-"""
 
 class SafeDict(dict):
     def __missing__(self, key):
@@ -86,10 +29,12 @@ class Mercenary_Config_Parser():
         # that I spend 3 hours, and still no result. So I figured, "hey, just separate it, I mean, the total mercenary size is only about 1mb though"
         self.method = kwargs.get('method', 1)
 
+        # Reference attack config is used if attack attribute is not from the current file
         self.mercenary_code = None
         self.mercenary_config = ModConfigParser(allow_no_value=True)
         self.mercenary_keys = None
         self.attack_config = ModConfigParser(allow_no_value=True)
+        self.reference_attack_config = ModConfigParser(allow_no_value=True)
         self.buff_config = ModConfigParser(allow_no_value=True)
 
         self.max_combo = None
@@ -97,16 +42,20 @@ class Mercenary_Config_Parser():
         self.mercenary_name = ''
         self.mercenary_file_comment_name = ''
         self.highest_damage = None
-        self.can_sprint = '✗'
-        self.can_deflect = '✗'
-        self.can_counter = '✗'
-        self.gauge_bullet = '✗'
+        self.can_sprint = '❌'
+        self.can_deflect = '❌'
+        self.can_counter = '❌'
+        self.gauge_bullet = '❌'
         self.unique_property = []
         self.down_hits = []
 
         self.valid_mercenaries = []
         self.heroes_name = None
         self.previous = None
+
+        # evolution represent the evolution number, 1 is for lv1, there is no 'ultimate' keyword as that would just make it more hassle
+        self.evolution = '0'
+        self.valid_evolution = []
 
         # I'm telling you, the files are literally messy, it uses up to 3 different encoding system!
         # For some reason, it took up to 4 encoders to work around with confiparser
@@ -127,7 +76,7 @@ class Mercenary_Config_Parser():
         # This is because you can pretty much override the attack attributes using the script
         self.json_override = False
 
-        # Folder containing the images. The image link for jsx will always be from './src/images'... unless you want to modify it
+        # Folder containing the images. The image link for jsx will always be from '@site/src/images'... unless you want to modify it
         self.images = kwargs.get('images', None)
 
         if self.override_folder:
@@ -186,11 +135,11 @@ class Mercenary_Config_Parser():
                 for x in names:
                     res_num = re.findall(r'.*item(\d*)_1', x)[0]
                     res_name = re.findall(r'.*\|(.*)\|', x)[0]
-                    if not res_name.startswith('Hero '):
-                        self.heroes_name[res_num] = res_name
-                    else:
+                    if res_name.startswith('Hero ') or res_name.startswith('Gasetting'):
                         invalid_mercenaries = [_ for _ in invalid_mercenaries + [res_num]]
                         is_invalid = True
+                    else:
+                        self.heroes_name[res_num] = res_name
 
         if is_invalid:
             practice_names = self.iter_practice(invalid_mercenaries)
@@ -220,7 +169,10 @@ class Mercenary_Config_Parser():
 
     def is_mercenary(self, code):
         for _, _, x in os.walk(self.folder_location + '\\' + code):
-            if f'{code}_item.ini' in x:
+            if f'{code}_powerup_item.ini' in x:
+                self.evolution = True
+                return True
+            elif f'{code}_item.ini' in x:
                 return True
             else:
                 return False
@@ -263,7 +215,7 @@ class Mercenary_Config_Parser():
     #     return
     
     
-    def reformat_attack(self, mercenary: str):
+    def reformat_attack(self, mercenary: str, is_referencing = False):
         def reformat():
             with open(mercenary, 'r+', encoding=self.encoder) as f:
                 lines = f.readlines()
@@ -279,36 +231,54 @@ class Mercenary_Config_Parser():
                         result.remove(x)
 
             buffer = io.StringIO(''.join(result))
-            self.attack_config.read_file(buffer)
+            if is_referencing:
+                self.reference_attack_config.read_file(buffer)
+            else:
+                self.attack_config.read_file(buffer)
             return
         
         try:
-            self.attack_config.read(mercenary)
+            if is_referencing:
+                self.reference_attack_config.read(mercenary)
+            else:
+                self.attack_config.read(mercenary)
             self.encoder = None
         except UnicodeDecodeError:
             try:
                 try:
                     self.encoder = 'utf-8'
-                    self.attack_config.read_file(open(mercenary, 'r', encoding='utf-8'))
+                    if is_referencing:
+                        self.reference_attack_config.read_file(open(mercenary, 'r', encoding='utf-8'))
+                    else:
+                        self.attack_config.read_file(open(mercenary, 'r', encoding='utf-8'))
                 except MissingSectionHeaderError:
                     self.encoder = 'utf-8-sig'
-                    self.attack_config.read_file(open(mercenary, 'r', encoding='utf-8-sig'))
+                    if is_referencing:
+                        self.reference_attack_config.read_file(open(mercenary, 'r', encoding='utf-8-sig'))
+                    else:
+                        self.attack_config.read_file(open(mercenary, 'r', encoding='utf-8-sig'))
                 except UnicodeDecodeError:
                     self.encoder = 'euc-kr'
-                    self.attack_config.read_file(open(mercenary, 'r', encoding='euc-kr'))
+                    if is_referencing:
+                        self.reference_attack_config.read_file(open(mercenary, 'r', encoding='euc-kr'))
+                    else:
+                        self.attack_config.read_file(open(mercenary, 'r', encoding='euc-kr'))
                 except DuplicateSectionError:
                     reformat()
             except UnicodeDecodeError:
                 self.encoder = 'ansi'
-                self.attack_config.read_file(open(mercenary, 'r', encoding='ansi'))
+                if is_referencing:
+                    self.reference_attack_config.read_file(open(mercenary, 'r', encoding='ansi'))
+                else:
+                    self.attack_config.read_file(open(mercenary, 'r', encoding='ansi'))
             except DuplicateSectionError:
                 reformat()
         except DuplicateSectionError:
             reformat()
         return
 
-    def attack_data(self):                    
-        def process_attribute_attack(hint: list, attack_number = 0):
+    def attack_data(self, item_offset = 'item1'):
+        def process_attribute_attack(item_offset, hint: list, attack_number = 0):
             pre_defined = False
             if len(hint) > 3:
                 attribute_id = hint[3][attack_number-1]
@@ -318,7 +288,7 @@ class Mercenary_Config_Parser():
 
             if not pre_defined:
                 try:
-                    attribute_id = self.mercenary_config.get('item1', hint[2])
+                    attribute_id = self.mercenary_config.get(item_offset, hint[2])
                     self.previous = attribute_id
                 except NoOptionError as e:
                     # "could've sworn it counts more than 1, but how could it be possible?"
@@ -326,7 +296,18 @@ class Mercenary_Config_Parser():
                     attribute_id = self.previous
                     
             if attribute_id:
-                attribute = dict(self.attack_config.items('attribute'+attribute_id))
+                if not attribute_id.startswith(self.mercenary_code.lstrip('0')):
+                    # Attack attribute never exceeds >99... I think
+                    # Even Hades is hitting 98 attributes
+                    # Attack attribute always have leading 0 if it's single digit until it make up to double digit
+                    # With that in mind, we'll just strip the last 2 character, and then add leading 0 with zfill(3)
+                    reference_mercenary = attribute_id[:-2].zfill(3)
+                    self.reference_attack_config = ModConfigParser(allow_no_value=True)
+                    self.reformat_attack(self.folder_location + '\\' + reference_mercenary + '\\' + reference_mercenary + '_attack.ini', True)
+
+                    attribute = dict(self.reference_attack_config.items('attribute'+attribute_id))
+                else:
+                    attribute = dict(self.attack_config.items('attribute'+attribute_id))
             else:
                 return
             
@@ -345,37 +326,37 @@ class Mercenary_Config_Parser():
                 self.highest_damage = [hint[0] + str(attack_number), float(damage)]
 
             if attribute.get('defense_break_type', '0') == '1':
-                defense_break = '✓'
+                defense_break = '✅'
             else:
-                defense_break = '✗'
+                defense_break = '❌'
 
             if attribute.get('enable_down_attack', '0') == '1':
-                down_hit = '✓'
+                down_hit = '✅'
                 atk = f'{hint[0]}{attack_number}'
                 if not atk in self.down_hits:
                     self.down_hits.append(atk)
             else:
-                down_hit = '✗'
+                down_hit = '❌'
 
             blow_power = float(attribute.get('blow_power', '0').replace('f', ''))
             if blow_power > 1.5:
-                juggle = '✓✓, ' + str(blow_power)
+                juggle = '✅✅, ' + str(blow_power)
             elif blow_power >= 1.0:
-                juggle = '✓, ' + str(blow_power)
+                juggle = '✅, ' + str(blow_power)
             else:
-                juggle = '✗, ' + str(blow_power)
+                juggle = '❌, ' + str(blow_power)
             
             air_blow_power = float(attribute.get('air_blow_power', '0').replace('f', ''))
             if air_blow_power > 1.5:
-                air_juggle = '✓✓, ' + str(air_blow_power)
+                air_juggle = '✅✅, ' + str(air_blow_power)
             elif air_blow_power >= 1.0:
-                air_juggle = '✓, ' + str(air_blow_power)
+                air_juggle = '✅, ' + str(air_blow_power)
             else:
-                air_juggle = '✗, ' + str(air_blow_power)
+                air_juggle = '❌, ' + str(air_blow_power)
 
             push_power = attribute.get('push_power', '0.0').replace('f', '')
 
-            frozen_break = attribute.get('frozen_break', '✗').replace('1', '✓')
+            frozen_break = attribute.get('frozen_break', '❌').replace('1', '✅')
             data = {
                 'damage': damage,
                 'defense_break': defense_break,
@@ -387,7 +368,7 @@ class Mercenary_Config_Parser():
             }
             return data
             
-        def process_attack(key, hint, modify_func = None):
+        def process_attack(key, hint, modify_func = None, item_offset = 'item1'):
             inputs = []
             recursive_inputs = []
             option = False
@@ -400,11 +381,11 @@ class Mercenary_Config_Parser():
             if key == 'extend_dash_max_cnt':
                 try:
                     # Does this mercenary missing a number on their value?
-                    self.mercenary_config.get('item1', "extend_dash_attack1_type1")
+                    self.mercenary_config.get(item_offset, "extend_dash_attack1_type1")
                 except NoOptionError:
                     try:
                         # Which value is incorrect? Is this a harmless dash or mistyped value?
-                        self.mercenary_config.get('item1', "extend_dash_attack_type1")
+                        self.mercenary_config.get(item_offset, "extend_dash_attack_type1")
                         hint[1] = "extend_dash_attack_type_count"
                         hint[2] = "extend_dash_attack_type{v1}"
                     except NoOptionError:
@@ -414,17 +395,17 @@ class Mercenary_Config_Parser():
             elif key == 'extend_attack_cnt':
                 try:
                     # Is this mistyped or doesn't exist?
-                    self.mercenary_config.get('item1', 'extend_attack01_type_count')
+                    self.mercenary_config.get(item_offset, 'extend_attack01_type_count')
                 except NoOptionError:
                     try:
                         # ok, maybe it was mistyped
-                        self.mercenary_config.get('item1', 'extend_attack1_type_count')
+                        self.mercenary_config.get(item_offset, 'extend_attack1_type_count')
                         hint[1] = "extend_attack{v0}_type_count"
                         hint[2] = "extend_attack{v0}_type{v1}"
                     except NoOptionError:
                         try:
                             # mistyped no.2
-                            self.mercenary_config.get('item1', 'extend_attack_type_count')
+                            self.mercenary_config.get(item_offset, 'extend_attack_type_count')
                             hint[1] = "extend_attack_type_count"
                             hint[2] = "extend_attack_type{v1}"
                         except NoOptionError:
@@ -433,7 +414,7 @@ class Mercenary_Config_Parser():
                             already_set = True
             elif key == "enable_counter_attack":
                 try:
-                    option = int(self.mercenary_config.get('item1', "counter_combo_cnt"))
+                    option = int(self.mercenary_config.get(item_offset, "counter_combo_cnt"))
                     hint[1] = "counter_combo_attack{v0}_type_count"
                     hint[2] = "counter_combo_attack{v0}_type{v1}"
                     already_set = True
@@ -468,8 +449,12 @@ class Mercenary_Config_Parser():
                         key, hint = res
 
             if isinstance(hint[1], int) and not already_set:
-                check = int(self.mercenary_config.get('item1', key))
-                if check != 0:
+                check = self.mercenary_config.get(item_offset, key)
+                if check == '':
+                    option = 0
+                    is_int = True
+                    already_set = True
+                elif int(check) != 0:
                     option = hint[1]
                     is_int = True
                     already_set = True
@@ -479,7 +464,7 @@ class Mercenary_Config_Parser():
                     already_set = True
 
             if not option and not already_set:
-                option = int(self.mercenary_config.get('item1', key))
+                option = int(self.mercenary_config.get(item_offset, key))
 
             if option == 0:
                 if not self.highest_damage:
@@ -490,12 +475,12 @@ class Mercenary_Config_Parser():
                 self.max_combo = option
             elif key == 'dash_attack_type_count':
                 if int(option) >= 1:
-                    self.can_sprint = '✓'
+                    self.can_sprint = '✅'
             elif key == 'enable_defence_counter_attack':
-                self.can_deflect = '✓'
-                self.can_counter = '✓'
+                self.can_deflect = '✅'
+                self.can_counter = '✅'
             elif key == 'enable_counter_attack':
-                self.can_counter = '✓'
+                self.can_counter = '✅'
 
             for x in range(option):
                 if skip:
@@ -503,11 +488,11 @@ class Mercenary_Config_Parser():
                     continue
                 x += 1
                 if not isinstance(hint[1], int):
-                    recursive_option = int(self.mercenary_config.get('item1', hint[1].format_map(SafeDict(v0=x))))
+                    recursive_option = int(self.mercenary_config.get(item_offset, hint[1].format_map(SafeDict(v0=x))))
                     if not recursive_option == 1:
                         is_recursive = True
                 elif not already_set or any(keyword == key for keyword in ("dash_action_attack_type_count", "dash_attack_type_count", "dash_charging_attack_type_count", "jump_attack_type_count", "dash_jump_attack_type_count", "jump_charge_attack_type_count", "jump_charge_land_type_count")):
-                    recursive_option = int(self.mercenary_config.get('item1', key))
+                    recursive_option = int(self.mercenary_config.get(item_offset, key))
                     if not recursive_option == 1:
                         is_recursive = True
 
@@ -521,19 +506,19 @@ class Mercenary_Config_Parser():
                             formatted_hint = [*hint]
                             formatted_hint[1] = hint[1].format_map(SafeDict(v0=x))
                             formatted_hint[2] = hint[2].format_map(SafeDict(v0=x, v1=y))
-                        attribute_dict = process_attribute_attack(formatted_hint, x)
+                        attribute_dict = process_attribute_attack(item_offset, formatted_hint, x)
                         if not attribute_dict:
                             return
                         data = f"""
-                "{y}": {{
-                    "Damage": "{attribute_dict['damage']}",
-                    "Defense Break": "{attribute_dict['defense_break']}",
-                    "Juggle": "{attribute_dict['juggle']}",
-                    "Air Juggle": "{attribute_dict['air_juggle']}",
-                    "Down Hit": "{attribute_dict['down_hit']}",
-                    "Push Power": "{attribute_dict['push_power']}",
-                    "Frozen Break": "{attribute_dict['frozen_break']}",
-                }},"""
+        "{y}": {{
+            "Damage": "{attribute_dict['damage']}",
+            "Defense Break": "{attribute_dict['defense_break']}",
+            "Juggle": "{attribute_dict['juggle']}",
+            "Air Juggle": "{attribute_dict['air_juggle']}",
+            "Down Hit": "{attribute_dict['down_hit']}",
+            "Push Power": "{attribute_dict['push_power']}",
+            "Frozen Break": "{attribute_dict['frozen_break']}",
+        }},"""
                         recursive_inputs = [_ for _ in recursive_inputs + [data]]
                     combined = '\n'.join(recursive_inputs)
                     if not combined:
@@ -541,9 +526,9 @@ class Mercenary_Config_Parser():
                         is_recursive = False
                         return
                     data = f"""
-            {hint[0]}{x}: {{
-                {combined}
-            }},"""
+    {hint[0]}{x}: {{
+        {combined}
+    }},"""
                     inputs = [_ for _ in inputs + [data]]
                     recursive_inputs = []
                     is_recursive = False
@@ -556,7 +541,7 @@ class Mercenary_Config_Parser():
                         formatted_hint[1] = hint[1].format_map(SafeDict(v0=x))
                         formatted_hint[2] = hint[2].format_map(SafeDict(v0=x, v1=1))
 
-                    attribute_dict = process_attribute_attack(formatted_hint, x)
+                    attribute_dict = process_attribute_attack(item_offset, formatted_hint, x)
                     if not attribute_dict:
                             return
                     data = f"""
@@ -585,12 +570,14 @@ class Mercenary_Config_Parser():
             "jump_max_combo": ["Jump_D", "jump_attack{v0}_type_count", "jump_attack{v0}_type{v1}"],
             "jump_attack_type_count": ["Jump_D", 1, "jump_attack_type{v1}"],
             "extend_jump_max_cnt": ["Jump_Hold_D", "extend_jump_attack{v0}_type_count", "extend_jump_attack{v0}_type{v1}"],
+            "extend_jump_attack_type_count" : ["Jump_Hold_D", 1, "extend_jump_attack_type{v1}"],
             #dash_jump_attack_type_count #dash_jump_attack_type{v1}
             # "enable_jump_dash": ["Jump_Dash_Extend_D", "dash_jump_attack_type_count", "dash_jump_attack_type{v1}"],
             "dash_jump_attack_type_count": ["Jump_Dash_Extend_D", 1, "dash_jump_attack_type{v1}"],
             "dash_jump_attack_add_attack_cnt": ["Jump_Dash_D", "dash_jump_attack_add_attack{v0}_type_count", "dash_jump_attack_add_attack{v0}_type{v1}"],
             "jump_charge_attack_type_count": ["Jump_Hold_D", 1, "jump_charge_attack_type{v1}"],
             "jump_charge_land_type_count": ["Landing_Jump_Hold_D", 1, "jump_charge_land_type{v1}"],
+            "land_jump_attack_type_count": ["Landing_Jump_Hold_D", 1, "land_jump_attack_type{v1}"],
             "enable_counter_attack": ["Counter_D", "counter_attack_type_count", "counter_attack_type{v1}"],
             # "counter_attack_type_count": ["Counter_D", 1, "counter_attack_type{v1}"],
             "counter_combo_cnt": ["Counter_D", "counter_combo_attack{v0}_type_count", "counter_combo_attack{v0}_type{v1}"],
@@ -615,7 +602,16 @@ class Mercenary_Config_Parser():
         override_method = None
         new_method = None
 
-        override_file = self.override_folder + '\\' + self.mercenary_code
+        if self.evolution != '0' and not isinstance(self.evolution, bool):
+            # please do remind me if level 4 hero evolution exist
+            if self.evolution == '1':
+                override_file = self.override_folder + '\\' + self.mercenary_code + '_lv1'
+            elif self.evolution == '2':
+                override_file = self.override_folder + '\\' + self.mercenary_code + '_lv2'
+            else:
+                override_file = self.override_folder + '\\' + self.mercenary_code + '_lv3'
+        else:
+            override_file = self.override_folder + '\\' + self.mercenary_code
 
         if os.path.isfile(override_file + '.py'):
             try:
@@ -643,13 +639,13 @@ class Mercenary_Config_Parser():
             all_new_keys = self.new_all()
             try:
                 if isinstance(all_new_keys, tuple | list):
-                    data = process_attack(*all_new_keys)
+                    data = process_attack(*all_new_keys, item_offset=item_offset)
                     self.previous = None
                     if data:
                         datas = [_ for _ in datas + [data]]
                 elif isinstance(all_new_keys, dict):
                     for x, y in all_new_keys.items():
-                        data = process_attack(x, y, override_method)
+                        data = process_attack(x, y, override_method, item_offset=item_offset)
                         self.previous = None
                         if data:
                             datas = [_ for _ in datas + [data]]
@@ -661,37 +657,37 @@ class Mercenary_Config_Parser():
         if new_method:
             new_keys = new_method()
             if isinstance(new_keys, tuple | list):
-                data = process_attack(*new_keys)
+                data = process_attack(*new_keys, item_offset=item_offset)
                 self.previous = None
                 if data:
                     datas = [_ for _ in datas + [data]]
             elif isinstance(new_keys, dict):
                 for x, y in new_keys.items():
-                    data = process_attack(x, y)
+                    data = process_attack(x, y, item_offset=item_offset)
                     self.previous = None
                     if data:
                         datas = [_ for _ in datas + [data]]
 
         for x, y in key.items():
             try:
-                self.mercenary_config.get('item1', x)
+                self.mercenary_config.get(item_offset, x)
             except NoOptionError as e:
                 continue
-            data = process_attack(x, y, override_method)
+            data = process_attack(x, y, override_method, item_offset=item_offset)
             self.previous = None
             if data:
                 datas = [_ for _ in datas + [data]]
 
         for x, y in key_check.items():
             try:
-                self.gauge_bullet = '✗'
-                value = self.mercenary_config.get('item1', x)
+                self.gauge_bullet = '❌'
+                value = self.mercenary_config.get(item_offset, x)
                 if y == 'Jump':
                     self.max_jump = value
                 elif x == 'enable_jump_dash':
                     pass
                 elif y == 'Deflect':
-                    self.can_deflect = '✓'
+                    self.can_deflect = '✅'
                 elif y == 'Gauge':
                     self.gauge_bullet = 'Gauge'
                 elif y == 'Bullet':
@@ -712,8 +708,8 @@ class Mercenary_Config_Parser():
     def get_down_hit_inputs(self):
         pass
 
-    def table_convert(self, inputs):
-        rarity = int(dict(self.mercenary_config.items('item1')).get('grade_type', 1))
+    def table_convert(self, inputs, item_offset = 'item1'):
+        rarity = int(dict(self.mercenary_config.items(item_offset)).get('grade_type', 1))
         rarity_table = {
             0: 'Undefined',
             1: 'Normal',
@@ -724,23 +720,23 @@ class Mercenary_Config_Parser():
             6: 'Idol'
         }
         try:
-            if self.mercenary_config.get('item1', 'defense_backside') == '1':
-                defend_360 = '✓'
+            if self.mercenary_config.get(item_offset, 'defense_backside') == '1':
+                defend_360 = '✅'
             else:
-                defend_360 = '✗'
+                defend_360 = '❌'
         except NoOptionError:
-            defend_360 = '✗'
+            defend_360 = '❌'
 
         # NO! Do not do this here, instead do this on attack, for efficiency. Just set them to 'x' or None so you don't have to redefine it
         # If the variable do not get iterated on attack loop, then it should be defined here instead
         # try:
         #     can_sprint = int(self.mercenary_config.get('item1', 'dash_attack_type_count'))
         #     if can_sprint >= 1:
-        #         can_sprint = '✓'
+        #         can_sprint = '✅'
         #     else:
-        #         can_sprint = '✗'
+        #         can_sprint = '❌'
         # except NoOptionError:
-        #     can_sprint = '✗'
+        #     can_sprint = '❌'
 
         with open(self.folder_location + '\\' + self.mercenary_code + '\\' + self.mercenary_code + '_item.ini', 'r') as f:
             self.mercenary_file_comment_name = re.findall(self.comment_mercenary_regex, f.read())
@@ -751,16 +747,19 @@ class Mercenary_Config_Parser():
             self.mercenary_name = self.heroes_name.get(self.mercenary_code.lstrip('0'), None)
         
         if not self.mercenary_name:
-            self.mercenary_name = self.mercenary_config.get('item1', 'sub_type').capitalize().replace('_item', '')
+            self.mercenary_name = self.mercenary_config.get(item_offset, 'sub_type').replace('_item', '').replace('_', ' ').title()
 
         self.mercenary_name = self.mercenary_name.strip()
 
         if self.down_hits:
             down_inputs = ', '.join(self.down_hits).replace('_', ' ')
         else:
-            down_inputs = '✗'
-
-        self.valid_mercenaries.append(self.mercenary_code)
+            down_inputs = '❌'
+        
+        if self.evolution != '0' and not isinstance(self.evolution, bool):
+            pass
+        else:
+            self.valid_mercenaries.append(self.mercenary_code)
 
         def recursive_reversed(items):
             if isinstance(items, list):
@@ -778,7 +777,7 @@ class Mercenary_Config_Parser():
                     paired.append(', '.join(str(_) for _ in self.highest_damage[x:x + 2]))
             dmg = ' | '.join(paired[::-1]).replace('_', ' ')
         else:
-            dmg = f'{self.highest_damage[1]}, {self.highest_damage[0]}'
+            dmg = f'{self.highest_damage[1]}, {self.highest_damage[0].replace("_", " ")}'
 
         icons = '""'
         if self.images.get(f'thum_char_{self.mercenary_code}_n.jpg', None):
@@ -792,11 +791,15 @@ class Mercenary_Config_Parser():
             else:
                 icons = f'"{image}"'
 
+        extra = ''
+        if self.evolution != '0' and not isinstance(self.evolution, bool):
+            extra = f'_lv{self.evolution}'
+
         if self.method == 1:
     # Icon: {icons},
             data = f"""
-export const mercenary_{self.mercenary_code} = [{{
-    ID: "{self.mercenary_code}",
+export const mercenary_{self.mercenary_code}{extra} = [{{
+    ID: "{self.mercenary_code}{extra.replace('_', ' ')}",
     Name: "{self.mercenary_name}",
     Rarity: "{rarity_table[rarity]}",
     Sprint: "{self.can_sprint}",
@@ -813,14 +816,14 @@ export const mercenary_{self.mercenary_code} = [{{
         file_comment_name: "{self.mercenary_file_comment_name}",
     }},
 }}];
-export const mercenary_{self.mercenary_code}_attacks = [{{
+export const mercenary_{self.mercenary_code}{extra}_attacks = [{{
         {inputs}
 }}];"""
         else:
         # Icon: {icons},
             data = f"""
     {{
-        ID: "{self.mercenary_code}",
+        ID: "{self.mercenary_code}{extra.replace('_', ' ')}",
         Name: "{self.mercenary_name}",
         Rarity: "{rarity_table[rarity]}",
         Sprint: "{self.can_sprint}",
@@ -851,17 +854,20 @@ export const mercenary_{self.mercenary_code}_attacks = [{{
 
             self.max_combo = None
             self.max_jump = '1'
+            self.mercenary_name = ''
             self.mercenary_file_comment_name = None
             self.highest_damage = None
-            self.can_sprint = '✗'
-            self.can_deflect = '✗'
-            self.can_counter = '✗'
-            self.gauge_bullet = '✗'
+            self.can_sprint = '❌'
+            self.can_deflect = '❌'
+            self.can_counter = '❌'
+            self.gauge_bullet = '❌'
             self.unique_property = []
             self.down_hits = []
+            self.evolution = '0'
 
-            if not self.is_mercenary(x) or x == '000' or int(x) >= 550 and int(x) <= 600:
+            if x == '000' or (int(x) >= 550 and int(x) <= 600) or not self.is_mercenary(x):
                 continue
+
             print('processing: ', x)
             self.mercenary_code = x
             try:
@@ -882,18 +888,63 @@ export const mercenary_{self.mercenary_code}_attacks = [{{
                     self.encoder = 'ansi'
                     self.mercenary_config.read_file(open(self.folder_location + '\\' + x + '\\' + x + '_item.ini', 'r', encoding='ansi'))
 
-            # self.reformat_mercenary(self.folder_location + '\\' + x + '\\' + x + '_item.ini')
             self.reformat_attack(self.folder_location + '\\' + x + '\\' + x + '_attack.ini')
-
-            inputs = self.attack_data()
+            inputs = self.attack_data('item1')
 
             data = self.table_convert(inputs)
             datas = [_ for _ in datas + [data]]
-            columns = ''
+
+            if self.evolution != '0':
+                self.mercenary_config = ModConfigParser(allow_no_value=True)
+                self.attack_config = ModConfigParser(allow_no_value=True)
+                self.buff_config = ModConfigParser(allow_no_value=True)
+
+                try:
+                    self.mercenary_config.read(self.folder_location + '\\' + x + '\\' + x + '_powerup_item.ini')
+                    self.encoder = None
+                except UnicodeDecodeError:
+                    try:
+                        try:
+                            self.encoder = 'utf-8'
+                            self.mercenary_config.read_file(open(self.folder_location + '\\' + x + '\\' + x + '_powerup_item.ini', 'r', encoding='utf-8'))
+                        except MissingSectionHeaderError:
+                            self.encoder = 'utf-8-sig'
+                            self.mercenary_config.read_file(open(self.folder_location + '\\' + x + '\\' + x + '_powerup_item.ini', 'r', encoding='utf-8-sig'))
+                        except UnicodeDecodeError:
+                            self.encoder = 'euc-kr'
+                            self.mercenary_config.read_file(open(self.folder_location + '\\' + x + '\\' + x + '_powerup_item.ini', 'r', encoding='euc-kr'))
+                    except UnicodeDecodeError:
+                        self.encoder = 'ansi'
+                        self.mercenary_config.read_file(open(self.folder_location + '\\' + x + '\\' + x + '_powerup_item.ini', 'r', encoding='ansi'))
+
+                evolutions = [_ for _ in dict(self.mercenary_config.items()).keys() if _.startswith('item')]
+                for evolution_offset in range(len(evolutions)):
+                    self.max_combo = None
+                    self.max_jump = '1'
+                    self.highest_damage = None
+                    self.can_sprint = '❌'
+                    self.can_deflect = '❌'
+                    self.can_counter = '❌'
+                    self.gauge_bullet = '❌'
+                    self.unique_property = []
+                    self.down_hits = []
+
+                    evolution_offset += 1
+                    # For consistency, let's just make it string instead
+                    self.evolution = str(evolution_offset)
+                    self.valid_evolution.append(f'{self.mercenary_code}_lv{evolution_offset}')
+                    self.reformat_attack(self.folder_location + '\\' + x + '\\' + x + '_attack.ini')
+                    inputs = self.attack_data(f'item{evolution_offset}')
+
+                    data = self.table_convert(inputs, f'item{evolution_offset}')
+                    datas = [_ for _ in datas + [data]]
+
+
+        columns = ''
         if self.method == 2:
             location = './mercenaries_table.js'
             columns += """export const column = Object.keys(mercenaries[0]).map((key) => ({
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }));"""
         else:
@@ -901,12 +952,24 @@ export const mercenary_{self.mercenary_code}_attacks = [{{
             for x in self.valid_mercenaries:
                 columns += f"""
 export const mercenary_info_{x} = Object.keys(mercenary_{x}[0]).map((key) => ({{
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }}));
 
 export const mercenary_attack_{x} = Object.keys(mercenary_{x}_attacks[0]).map((key) => ({{
-    Header: key.replace("_", " "),
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}}));
+"""
+            for x in self.valid_evolution:
+                columns += f"""
+export const mercenary_info_{x} = Object.keys(mercenary_{x}[0]).map((key) => ({{
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}}));
+
+export const mercenary_attack_{x} = Object.keys(mercenary_{x}_attacks[0]).map((key) => ({{
+    Header: key.replace(/_/g, " "),
     accessor: key,
 }}));
 """
@@ -939,6 +1002,8 @@ export const mercenaries = [
             f.write(file)
         with open('valid_mercenaries.txt', 'w+') as f:
             f.writelines(_ + '\n' for _ in self.valid_mercenaries)
+        with open('evolution_mercenaries.txt', 'w+')as f:
+            f.writelines(_ + '\n' for _ in self.valid_evolution)
 
 if __name__ == '__main__':
     argparser = argparse.ArgumentParser(

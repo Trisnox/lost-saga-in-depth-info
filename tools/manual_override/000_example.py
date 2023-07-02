@@ -1,3 +1,6 @@
+# For evolution heroes, use  `000_lv?.py`, where ? is the evolution level
+# There is no 'ultimate' keyword, please use number instead
+#
 # The function name must be `overwrite` for overwriting variables
 # You will be given key and hint variables
 #   - key: str. The key indicator, please refer to the config scraper key dictionary

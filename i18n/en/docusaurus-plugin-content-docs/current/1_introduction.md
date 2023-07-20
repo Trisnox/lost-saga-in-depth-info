@@ -11,6 +11,6 @@ This wiki explains in-depth about various aspects of the game, for instance: uni
 These data are collected based on rs.iop file for educational purposes.
 
 # Patch Version
-Patch: 28-6-2023
+Patch: 12-7-2023
 
 Client: Lost Saga Origin (valofe)

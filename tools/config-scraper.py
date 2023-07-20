@@ -570,6 +570,7 @@ class Mercenary_Config_Parser():
             "jump_max_combo": ["Jump_D", "jump_attack{v0}_type_count", "jump_attack{v0}_type{v1}"],
             "jump_attack_type_count": ["Jump_D", 1, "jump_attack_type{v1}"],
             "extend_jump_max_cnt": ["Jump_Hold_D", "extend_jump_attack{v0}_type_count", "extend_jump_attack{v0}_type{v1}"],
+            "dash_jump_s_attack_type_count": ["Jump_S", 1, "dash_jump_s_attack_type{v1}"],
             "extend_jump_attack_type_count" : ["Jump_Hold_D", 1, "extend_jump_attack_type{v1}"],
             #dash_jump_attack_type_count #dash_jump_attack_type{v1}
             # "enable_jump_dash": ["Jump_Dash_Extend_D", "dash_jump_attack_type_count", "dash_jump_attack_type{v1}"],
@@ -604,12 +605,15 @@ class Mercenary_Config_Parser():
 
         if self.evolution != '0' and not isinstance(self.evolution, bool):
             # please do remind me if level 4 hero evolution exist
+            # re: they do
             if self.evolution == '1':
                 override_file = self.override_folder + '\\' + self.mercenary_code + '_lv1'
             elif self.evolution == '2':
                 override_file = self.override_folder + '\\' + self.mercenary_code + '_lv2'
-            else:
+            elif self.evolution == '3':
                 override_file = self.override_folder + '\\' + self.mercenary_code + '_lv3'
+            else:
+                override_file = self.override_folder + '\\' + self.mercenary_code + '_lv4'
         else:
             override_file = self.override_folder + '\\' + self.mercenary_code
 
@@ -747,7 +751,7 @@ class Mercenary_Config_Parser():
             self.mercenary_name = self.heroes_name.get(self.mercenary_code.lstrip('0'), None)
         
         if not self.mercenary_name:
-            self.mercenary_name = self.mercenary_config.get(item_offset, 'sub_type').replace('_item', '').replace('_', ' ').title()
+            self.mercenary_name = self.mercenary_config.get(item_offset, 'sub_type').replace('_ITEM', '').replace('_', ' ').title()
 
         self.mercenary_name = self.mercenary_name.strip()
 

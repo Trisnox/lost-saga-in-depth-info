@@ -6221,7 +6221,7 @@ export const mercenaries = [
 
     {
         ID: "219",
-        Name: "Paparazzi Item",
+        Name: "Paparazzi",
         Rarity: "Normal",
         Sprint: "❌",
         Jump: "1",
@@ -6240,7 +6240,7 @@ export const mercenaries = [
 
     {
         ID: "220",
-        Name: "Tyr Item",
+        Name: "Tyr",
         Rarity: "Unique",
         Sprint: "✅",
         Jump: "1",
@@ -6449,7 +6449,7 @@ export const mercenaries = [
 
     {
         ID: "231",
-        Name: "Magnetic Item",
+        Name: "Magnetic",
         Rarity: "Rare",
         Sprint: "❌",
         Jump: "1",
@@ -6468,7 +6468,7 @@ export const mercenaries = [
 
     {
         ID: "232",
-        Name: "Taoist Item",
+        Name: "Taoist",
         Rarity: "Unique",
         Sprint: "✅",
         Jump: "2",
@@ -6506,7 +6506,7 @@ export const mercenaries = [
 
     {
         ID: "234",
-        Name: "Vanish Item",
+        Name: "Vanish",
         Rarity: "Normal",
         Sprint: "✅",
         Jump: "1",
@@ -6544,7 +6544,7 @@ export const mercenaries = [
 
     {
         ID: "236",
-        Name: "Medium Item",
+        Name: "Medium",
         Rarity: "Rare",
         Sprint: "❌",
         Jump: "1",

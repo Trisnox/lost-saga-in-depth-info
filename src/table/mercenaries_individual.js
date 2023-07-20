@@ -44040,7 +44040,7 @@ export const mercenary_218_attacks = [{
 
 export const mercenary_219 = [{
     ID: "219",
-    Name: "Paparazzi Item",
+    Name: "Paparazzi",
     Rarity: "Normal",
     Sprint: "❌",
     Jump: "1",
@@ -44124,7 +44124,7 @@ export const mercenary_219_attacks = [{
 
 export const mercenary_220 = [{
     ID: "220",
-    Name: "Tyr Item",
+    Name: "Tyr",
     Rarity: "Unique",
     Sprint: "✅",
     Jump: "1",
@@ -45504,7 +45504,7 @@ export const mercenary_230_attacks = [{
 
 export const mercenary_231 = [{
     ID: "231",
-    Name: "Magnetic Item",
+    Name: "Magnetic",
     Rarity: "Rare",
     Sprint: "❌",
     Jump: "1",
@@ -45685,7 +45685,7 @@ export const mercenary_231_attacks = [{
 
 export const mercenary_232 = [{
     ID: "232",
-    Name: "Taoist Item",
+    Name: "Taoist",
     Rarity: "Unique",
     Sprint: "✅",
     Jump: "2",
@@ -45983,7 +45983,7 @@ export const mercenary_233_attacks = [{
 
 export const mercenary_234 = [{
     ID: "234",
-    Name: "Vanish Item",
+    Name: "Vanish",
     Rarity: "Normal",
     Sprint: "✅",
     Jump: "1",
@@ -46417,7 +46417,7 @@ export const mercenary_235_attacks = [{
 
 export const mercenary_236 = [{
     ID: "236",
-    Name: "Medium Item",
+    Name: "Medium",
     Rarity: "Rare",
     Sprint: "❌",
     Jump: "1",
@@ -47968,6 +47968,16 @@ export const mercenary_244_attacks = [{
         "Air Juggle": "✅, 1.5",
         "Down Hit": "❌",
         "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Jump_S1: {
+        "Damage": "4.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅✅, 2.0",
+        "Down Hit": "❌",
+        "Push Power": "1.75",
         "Frozen Break": "❌",
         },
 

@@ -122,8 +122,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Discord (coming soon)',
-                to: '/',
+                label: 'Discord',
+                href: 'https://discord.gg/GJ2P6u4edG',
               },
             ],
           },

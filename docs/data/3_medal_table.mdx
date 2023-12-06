@@ -1,0 +1,18 @@
+---
+id: Tabel Data Medal
+slug: medal_list_all
+---
+
+import { TableComponent } from "@site/src/components/SortableTable";
+import { medals, column } from "@site/src/table/medal_table";
+
+# Tabel Data Medal
+
+Bagian ini mencakupi semua data medal yang ada di dalam file `sp2_medalitem_info.ini`
+
+Gunakan fitur `ctrl+f` (Windows) atau `⋮ > Find in page` (Mobile) untuk mencari medal spesifik.
+
+<TableComponent
+  columns={ column }
+  data={ medals }
+/>

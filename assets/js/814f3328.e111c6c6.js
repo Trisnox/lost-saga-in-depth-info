@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkls_data_scrape_project=self.webpackChunkls_data_scrape_project||[]).push([[7472],{55513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Cara Baca Informasi Hero","permalink":"/lost-saga-in-depth-info/blog/how-to-read-mercenary"},{"title":"Author\'s Note","permalink":"/lost-saga-in-depth-info/blog/init-release"}]}')}}]);

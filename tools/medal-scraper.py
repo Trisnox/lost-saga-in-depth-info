@@ -1,13 +1,5 @@
 import argparse
-import importlib
-import io
-import json
-import os
 import re
-import sys
-import traceback
-from configparser import (DuplicateSectionError, MissingSectionHeaderError,
-                          NoOptionError)
 
 from ext.modified_parser import ModConfigParser
 
@@ -143,7 +135,7 @@ if __name__ == '__main__':
     required = argparser.add_argument_group('Required')
     optional = argparser.add_argument_group('Optional')
     required.add_argument('medal_file', type=str, help="File containg the medal info. Not the folder")
-    required.add_argument('text', type=str, help="The text_[lang].txt file, which contains information about medal names and other stuffs")
+    required.add_argument('text', type=str, help="The text.txt file, which contains information about medal names and other stuffs")
     args = vars(argparser.parse_args())
     parser = Medal_Config_Parser(**args)
     parser.parse()

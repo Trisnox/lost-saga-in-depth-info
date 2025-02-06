@@ -128,7 +128,7 @@ class Mercenary_Config_Parser():
         # Fallback method 2: read from item.ini sub_type value. This one is the worst because it takes their literal in-file name, and have no space
         if self.client_text:
             invalid_mercenaries = []
-            with open(self.client_text, 'r', encoding='ansi') as f:
+            with open(self.client_text, 'r', encoding='utf-8') as f:
                 self.client_text = f.readlines()
                 names = [_ for _ in self.client_text if '|INI_sp2_setitem_info::set_item' in _]
                 self.heroes_name = {}
@@ -1019,7 +1019,7 @@ if __name__ == '__main__':
     optional = argparser.add_argument_group('Optional')
     required.add_argument('mercenary_folder', type=str, help="Folder containg the mercenaries (config/mercenary). Use the mercenary folder, not the config")
     optional.add_argument('-m', '--method', type=int, required=True, help="The mercenary generation method for table.\n1. Mercenaries per individual table\n2. Mercenaries for all table")
-    optional.add_argument('-t', '--text', type=str, required=False, help="The Lost Saga text file. It is usually found on xml/text_id.txt\nWithout this, mercenary name won't be provided.")
+    optional.add_argument('-t', '--text', type=str, required=False, help="The Lost Saga text file. It is usually found on resource/text/text.txt\nWithout this, mercenary name won't be provided.")
     optional.add_argument('-o', '--override', type=str, required=False, help="The override folder location. It is found at the docs repository at the root folder.")
     optional.add_argument('-i', '--images', type=str, required=False, help="Images folder containing mercenaries illustration and mini icon. The file name is the same as you would download them directly from the lostsaga.com site")
     args = vars(argparser.parse_args())

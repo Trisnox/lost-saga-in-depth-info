@@ -1938,9 +1938,9 @@ export const mercenary_007_attacks = [{
         "Damage": "12.5",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "❌, 0.6",
+        "Air Juggle": "✅, 1.25",
         "Down Hit": "❌",
-        "Push Power": "2.0",
+        "Push Power": "1.65",
         "Frozen Break": "❌",
         },
 
@@ -1958,9 +1958,9 @@ export const mercenary_007_attacks = [{
         "Damage": "12.5",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "✅, 1.5",
+        "Air Juggle": "✅, 1.25",
         "Down Hit": "❌",
-        "Push Power": "2.5",
+        "Push Power": "1.65",
         "Frozen Break": "❌",
         },
 
@@ -1968,9 +1968,9 @@ export const mercenary_007_attacks = [{
         "Damage": "12.5",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "✅, 1.5",
+        "Air Juggle": "✅, 1.25",
         "Down Hit": "❌",
-        "Push Power": "2.5",
+        "Push Power": "1.65",
         "Frozen Break": "❌",
         },
 
@@ -1978,9 +1978,9 @@ export const mercenary_007_attacks = [{
         "Damage": "12.5",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "✅, 1.5",
+        "Air Juggle": "✅, 1.25",
         "Down Hit": "❌",
-        "Push Power": "2.5",
+        "Push Power": "1.65",
         "Frozen Break": "❌",
         },
 }];
@@ -2039,9 +2039,9 @@ export const mercenary_007_lv1_attacks = [{
         "Damage": "12.5",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "❌, 0.6",
+        "Air Juggle": "✅, 1.25",
         "Down Hit": "❌",
-        "Push Power": "2.0",
+        "Push Power": "1.65",
         "Frozen Break": "❌",
         },
 
@@ -2059,9 +2059,9 @@ export const mercenary_007_lv1_attacks = [{
         "Damage": "12.5",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "✅, 1.5",
+        "Air Juggle": "✅, 1.25",
         "Down Hit": "❌",
-        "Push Power": "2.5",
+        "Push Power": "1.65",
         "Frozen Break": "❌",
         },
 
@@ -2069,9 +2069,9 @@ export const mercenary_007_lv1_attacks = [{
         "Damage": "12.5",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "✅, 1.5",
+        "Air Juggle": "✅, 1.25",
         "Down Hit": "❌",
-        "Push Power": "2.5",
+        "Push Power": "1.65",
         "Frozen Break": "❌",
         },
 
@@ -2079,9 +2079,9 @@ export const mercenary_007_lv1_attacks = [{
         "Damage": "12.5",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "✅, 1.5",
+        "Air Juggle": "✅, 1.25",
         "Down Hit": "❌",
-        "Push Power": "2.5",
+        "Push Power": "1.65",
         "Frozen Break": "❌",
         },
 }];
@@ -2140,9 +2140,9 @@ export const mercenary_007_lv2_attacks = [{
         "Damage": "13.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "❌, 0.6",
+        "Air Juggle": "✅, 1.25",
         "Down Hit": "❌",
-        "Push Power": "2.0",
+        "Push Power": "1.65",
         "Frozen Break": "❌",
         },
 
@@ -2160,9 +2160,9 @@ export const mercenary_007_lv2_attacks = [{
         "Damage": "13.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "✅, 1.5",
+        "Air Juggle": "✅, 1.25",
         "Down Hit": "❌",
-        "Push Power": "2.5",
+        "Push Power": "1.65",
         "Frozen Break": "❌",
         },
 
@@ -2170,9 +2170,9 @@ export const mercenary_007_lv2_attacks = [{
         "Damage": "13.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "✅, 1.5",
+        "Air Juggle": "✅, 1.25",
         "Down Hit": "❌",
-        "Push Power": "2.5",
+        "Push Power": "1.65",
         "Frozen Break": "❌",
         },
 
@@ -2180,9 +2180,9 @@ export const mercenary_007_lv2_attacks = [{
         "Damage": "13.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "✅, 1.5",
+        "Air Juggle": "✅, 1.25",
         "Down Hit": "❌",
-        "Push Power": "2.5",
+        "Push Power": "1.65",
         "Frozen Break": "❌",
         },
 }];
@@ -2241,9 +2241,9 @@ export const mercenary_007_lv3_attacks = [{
         "Damage": "6.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "❌, 0.9",
+        "Air Juggle": "✅, 1.25",
         "Down Hit": "❌",
-        "Push Power": "2.0",
+        "Push Power": "1.25",
         "Frozen Break": "❌",
         },
 
@@ -2251,9 +2251,9 @@ export const mercenary_007_lv3_attacks = [{
         "Damage": "4.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "❌, 0.6",
+        "Air Juggle": "✅, 1.0",
         "Down Hit": "❌",
-        "Push Power": "2.0",
+        "Push Power": "1.0",
         "Frozen Break": "❌",
         },
 
@@ -2261,9 +2261,9 @@ export const mercenary_007_lv3_attacks = [{
         "Damage": "4.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "❌, 0.4",
+        "Air Juggle": "✅, 1.0",
         "Down Hit": "❌",
-        "Push Power": "2.0",
+        "Push Power": "1.25",
         "Frozen Break": "❌",
         },
 
@@ -2281,19 +2281,19 @@ export const mercenary_007_lv3_attacks = [{
         "Damage": "10.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "✅✅, 2.0",
+        "Air Juggle": "✅, 1.0",
         "Down Hit": "❌",
-        "Push Power": "2.5",
+        "Push Power": "1.25",
         "Frozen Break": "❌",
         },
 
     Charged_D2: {
         "Damage": "7.0",
         "Defense Break": "❌",
-        "Juggle": "✅, 1.0",
-        "Air Juggle": "✅✅, 2.0",
+        "Juggle": "❌, 0.0",
+        "Air Juggle": "✅, 1.0",
         "Down Hit": "❌",
-        "Push Power": "1.5",
+        "Push Power": "1.0",
         "Frozen Break": "❌",
         },
 
@@ -2301,9 +2301,9 @@ export const mercenary_007_lv3_attacks = [{
         "Damage": "7.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "✅✅, 2.0",
+        "Air Juggle": "✅, 1.25",
         "Down Hit": "❌",
-        "Push Power": "2.5",
+        "Push Power": "1.25",
         "Frozen Break": "❌",
         },
 }];
@@ -2386,6 +2386,244 @@ export const mercenary_008_attacks = [{
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
         "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Charged_D1: {
+        "Damage": "15.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 2.8",
+        "Air Juggle": "✅✅, 3.0",
+        "Down Hit": "✅",
+        "Push Power": "0.15",
+        "Frozen Break": "❌",
+        },
+
+    Charged_D2: {
+        "Damage": "15.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 2.8",
+        "Air Juggle": "✅✅, 3.0",
+        "Down Hit": "✅",
+        "Push Power": "0.15",
+        "Frozen Break": "❌",
+        },
+
+    Charged_D3: {
+        "Damage": "15.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 2.8",
+        "Air Juggle": "✅✅, 3.0",
+        "Down Hit": "✅",
+        "Push Power": "0.15",
+        "Frozen Break": "❌",
+        },
+}];
+
+export const mercenary_008_lv1 = [{
+    ID: "008 lv1",
+    Name: "Crazy Miner",
+    Rarity: "Normal",
+    Sprint: "❌",
+    Jump: "1",
+    Attack_Length: "3",
+    Highest_Damage: "15.0, Charged D1 | 15.0, Charged D2 | 15.0, Charged D3",
+    "360_Block": "❌",
+    Deflect: "✅",
+    Counter: "❌",
+    Down_Hit: "Charged D1, Charged D2, Charged D3",
+    Special: "Not yet added",
+    Unique_Property: "",
+    Dump: {
+        file_comment_name: " Crazy Miner.",
+    },
+}];
+export const mercenary_008_lv1_attacks = [{
+        
+    Ground_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.75",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D2: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.25",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D3: {
+        "Damage": "10.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 2.65",
+        "Air Juggle": "✅✅, 2.0",
+        "Down Hit": "❌",
+        "Push Power": "0.25",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Extend_D1: {
+        
+        "1": {
+            "Damage": "10.0",
+            "Defense Break": "❌",
+            "Juggle": "✅, 1.0",
+            "Air Juggle": "❌, 0.0",
+            "Down Hit": "❌",
+            "Push Power": "1.0",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "10.0",
+            "Defense Break": "❌",
+            "Juggle": "✅, 1.0",
+            "Air Juggle": "❌, 0.0",
+            "Down Hit": "❌",
+            "Push Power": "1.0",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Jump_D1: {
+        "Damage": "10.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Charged_D1: {
+        "Damage": "15.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 2.8",
+        "Air Juggle": "✅✅, 3.0",
+        "Down Hit": "✅",
+        "Push Power": "0.15",
+        "Frozen Break": "❌",
+        },
+
+    Charged_D2: {
+        "Damage": "15.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 2.8",
+        "Air Juggle": "✅✅, 3.0",
+        "Down Hit": "✅",
+        "Push Power": "0.15",
+        "Frozen Break": "❌",
+        },
+
+    Charged_D3: {
+        "Damage": "15.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 2.8",
+        "Air Juggle": "✅✅, 3.0",
+        "Down Hit": "✅",
+        "Push Power": "0.15",
+        "Frozen Break": "❌",
+        },
+}];
+
+export const mercenary_008_lv2 = [{
+    ID: "008 lv2",
+    Name: "Crazy Miner",
+    Rarity: "Normal",
+    Sprint: "❌",
+    Jump: "1",
+    Attack_Length: "3",
+    Highest_Damage: "15.0, Charged D1 | 15.0, Charged D2 | 15.0, Charged D3",
+    "360_Block": "❌",
+    Deflect: "✅",
+    Counter: "❌",
+    Down_Hit: "Charged D1, Charged D2, Charged D3",
+    Special: "Not yet added",
+    Unique_Property: "",
+    Dump: {
+        file_comment_name: " Crazy Miner.",
+    },
+}];
+export const mercenary_008_lv2_attacks = [{
+        
+    Ground_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.75",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D2: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.25",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D3: {
+        "Damage": "10.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 2.65",
+        "Air Juggle": "✅✅, 2.0",
+        "Down Hit": "❌",
+        "Push Power": "0.25",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Extend_D1: {
+        
+        "1": {
+            "Damage": "10.0",
+            "Defense Break": "❌",
+            "Juggle": "✅, 1.0",
+            "Air Juggle": "❌, 0.0",
+            "Down Hit": "❌",
+            "Push Power": "1.0",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "10.0",
+            "Defense Break": "❌",
+            "Juggle": "✅, 1.0",
+            "Air Juggle": "❌, 0.0",
+            "Down Hit": "❌",
+            "Push Power": "1.0",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Jump_D1: {
+        "Damage": "10.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "6.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "❌, 0.5",
         "Down Hit": "❌",
         "Push Power": "1.0",
         "Frozen Break": "❌",
@@ -3294,6 +3532,812 @@ export const mercenary_012_attacks = [{
             "Frozen Break": "❌",
         },
     },
+
+    Counter_D1: {
+        "Damage": "12.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅, 1.25",
+        "Down Hit": "❌",
+        "Push Power": "1.5",
+        "Frozen Break": "❌",
+        },
+
+    Charged_D1: {
+        
+        "1": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Charged_D2: {
+        
+        "1": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Charged_D3: {
+        
+        "1": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Charged_D4: {
+        
+        "1": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+    },
+}];
+
+export const mercenary_012_lv1 = [{
+    ID: "012 lv1",
+    Name: "Shadow Assasin",
+    Rarity: "Normal",
+    Sprint: "✅",
+    Jump: "1",
+    Attack_Length: "4",
+    Highest_Damage: "12.0, Counter D1",
+    "360_Block": "❌",
+    Deflect: "❌",
+    Counter: "✅",
+    Down_Hit: "❌",
+    Special: "Not yet added",
+    Unique_Property: "",
+    Dump: {
+        file_comment_name: " Shadow Assassin.",
+    },
+}];
+export const mercenary_012_lv1_attacks = [{
+        
+    Ground_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.95",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D2: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.85",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D3: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.75",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D4: {
+        
+        "1": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "✅, 1.0",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "1.25",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "✅, 1.0",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "1.25",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Dash_D1: {
+        
+        "1": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "0.5",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "0.5",
+            "Frozen Break": "❌",
+        },
+
+        "3": {
+            "Damage": "6.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.75",
+            "Air Juggle": "✅✅, 1.55",
+            "Down Hit": "❌",
+            "Push Power": "1.75",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Dash_Extend_D1: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D1: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_Dash_Extend_D1: {
+        
+        "1": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "0.5",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "0.5",
+            "Frozen Break": "❌",
+        },
+
+        "3": {
+            "Damage": "6.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.75",
+            "Air Juggle": "✅✅, 1.55",
+            "Down Hit": "❌",
+            "Push Power": "1.75",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Counter_D1: {
+        "Damage": "12.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅, 1.25",
+        "Down Hit": "❌",
+        "Push Power": "1.5",
+        "Frozen Break": "❌",
+        },
+
+    Charged_D1: {
+        
+        "1": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Charged_D2: {
+        
+        "1": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Charged_D3: {
+        
+        "1": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Charged_D4: {
+        
+        "1": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+    },
+}];
+
+export const mercenary_012_lv2 = [{
+    ID: "012 lv2",
+    Name: "Shadow Assasin",
+    Rarity: "Normal",
+    Sprint: "✅",
+    Jump: "1",
+    Attack_Length: "4",
+    Highest_Damage: "12.0, Counter D1",
+    "360_Block": "❌",
+    Deflect: "❌",
+    Counter: "✅",
+    Down_Hit: "❌",
+    Special: "Not yet added",
+    Unique_Property: "",
+    Dump: {
+        file_comment_name: " Shadow Assassin.",
+    },
+}];
+export const mercenary_012_lv2_attacks = [{
+        
+    Ground_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.95",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D2: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.85",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D3: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.75",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D4: {
+        
+        "1": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "✅, 1.0",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "1.25",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "✅, 1.0",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "1.25",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Dash_D1: {
+        
+        "1": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "0.5",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "0.5",
+            "Frozen Break": "❌",
+        },
+
+        "3": {
+            "Damage": "6.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.75",
+            "Air Juggle": "✅✅, 1.55",
+            "Down Hit": "❌",
+            "Push Power": "1.75",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Dash_Extend_D1: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D1: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_Dash_Extend_D1: {
+        
+        "1": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "0.5",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "0.5",
+            "Frozen Break": "❌",
+        },
+
+        "3": {
+            "Damage": "6.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.75",
+            "Air Juggle": "✅✅, 1.55",
+            "Down Hit": "❌",
+            "Push Power": "1.75",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Jump_Dash_D1: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Counter_D1: {
+        "Damage": "12.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅, 1.25",
+        "Down Hit": "❌",
+        "Push Power": "1.5",
+        "Frozen Break": "❌",
+        },
+
+    Charged_D1: {
+        
+        "1": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Charged_D2: {
+        
+        "1": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Charged_D3: {
+        
+        "1": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Charged_D4: {
+        
+        "1": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "9.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.75",
+            "Air Juggle": "✅✅, 3.25",
+            "Down Hit": "❌",
+            "Push Power": "0.15",
+            "Frozen Break": "❌",
+        },
+    },
+}];
+
+export const mercenary_012_lv3 = [{
+    ID: "012 lv3",
+    Name: "Shadow Assasin",
+    Rarity: "Normal",
+    Sprint: "✅",
+    Jump: "1",
+    Attack_Length: "4",
+    Highest_Damage: "12.0, Counter D1",
+    "360_Block": "❌",
+    Deflect: "❌",
+    Counter: "✅",
+    Down_Hit: "❌",
+    Special: "Not yet added",
+    Unique_Property: "",
+    Dump: {
+        file_comment_name: " Shadow Assassin.",
+    },
+}];
+export const mercenary_012_lv3_attacks = [{
+        
+    Ground_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.95",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D2: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.85",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D3: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.75",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D4: {
+        
+        "1": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "✅, 1.0",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "1.25",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "✅, 1.0",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "1.25",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Dash_D1: {
+        
+        "1": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "0.5",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "0.5",
+            "Frozen Break": "❌",
+        },
+
+        "3": {
+            "Damage": "6.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.75",
+            "Air Juggle": "✅✅, 1.55",
+            "Down Hit": "❌",
+            "Push Power": "1.75",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Dash_Extend_D1: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D1: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_Dash_Extend_D1: {
+        
+        "1": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "0.5",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "❌, 0.75",
+            "Down Hit": "❌",
+            "Push Power": "0.5",
+            "Frozen Break": "❌",
+        },
+
+        "3": {
+            "Damage": "6.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.75",
+            "Air Juggle": "✅✅, 1.55",
+            "Down Hit": "❌",
+            "Push Power": "1.75",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Jump_Dash_D1: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
 
     Counter_D1: {
         "Damage": "12.0",
@@ -5452,6 +6496,369 @@ export const mercenary_016_attacks = [{
         },
 }];
 
+export const mercenary_016_lv1 = [{
+    ID: "016 lv1",
+    Name: "Viking",
+    Rarity: "Normal",
+    Sprint: "✅",
+    Jump: "1",
+    Attack_Length: "3",
+    Highest_Damage: "16.0, Ground D3",
+    "360_Block": "❌",
+    Deflect: "✅",
+    Counter: "❌",
+    Down_Hit: "❌",
+    Special: "Not yet added",
+    Unique_Property: "",
+    Dump: {
+        file_comment_name: " Viking Sven.",
+    },
+}];
+export const mercenary_016_lv1_attacks = [{
+        
+    Ground_D1: {
+        "Damage": "13.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.65",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D2: {
+        "Damage": "13.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.75",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D3: {
+        "Damage": "16.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "❌, 0.75",
+        "Down Hit": "❌",
+        "Push Power": "2.2",
+        "Frozen Break": "❌",
+        },
+
+    Dash_D1: {
+        "Damage": "13.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 4.0",
+        "Air Juggle": "✅✅, 3.9",
+        "Down Hit": "❌",
+        "Push Power": "0.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D1: {
+        "Damage": "13.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.0",
+        "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "2.0",
+        "Frozen Break": "❌",
+        },
+
+    Charged_D1: {
+        "Damage": "15.0",
+        "Defense Break": "✅",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "✅",
+        },
+
+    Charged_D2: {
+        "Damage": "15.0",
+        "Defense Break": "✅",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "✅",
+        },
+
+    Charged_D3: {
+        "Damage": "15.0",
+        "Defense Break": "✅",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "✅",
+        },
+}];
+
+export const mercenary_016_lv2 = [{
+    ID: "016 lv2",
+    Name: "Viking",
+    Rarity: "Normal",
+    Sprint: "✅",
+    Jump: "1",
+    Attack_Length: "3",
+    Highest_Damage: "16.0, Ground D3",
+    "360_Block": "❌",
+    Deflect: "✅",
+    Counter: "❌",
+    Down_Hit: "❌",
+    Special: "Not yet added",
+    Unique_Property: "",
+    Dump: {
+        file_comment_name: " Viking Sven.",
+    },
+}];
+export const mercenary_016_lv2_attacks = [{
+        
+    Ground_D1: {
+        "Damage": "13.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.65",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D2: {
+        "Damage": "13.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.75",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D3: {
+        "Damage": "16.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "❌, 0.75",
+        "Down Hit": "❌",
+        "Push Power": "2.2",
+        "Frozen Break": "❌",
+        },
+
+    Dash_D1: {
+        "Damage": "13.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 4.0",
+        "Air Juggle": "✅✅, 3.9",
+        "Down Hit": "❌",
+        "Push Power": "0.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D1: {
+        "Damage": "13.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.0",
+        "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "2.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "13.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "❌, 0.5",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Charged_D1: {
+        "Damage": "15.0",
+        "Defense Break": "✅",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "✅",
+        },
+
+    Charged_D2: {
+        "Damage": "15.0",
+        "Defense Break": "✅",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "✅",
+        },
+
+    Charged_D3: {
+        "Damage": "15.0",
+        "Defense Break": "✅",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "✅",
+        },
+}];
+
+export const mercenary_016_lv3 = [{
+    ID: "016 lv3",
+    Name: "Viking",
+    Rarity: "Normal",
+    Sprint: "✅",
+    Jump: "1",
+    Attack_Length: "3",
+    Highest_Damage: "16.0, Ground D3",
+    "360_Block": "❌",
+    Deflect: "✅",
+    Counter: "❌",
+    Down_Hit: "❌",
+    Special: "Not yet added",
+    Unique_Property: "",
+    Dump: {
+        file_comment_name: " Viking Sven.",
+    },
+}];
+export const mercenary_016_lv3_attacks = [{
+        
+    Ground_D1: {
+        "Damage": "13.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.65",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D2: {
+        "Damage": "13.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.75",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D3: {
+        "Damage": "16.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "❌, 0.75",
+        "Down Hit": "❌",
+        "Push Power": "2.2",
+        "Frozen Break": "❌",
+        },
+
+    Dash_D1: {
+        "Damage": "13.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 4.0",
+        "Air Juggle": "✅✅, 3.9",
+        "Down Hit": "❌",
+        "Push Power": "0.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D1: {
+        "Damage": "13.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.0",
+        "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "2.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "13.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "❌, 0.5",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Charged_D1: {
+        "Damage": "15.0",
+        "Defense Break": "✅",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "✅",
+        },
+
+    Charged_D2: {
+        "Damage": "15.0",
+        "Defense Break": "✅",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "✅",
+        },
+
+    Charged_D3: {
+        "Damage": "15.0",
+        "Defense Break": "✅",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "✅",
+        },
+
+    Charged_D1: {
+        "Damage": "11.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.3",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Charged_D2: {
+        "Damage": "11.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.3",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Charged_D3: {
+        "Damage": "11.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.3",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Charged_D4: {
+        "Damage": "14.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+}];
+
 export const mercenary_017 = [{
     ID: "017",
     Name: "Kage Ninja",
@@ -6539,7 +7946,7 @@ export const mercenary_019_lv1 = [{
     Sprint: "✅",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Dash Extend D1 | 10.0, Dash Hold D1 | 10.0, Counter D1 | 10.0, Charged D1 | 10.0, Charged D2 | 10.0, Charged D3 | 10.0, Charged D4",
+    Highest_Damage: "10.0, Ground D4 | 10.0, Dash Extend D1 | 10.0, Dash Hold D1 | 10.0, Counter D1 | 10.0, Charged D1 | 10.0, Charged D2 | 10.0, Charged D3 | 10.0, Charged D4",
     "360_Block": "❌",
     Deflect: "❌",
     Counter: "✅",
@@ -6583,7 +7990,7 @@ export const mercenary_019_lv1_attacks = [{
         },
 
     Ground_D4: {
-        "Damage": "6.0",
+        "Damage": "10.0",
         "Defense Break": "❌",
         "Juggle": "✅✅, 1.75",
         "Air Juggle": "✅✅, 1.75",
@@ -6713,7 +8120,7 @@ export const mercenary_019_lv2 = [{
     Sprint: "✅",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "11.0, Charged D1 | 11.0, Charged D2 | 11.0, Charged D3 | 11.0, Charged D4",
+    Highest_Damage: "10.0, Ground D4 | 10.0, Dash Extend D1 | 10.0, Dash Hold D1 | 10.0, Charged D1 | 10.0, Charged D2 | 10.0, Charged D3 | 10.0, Charged D4",
     "360_Block": "❌",
     Deflect: "✅",
     Counter: "❌",
@@ -6830,7 +8237,7 @@ export const mercenary_019_lv2_attacks = [{
         },
 
     Charged_D1: {
-        "Damage": "11.0",
+        "Damage": "10.0",
         "Defense Break": "❌",
         "Juggle": "✅✅, 3.5",
         "Air Juggle": "✅✅, 3.25",
@@ -6840,7 +8247,7 @@ export const mercenary_019_lv2_attacks = [{
         },
 
     Charged_D2: {
-        "Damage": "11.0",
+        "Damage": "10.0",
         "Defense Break": "❌",
         "Juggle": "✅✅, 3.5",
         "Air Juggle": "✅✅, 3.25",
@@ -6850,7 +8257,7 @@ export const mercenary_019_lv2_attacks = [{
         },
 
     Charged_D3: {
-        "Damage": "11.0",
+        "Damage": "10.0",
         "Defense Break": "❌",
         "Juggle": "✅✅, 3.5",
         "Air Juggle": "✅✅, 3.25",
@@ -6860,7 +8267,7 @@ export const mercenary_019_lv2_attacks = [{
         },
 
     Charged_D4: {
-        "Damage": "11.0",
+        "Damage": "10.0",
         "Defense Break": "❌",
         "Juggle": "✅✅, 3.5",
         "Air Juggle": "✅✅, 3.25",
@@ -6877,7 +8284,7 @@ export const mercenary_019_lv3 = [{
     Sprint: "✅",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "11.0, Charged D1 | 11.0, Charged D2 | 11.0, Charged D3 | 11.0, Charged D4",
+    Highest_Damage: "10.0, Ground D4 | 10.0, Dash Extend D1 | 10.0, Dash Hold D1 | 10.0, Charged D1 | 10.0, Charged D2 | 10.0, Charged D3 | 10.0, Charged D4",
     "360_Block": "❌",
     Deflect: "✅",
     Counter: "❌",
@@ -6994,7 +8401,7 @@ export const mercenary_019_lv3_attacks = [{
         },
 
     Charged_D1: {
-        "Damage": "11.0",
+        "Damage": "10.0",
         "Defense Break": "❌",
         "Juggle": "✅✅, 3.5",
         "Air Juggle": "✅✅, 3.25",
@@ -7004,7 +8411,7 @@ export const mercenary_019_lv3_attacks = [{
         },
 
     Charged_D2: {
-        "Damage": "11.0",
+        "Damage": "10.0",
         "Defense Break": "❌",
         "Juggle": "✅✅, 3.5",
         "Air Juggle": "✅✅, 3.25",
@@ -7014,7 +8421,7 @@ export const mercenary_019_lv3_attacks = [{
         },
 
     Charged_D3: {
-        "Damage": "11.0",
+        "Damage": "10.0",
         "Defense Break": "❌",
         "Juggle": "✅✅, 3.5",
         "Air Juggle": "✅✅, 3.25",
@@ -7024,7 +8431,7 @@ export const mercenary_019_lv3_attacks = [{
         },
 
     Charged_D4: {
-        "Damage": "11.0",
+        "Damage": "10.0",
         "Defense Break": "❌",
         "Juggle": "✅✅, 3.5",
         "Air Juggle": "✅✅, 3.25",
@@ -17221,7 +18628,7 @@ export const mercenary_048_attacks = [{
         "Damage": "8.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
-        "Air Juggle": "✅✅, 3.0",
+        "Air Juggle": "✅✅, 3.1",
         "Down Hit": "❌",
         "Push Power": "1.0",
         "Frozen Break": "❌",
@@ -17231,7 +18638,7 @@ export const mercenary_048_attacks = [{
         "Damage": "8.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
-        "Air Juggle": "✅✅, 3.1",
+        "Air Juggle": "✅✅, 3.2",
         "Down Hit": "❌",
         "Push Power": "1.0",
         "Frozen Break": "❌",
@@ -17241,7 +18648,7 @@ export const mercenary_048_attacks = [{
         "Damage": "8.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
-        "Air Juggle": "✅✅, 3.25",
+        "Air Juggle": "✅✅, 3.3",
         "Down Hit": "❌",
         "Push Power": "1.0",
         "Frozen Break": "❌",
@@ -17303,7 +18710,7 @@ export const mercenary_048_attacks = [{
     Dash_Extend_D1: {
         "Damage": "9.0",
         "Defense Break": "❌",
-        "Juggle": "✅✅, 3.25",
+        "Juggle": "✅✅, 3.75",
         "Air Juggle": "✅✅, 3.75",
         "Down Hit": "❌",
         "Push Power": "0.25",
@@ -17356,7 +18763,7 @@ export const mercenary_048_attacks = [{
             "Damage": "8.0",
             "Defense Break": "❌",
             "Juggle": "❌, 0.5",
-            "Air Juggle": "✅✅, 2.5",
+            "Air Juggle": "✅✅, 2.9",
             "Down Hit": "❌",
             "Push Power": "1.0",
             "Frozen Break": "❌",
@@ -21006,7 +22413,7 @@ export const mercenary_062_attacks = [{
         },
 
     Dash_D1: {
-        "Damage": "4.0",
+        "Damage": "5.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.75",
         "Air Juggle": "✅, 1.15",
@@ -22041,7 +23448,7 @@ export const mercenary_066 = [{
     Sprint: "✅",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "8.0, Ground D4 | 8.0, Ground D4",
+    Highest_Damage: "9.0, Jump D3 | 9.0, Jump D3",
     "360_Block": "❌",
     Deflect: "✅",
     Counter: "❌",
@@ -22154,7 +23561,7 @@ export const mercenary_066_attacks = [{
     },
 
     Jump_D1: {
-        "Damage": "5.0",
+        "Damage": "7.0",
         "Defense Break": "❌",
         "Juggle": "✅, 1.0",
         "Air Juggle": "✅, 1.5",
@@ -22164,7 +23571,7 @@ export const mercenary_066_attacks = [{
         },
 
     Jump_D2: {
-        "Damage": "5.0",
+        "Damage": "7.0",
         "Defense Break": "❌",
         "Juggle": "✅, 1.0",
         "Air Juggle": "✅✅, 1.75",
@@ -22176,7 +23583,7 @@ export const mercenary_066_attacks = [{
     Jump_D3: {
         
         "1": {
-            "Damage": "7.0",
+            "Damage": "9.0",
             "Defense Break": "❌",
             "Juggle": "✅, 1.0",
             "Air Juggle": "✅✅, 3.0",
@@ -22186,7 +23593,7 @@ export const mercenary_066_attacks = [{
         },
 
         "2": {
-            "Damage": "7.0",
+            "Damage": "9.0",
             "Defense Break": "❌",
             "Juggle": "✅, 1.0",
             "Air Juggle": "✅✅, 3.0",
@@ -24112,7 +25519,7 @@ export const mercenary_072_lv2_attacks = [{
 
 export const mercenary_073 = [{
     ID: "073",
-    Name: "Grafitti",
+    Name: "Graffity",
     Rarity: "Normal",
     Sprint: "✅",
     Jump: "1",
@@ -24476,7 +25883,7 @@ export const mercenary_075 = [{
     Sprint: "❌",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "9.0, Dash Extend D1",
+    Highest_Damage: "9.0, Ground D4 | 9.0, Ground D4 | 9.0, Dash Extend D1",
     "360_Block": "❌",
     Deflect: "❌",
     Counter: "❌",
@@ -24490,7 +25897,7 @@ export const mercenary_075 = [{
 export const mercenary_075_attacks = [{
         
     Ground_D1: {
-        "Damage": "7.75",
+        "Damage": "8.0",
         "Defense Break": "❌",
         "Juggle": "✅✅, 2.5",
         "Air Juggle": "✅✅, 3.25",
@@ -24500,17 +25907,17 @@ export const mercenary_075_attacks = [{
         },
 
     Ground_D2: {
-        "Damage": "7.75",
+        "Damage": "8.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
-        "Air Juggle": "✅✅, 3.0",
+        "Air Juggle": "✅✅, 3.25",
         "Down Hit": "❌",
         "Push Power": "1.0",
         "Frozen Break": "❌",
         },
 
     Ground_D3: {
-        "Damage": "7.75",
+        "Damage": "8.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
         "Air Juggle": "✅✅, 3.25",
@@ -24522,7 +25929,7 @@ export const mercenary_075_attacks = [{
     Ground_D4: {
         
         "1": {
-            "Damage": "8.75",
+            "Damage": "9.0",
             "Defense Break": "❌",
             "Juggle": "✅✅, 3.25",
             "Air Juggle": "✅✅, 3.5",
@@ -24532,7 +25939,7 @@ export const mercenary_075_attacks = [{
         },
 
         "2": {
-            "Damage": "8.75",
+            "Damage": "9.0",
             "Defense Break": "❌",
             "Juggle": "✅✅, 3.25",
             "Air Juggle": "✅✅, 3.5",
@@ -27108,7 +28515,7 @@ export const mercenary_095_attacks = [{
 
 export const mercenary_096 = [{
     ID: "096",
-    Name: "Monk",
+    Name: "Battle Monk",
     Rarity: "Rare",
     Sprint: "✅",
     Jump: "2",
@@ -28421,7 +29828,7 @@ export const mercenary_105_attacks = [{
         },
 
     Jump_D1: {
-        "Damage": "8.0",
+        "Damage": "6.0",
         "Defense Break": "❌",
         "Juggle": "✅, 1.5",
         "Air Juggle": "✅✅, 1.75",
@@ -28431,7 +29838,7 @@ export const mercenary_105_attacks = [{
         },
 
     Jump_D2: {
-        "Damage": "8.0",
+        "Damage": "6.0",
         "Defense Break": "❌",
         "Juggle": "✅✅, 2.0",
         "Air Juggle": "✅✅, 1.75",
@@ -35157,7 +36564,7 @@ export const mercenary_152_attacks = [{
             "Damage": "4.0",
             "Defense Break": "❌",
             "Juggle": "✅✅, 2.25",
-            "Air Juggle": "✅✅, 2.25",
+            "Air Juggle": "✅, 1.4",
             "Down Hit": "✅",
             "Push Power": "0.5",
             "Frozen Break": "❌",
@@ -35549,7 +36956,7 @@ export const mercenary_154_attacks = [{
 
 export const mercenary_155 = [{
     ID: "155",
-    Name: "Dark Monk",
+    Name: "Apostate Monk",
     Rarity: "Rare",
     Sprint: "✅",
     Jump: "1",
@@ -36265,7 +37672,7 @@ export const mercenary_159 = [{
     Sprint: "✅",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Ground D3 | 9.0, Jump D3 | 9.0, Counter D1",
+    Highest_Damage: "9.0, Ground D3 | 9.0, Counter D1",
     "360_Block": "❌",
     Deflect: "❌",
     Counter: "✅",
@@ -36349,7 +37756,7 @@ export const mercenary_159_attacks = [{
         },
 
     Jump_D1: {
-        "Damage": "8.0",
+        "Damage": "6.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
         "Air Juggle": "✅✅, 2.75",
@@ -36359,7 +37766,7 @@ export const mercenary_159_attacks = [{
         },
 
     Jump_D2: {
-        "Damage": "8.0",
+        "Damage": "6.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
         "Air Juggle": "✅✅, 2.75",
@@ -36369,7 +37776,7 @@ export const mercenary_159_attacks = [{
         },
 
     Jump_D3: {
-        "Damage": "9.0",
+        "Damage": "8.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.25",
         "Air Juggle": "❌, 0.25",
@@ -36970,7 +38377,7 @@ export const mercenary_163_attacks = [{
         "Juggle": "✅, 1.0",
         "Air Juggle": "✅, 1.0",
         "Down Hit": "❌",
-        "Push Power": "1.5",
+        "Push Power": "1.1",
         "Frozen Break": "❌",
         },
 }];
@@ -40636,7 +42043,7 @@ export const mercenary_189_attacks = [{
 
 export const mercenary_190 = [{
     ID: "190",
-    Name: "MasterPanda",
+    Name: "Master Panda",
     Rarity: "Rare",
     Sprint: "✅",
     Jump: "1",
@@ -42423,10 +43830,10 @@ export const mercenary_205 = [{
     Sprint: "✅",
     Jump: "2",
     Attack_Length: "3",
-    Highest_Damage: "9.0, Ground D3 | 9.0, Dash Extend D1",
+    Highest_Damage: "9.0, Ground D3 | 9.0, Dash Extend D1 | 9.0, Counter D1",
     "360_Block": "❌",
     Deflect: "❌",
-    Counter: "❌",
+    Counter: "✅",
     Down_Hit: "❌",
     Special: "Not yet added",
     Unique_Property: "",
@@ -42523,6 +43930,16 @@ export const mercenary_205_attacks = [{
         "Air Juggle": "✅, 1.0",
         "Down Hit": "❌",
         "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Counter_D1: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 3.7",
+        "Air Juggle": "✅✅, 3.7",
+        "Down Hit": "❌",
+        "Push Power": "0.8",
         "Frozen Break": "❌",
         },
 }];
@@ -44306,7 +45723,7 @@ export const mercenary_221_attacks = [{
 
 export const mercenary_222 = [{
     ID: "222",
-    Name: "Ice God",
+    Name: "Yukime",
     Rarity: "Rare",
     Sprint: "✅",
     Jump: "1",
@@ -44647,7 +46064,7 @@ export const mercenary_223_attacks = [{
 
 export const mercenary_224 = [{
     ID: "224",
-    Name: "Skywalker",
+    Name: "Sky Walker",
     Rarity: "Rare",
     Sprint: "✅",
     Jump: "3",
@@ -45685,7 +47102,7 @@ export const mercenary_231_attacks = [{
 
 export const mercenary_232 = [{
     ID: "232",
-    Name: "Taoist",
+    Name: "Tae Eul Jin",
     Rarity: "Unique",
     Sprint: "✅",
     Jump: "2",
@@ -46104,12 +47521,12 @@ export const mercenary_234_attacks = [{
 
 export const mercenary_235 = [{
     ID: "235",
-    Name: "Demonlord",
+    Name: "Demon Lord",
     Rarity: "Unique",
     Sprint: "✅",
     Jump: "1",
     Attack_Length: "3",
-    Highest_Damage: "10.0, Ground D3 | 10.0, Dash Extend D1",
+    Highest_Damage: "10.0, Ground D3 | 10.0, Dash Extend D1 | 10.0, Dash Hold D1 | 10.0, Dash Hold D1 | 10.0, Dash Hold D1 | 10.0, Dash Hold D1 | 10.0, Dash Hold D1 | 10.0, Charged D1 | 10.0, Charged D1 | 10.0, Charged D1 | 10.0, Charged D1 | 10.0, Charged D1 | 10.0, Charged D2 | 10.0, Charged D2 | 10.0, Charged D2 | 10.0, Charged D2 | 10.0, Charged D2 | 10.0, Charged D3 | 10.0, Charged D3 | 10.0, Charged D3 | 10.0, Charged D3 | 10.0, Charged D3",
     "360_Block": "❌",
     Deflect: "✅",
     Counter: "❌",
@@ -46175,7 +47592,7 @@ export const mercenary_235_attacks = [{
     Dash_Hold_D1: {
         
         "1": {
-            "Damage": "5.0",
+            "Damage": "10.0",
             "Defense Break": "✅",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
@@ -46185,43 +47602,43 @@ export const mercenary_235_attacks = [{
         },
 
         "2": {
-            "Damage": "5.0",
-            "Defense Break": "✅",
+            "Damage": "10.0",
+            "Defense Break": "❌",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
             "Down Hit": "✅",
             "Push Power": "0.25",
-            "Frozen Break": "✅",
+            "Frozen Break": "0",
         },
 
         "3": {
-            "Damage": "5.0",
-            "Defense Break": "✅",
+            "Damage": "10.0",
+            "Defense Break": "❌",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
             "Down Hit": "✅",
             "Push Power": "0.25",
-            "Frozen Break": "✅",
+            "Frozen Break": "0",
         },
 
         "4": {
-            "Damage": "5.0",
-            "Defense Break": "✅",
+            "Damage": "10.0",
+            "Defense Break": "❌",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
             "Down Hit": "✅",
             "Push Power": "0.25",
-            "Frozen Break": "✅",
+            "Frozen Break": "0",
         },
 
         "5": {
-            "Damage": "5.0",
-            "Defense Break": "✅",
+            "Damage": "10.0",
+            "Defense Break": "❌",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
             "Down Hit": "✅",
             "Push Power": "0.25",
-            "Frozen Break": "✅",
+            "Frozen Break": "0",
         },
     },
 
@@ -46258,7 +47675,7 @@ export const mercenary_235_attacks = [{
     Charged_D1: {
         
         "1": {
-            "Damage": "5.0",
+            "Damage": "10.0",
             "Defense Break": "✅",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
@@ -46268,50 +47685,50 @@ export const mercenary_235_attacks = [{
         },
 
         "2": {
-            "Damage": "5.0",
-            "Defense Break": "✅",
+            "Damage": "10.0",
+            "Defense Break": "❌",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
             "Down Hit": "✅",
             "Push Power": "0.25",
-            "Frozen Break": "✅",
+            "Frozen Break": "0",
         },
 
         "3": {
-            "Damage": "5.0",
-            "Defense Break": "✅",
+            "Damage": "10.0",
+            "Defense Break": "❌",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
             "Down Hit": "✅",
             "Push Power": "0.25",
-            "Frozen Break": "✅",
+            "Frozen Break": "0",
         },
 
         "4": {
-            "Damage": "5.0",
-            "Defense Break": "✅",
+            "Damage": "10.0",
+            "Defense Break": "❌",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
             "Down Hit": "✅",
             "Push Power": "0.25",
-            "Frozen Break": "✅",
+            "Frozen Break": "0",
         },
 
         "5": {
-            "Damage": "5.0",
-            "Defense Break": "✅",
+            "Damage": "10.0",
+            "Defense Break": "❌",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
             "Down Hit": "✅",
             "Push Power": "0.25",
-            "Frozen Break": "✅",
+            "Frozen Break": "0",
         },
     },
 
     Charged_D2: {
         
         "1": {
-            "Damage": "5.0",
+            "Damage": "10.0",
             "Defense Break": "✅",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
@@ -46321,50 +47738,50 @@ export const mercenary_235_attacks = [{
         },
 
         "2": {
-            "Damage": "5.0",
-            "Defense Break": "✅",
+            "Damage": "10.0",
+            "Defense Break": "❌",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
             "Down Hit": "✅",
             "Push Power": "0.25",
-            "Frozen Break": "✅",
+            "Frozen Break": "0",
         },
 
         "3": {
-            "Damage": "5.0",
-            "Defense Break": "✅",
+            "Damage": "10.0",
+            "Defense Break": "❌",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
             "Down Hit": "✅",
             "Push Power": "0.25",
-            "Frozen Break": "✅",
+            "Frozen Break": "0",
         },
 
         "4": {
-            "Damage": "5.0",
-            "Defense Break": "✅",
+            "Damage": "10.0",
+            "Defense Break": "❌",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
             "Down Hit": "✅",
             "Push Power": "0.25",
-            "Frozen Break": "✅",
+            "Frozen Break": "0",
         },
 
         "5": {
-            "Damage": "5.0",
-            "Defense Break": "✅",
+            "Damage": "10.0",
+            "Defense Break": "❌",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
             "Down Hit": "✅",
             "Push Power": "0.25",
-            "Frozen Break": "✅",
+            "Frozen Break": "0",
         },
     },
 
     Charged_D3: {
         
         "1": {
-            "Damage": "5.0",
+            "Damage": "10.0",
             "Defense Break": "✅",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
@@ -46374,50 +47791,50 @@ export const mercenary_235_attacks = [{
         },
 
         "2": {
-            "Damage": "5.0",
-            "Defense Break": "✅",
+            "Damage": "10.0",
+            "Defense Break": "❌",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
             "Down Hit": "✅",
             "Push Power": "0.25",
-            "Frozen Break": "✅",
+            "Frozen Break": "0",
         },
 
         "3": {
-            "Damage": "5.0",
-            "Defense Break": "✅",
+            "Damage": "10.0",
+            "Defense Break": "❌",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
             "Down Hit": "✅",
             "Push Power": "0.25",
-            "Frozen Break": "✅",
+            "Frozen Break": "0",
         },
 
         "4": {
-            "Damage": "5.0",
-            "Defense Break": "✅",
+            "Damage": "10.0",
+            "Defense Break": "❌",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
             "Down Hit": "✅",
             "Push Power": "0.25",
-            "Frozen Break": "✅",
+            "Frozen Break": "0",
         },
 
         "5": {
-            "Damage": "5.0",
-            "Defense Break": "✅",
+            "Damage": "10.0",
+            "Defense Break": "❌",
             "Juggle": "✅✅, 3.0",
             "Air Juggle": "✅✅, 3.0",
             "Down Hit": "✅",
             "Push Power": "0.25",
-            "Frozen Break": "✅",
+            "Frozen Break": "0",
         },
     },
 }];
 
 export const mercenary_236 = [{
     ID: "236",
-    Name: "Medium",
+    Name: "Ghost Magician",
     Rarity: "Rare",
     Sprint: "❌",
     Jump: "1",
@@ -46803,7 +48220,7 @@ export const mercenary_238_attacks = [{
 
 export const mercenary_239 = [{
     ID: "239",
-    Name: "Gigasuit",
+    Name: "Giga Suit",
     Rarity: "Unique",
     Sprint: "✅",
     Jump: "1",
@@ -46967,7 +48384,7 @@ export const mercenary_239_attacks = [{
 
 export const mercenary_240 = [{
     ID: "240",
-    Name: "Warmachine",
+    Name: "Combat Engineer",
     Rarity: "Rare",
     Sprint: "✅",
     Jump: "1",
@@ -47236,7 +48653,7 @@ export const mercenary_240_attacks = [{
 
 export const mercenary_241 = [{
     ID: "241",
-    Name: "Royalguard",
+    Name: "Royal Guard",
     Rarity: "Rare",
     Sprint: "✅",
     Jump: "1",
@@ -47853,7 +49270,7 @@ export const mercenary_243_attacks = [{
 
 export const mercenary_244 = [{
     ID: "244",
-    Name: "Avenger",
+    Name: "Avengers",
     Rarity: "Rare",
     Sprint: "✅",
     Jump: "2",
@@ -48029,7 +49446,7 @@ export const mercenary_245 = [{
     Sprint: "✅",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "10.0, Dash Extend D3 | 10.0, Jump Hold D1 | 10.0, Landing Jump Hold D1 | 10.0, Counter D1",
+    Highest_Damage: "9.0, Dash Extend D3 | 9.0, Jump Hold D1 | 9.0, Landing Jump Hold D1 | 9.0, Counter D1",
     "360_Block": "❌",
     Deflect: "❌",
     Counter: "✅",
@@ -48043,7 +49460,7 @@ export const mercenary_245 = [{
 export const mercenary_245_attacks = [{
         
     Ground_D1: {
-        "Damage": "7.0",
+        "Damage": "6.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
         "Air Juggle": "✅✅, 2.8",
@@ -48053,7 +49470,7 @@ export const mercenary_245_attacks = [{
         },
 
     Ground_D2: {
-        "Damage": "7.0",
+        "Damage": "6.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
         "Air Juggle": "✅✅, 2.85",
@@ -48063,7 +49480,7 @@ export const mercenary_245_attacks = [{
         },
 
     Ground_D3: {
-        "Damage": "7.0",
+        "Damage": "6.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
         "Air Juggle": "✅✅, 2.85",
@@ -48073,7 +49490,7 @@ export const mercenary_245_attacks = [{
         },
 
     Ground_D4: {
-        "Damage": "9.0",
+        "Damage": "8.0",
         "Defense Break": "❌",
         "Juggle": "✅✅, 2.75",
         "Air Juggle": "✅✅, 2.25",
@@ -48083,7 +49500,7 @@ export const mercenary_245_attacks = [{
         },
 
     Dash_D1: {
-        "Damage": "7.0",
+        "Damage": "6.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
         "Air Juggle": "✅✅, 2.6",
@@ -48093,7 +49510,7 @@ export const mercenary_245_attacks = [{
         },
 
     Dash_Extend_D1: {
-        "Damage": "7.0",
+        "Damage": "6.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
         "Air Juggle": "✅✅, 2.6",
@@ -48103,7 +49520,7 @@ export const mercenary_245_attacks = [{
         },
 
     Dash_Extend_D2: {
-        "Damage": "7.0",
+        "Damage": "6.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
         "Air Juggle": "✅✅, 2.8",
@@ -48113,7 +49530,7 @@ export const mercenary_245_attacks = [{
         },
 
     Dash_Extend_D3: {
-        "Damage": "10.0",
+        "Damage": "9.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
         "Air Juggle": "❌, 0.75",
@@ -48123,7 +49540,7 @@ export const mercenary_245_attacks = [{
         },
 
     Jump_D1: {
-        "Damage": "8.0",
+        "Damage": "7.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
         "Air Juggle": "✅, 1.0",
@@ -48133,7 +49550,7 @@ export const mercenary_245_attacks = [{
         },
 
     Jump_D2: {
-        "Damage": "8.0",
+        "Damage": "7.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
         "Air Juggle": "✅, 1.0",
@@ -48143,7 +49560,7 @@ export const mercenary_245_attacks = [{
         },
 
     Jump_Hold_D1: {
-        "Damage": "10.0",
+        "Damage": "9.0",
         "Defense Break": "❌",
         "Juggle": "✅, 1.5",
         "Air Juggle": "✅, 1.5",
@@ -48153,7 +49570,7 @@ export const mercenary_245_attacks = [{
         },
 
     Landing_Jump_Hold_D1: {
-        "Damage": "10.0",
+        "Damage": "9.0",
         "Defense Break": "❌",
         "Juggle": "✅, 1.5",
         "Air Juggle": "✅, 1.5",
@@ -48163,7 +49580,7 @@ export const mercenary_245_attacks = [{
         },
 
     Counter_D1: {
-        "Damage": "10.0",
+        "Damage": "9.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
         "Air Juggle": "✅, 1.45",
@@ -48806,9 +50223,1222 @@ export const mercenary_249_attacks = [{
         },
 }];
 
+export const mercenary_250 = [{
+    ID: "250",
+    Name: "Nuada",
+    Rarity: "Rare",
+    Sprint: "✅",
+    Jump: "1",
+    Attack_Length: "4",
+    Highest_Damage: "10.0, Dash Extend D2 | 10.0, Counter D1",
+    "360_Block": "❌",
+    Deflect: "❌",
+    Counter: "✅",
+    Down_Hit: "❌",
+    Special: "Not yet added",
+    Unique_Property: "",
+    Dump: {
+        file_comment_name: "누아다",
+    },
+}];
+export const mercenary_250_attacks = [{
+        
+    Ground_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.0",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D2: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.0",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D3: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.0",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D4: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.0",
+        "Air Juggle": "✅✅, 2.25",
+        "Down Hit": "❌",
+        "Push Power": "0.5",
+        "Frozen Break": "❌",
+        },
+
+    Dash_D1: {
+        "Damage": "8.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.0",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Extend_D1: {
+        "Damage": "8.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.25",
+        "Down Hit": "❌",
+        "Push Power": "1.75",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Extend_D2: {
+        "Damage": "10.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 3.25",
+        "Air Juggle": "✅✅, 3.5",
+        "Down Hit": "❌",
+        "Push Power": "0.25",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D1: {
+        "Damage": "4.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅✅, 2.45",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D2: {
+        "Damage": "4.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅✅, 2.45",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D3: {
+        "Damage": "4.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 1.75",
+        "Air Juggle": "✅✅, 2.45",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D4: {
+        "Damage": "6.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 1.75",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Jump_Dash_Extend_D1: {
+        "Damage": "8.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 2.25",
+        "Air Juggle": "✅✅, 2.0",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Counter_D1: {
+        "Damage": "10.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.0",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+}];
+
+export const mercenary_251 = [{
+    ID: "251",
+    Name: "Alchemist",
+    Rarity: "Rare",
+    Sprint: "✅",
+    Jump: "2",
+    Attack_Length: "4",
+    Highest_Damage: "10.0, Ground D4",
+    "360_Block": "❌",
+    Deflect: "✅",
+    Counter: "❌",
+    Down_Hit: "Jump D1, Jump D2, Jump D3",
+    Special: "Not yet added",
+    Unique_Property: "",
+    Dump: {
+        file_comment_name: " Alchemist",
+    },
+}];
+export const mercenary_251_attacks = [{
+        
+    Ground_D1: {
+        "Damage": "6.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.0",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D2: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.0",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D3: {
+        "Damage": "8.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.5",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D4: {
+        "Damage": "10.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Dash_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.0",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Extend_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 3.2",
+        "Air Juggle": "✅✅, 3.3",
+        "Down Hit": "❌",
+        "Push Power": "0.4",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D1: {
+        "Damage": "8.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "✅",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D2: {
+        "Damage": "8.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "✅",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D3: {
+        "Damage": "8.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "✅",
+        "Push Power": "1.5",
+        "Frozen Break": "❌",
+        },
+}];
+
+export const mercenary_252 = [{
+    ID: "252",
+    Name: "Freischutz",
+    Rarity: "Unique",
+    Sprint: "✅",
+    Jump: "1",
+    Attack_Length: "3",
+    Highest_Damage: "9.0, Ground D3 | 9.0, Dash Extend D2 | 9.0, Counter D1",
+    "360_Block": "❌",
+    Deflect: "❌",
+    Counter: "✅",
+    Down_Hit: "❌",
+    Special: "Not yet added",
+    Unique_Property: "",
+    Dump: {
+        file_comment_name: " 프라이슈츠",
+    },
+}];
+export const mercenary_252_attacks = [{
+        
+    Ground_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.8",
+        "Down Hit": "❌",
+        "Push Power": "0.5",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D2: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.2",
+        "Down Hit": "❌",
+        "Push Power": "0.5",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D3: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.25",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Dash_D1: {
+        
+        "1": {
+            "Damage": "6.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "✅✅, 2.8",
+            "Down Hit": "❌",
+            "Push Power": "0.5",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "6.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "✅✅, 2.8",
+            "Down Hit": "❌",
+            "Push Power": "0.5",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Dash_Extend_D1: {
+        
+        "1": {
+            "Damage": "6.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "✅✅, 2.6",
+            "Down Hit": "❌",
+            "Push Power": "0.5",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "6.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "✅✅, 2.6",
+            "Down Hit": "❌",
+            "Push Power": "0.5",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Dash_Extend_D2: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.25",
+        "Down Hit": "❌",
+        "Push Power": "1.5",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D1: {
+        "Damage": "6.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.0",
+        "Air Juggle": "✅✅, 2.1",
+        "Down Hit": "❌",
+        "Push Power": "0.75",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D2: {
+        "Damage": "6.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 1.9",
+        "Down Hit": "❌",
+        "Push Power": "0.75",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D3: {
+        "Damage": "6.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.2",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Jump_Dash_Extend_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "❌, 0.0",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Counter_D1: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.0",
+        "Air Juggle": "❌, 0.0",
+        "Down Hit": "❌",
+        "Push Power": "0.0",
+        "Frozen Break": "❌",
+        },
+}];
+
+export const mercenary_253 = [{
+    ID: "253",
+    Name: "Transcendent",
+    Rarity: "Rare",
+    Sprint: "✅",
+    Jump: "2",
+    Attack_Length: "3",
+    Highest_Damage: "11.0, Charged D1 | 11.0, Charged D2 | 11.0, Charged D3",
+    "360_Block": "❌",
+    Deflect: "✅",
+    Counter: "❌",
+    Down_Hit: "❌",
+    Special: "Not yet added",
+    Unique_Property: "",
+    Dump: {
+        file_comment_name: "초월자",
+    },
+}];
+export const mercenary_253_attacks = [{
+        
+    Ground_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.4",
+        "Down Hit": "❌",
+        "Push Power": "0.5",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D2: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.4",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D3: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 2.4",
+        "Air Juggle": "✅✅, 2.7",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Dash_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.0",
+        "Down Hit": "❌",
+        "Push Power": "0.5",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Extend_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.0",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Extend_D2: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 2.4",
+        "Air Juggle": "✅✅, 2.7",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.5",
+        "Down Hit": "❌",
+        "Push Power": "0.5",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Hold_D2: {
+        "Damage": "8.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.2",
+        "Down Hit": "❌",
+        "Push Power": "1.5",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Hold_D3: {
+        "Damage": "10.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "1.8",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.2",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D2: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 3.6",
+        "Air Juggle": "✅✅, 2.0",
+        "Down Hit": "❌",
+        "Push Power": "0.25",
+        "Frozen Break": "❌",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_Dash_Extend_D1: {
+        "Damage": "8.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 3.0",
+        "Air Juggle": "✅✅, 3.2",
+        "Down Hit": "❌",
+        "Push Power": "1.8",
+        "Frozen Break": "❌",
+        },
+
+    Charged_D1: {
+        "Damage": "11.0",
+        "Defense Break": "✅",
+        "Juggle": "✅✅, 2.4",
+        "Air Juggle": "✅✅, 2.7",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "✅",
+        },
+
+    Charged_D2: {
+        "Damage": "11.0",
+        "Defense Break": "✅",
+        "Juggle": "✅✅, 2.4",
+        "Air Juggle": "✅✅, 2.7",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "✅",
+        },
+
+    Charged_D3: {
+        "Damage": "11.0",
+        "Defense Break": "✅",
+        "Juggle": "✅✅, 2.4",
+        "Air Juggle": "✅✅, 2.7",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "✅",
+        },
+}];
+
+export const mercenary_254 = [{
+    ID: "254",
+    Name: "Elaim",
+    Rarity: "Rare",
+    Sprint: "❌",
+    Jump: "2",
+    Attack_Length: "3",
+    Highest_Damage: "10.0, Ground D3",
+    "360_Block": "✅",
+    Deflect: "❌",
+    Counter: "❌",
+    Down_Hit: "Jump D1, Jump D2",
+    Special: "Not yet added",
+    Unique_Property: "",
+    Dump: {
+        file_comment_name: "엘라임",
+    },
+}];
+export const mercenary_254_attacks = [{
+        
+    Ground_D1: {
+        "Damage": "8.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅✅, 3.2",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D2: {
+        "Damage": "8.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅✅, 3.2",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D3: {
+        "Damage": "10.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.25",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Replace1: {
+        
+        "1": {
+            "Damage": "7.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.5",
+            "Air Juggle": "✅✅, 3.5",
+            "Down Hit": "❌",
+            "Push Power": "0.25",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "7.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.5",
+            "Air Juggle": "✅✅, 3.5",
+            "Down Hit": "❌",
+            "Push Power": "0.25",
+            "Frozen Break": "❌",
+        },
+
+        "3": {
+            "Damage": "7.0",
+            "Defense Break": "❌",
+            "Juggle": "✅✅, 3.5",
+            "Air Juggle": "✅✅, 3.5",
+            "Down Hit": "❌",
+            "Push Power": "0.25",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Dash_Extend_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅✅, 2.0",
+        "Down Hit": "❌",
+        "Push Power": "0.75",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅✅, 1.75",
+        "Down Hit": "✅",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D2: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.5",
+        "Air Juggle": "✅✅, 1.75",
+        "Down Hit": "✅",
+        "Push Power": "1.5",
+        "Frozen Break": "❌",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "8.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "1.5",
+        "Frozen Break": "❌",
+        },
+}];
+
+export const mercenary_255 = [{
+    ID: "255",
+    Name: "Lich",
+    Rarity: "Unique",
+    Sprint: "✅",
+    Jump: "2",
+    Attack_Length: "3",
+    Highest_Damage: "9.0, Ground D3 | 9.0, Jump Dash Extend D1 | 9.0, Counter D1",
+    "360_Block": "✅",
+    Deflect: "❌",
+    Counter: "✅",
+    Down_Hit: "Landing Jump Hold D1",
+    Special: "Not yet added",
+    Unique_Property: "",
+    Dump: {
+        file_comment_name: " 리치",
+    },
+}];
+export const mercenary_255_attacks = [{
+        
+    Ground_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.25",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D2: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.5",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D3: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "❌, 0.5",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Dash_D1: {
+        "Damage": "0.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "❌, 0.5",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Extend_D1: {
+        "Damage": "0.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "❌, 0.5",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Extend_D2: {
+        "Damage": "0.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "❌, 0.5",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Hold_D1: {
+        
+        "1": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.0",
+            "Air Juggle": "✅, 1.5",
+            "Down Hit": "❌",
+            "Push Power": "2.0",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.0",
+            "Air Juggle": "✅, 1.5",
+            "Down Hit": "❌",
+            "Push Power": "2.0",
+            "Frozen Break": "❌",
+        },
+
+        "3": {
+            "Damage": "4.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.0",
+            "Air Juggle": "✅, 1.5",
+            "Down Hit": "❌",
+            "Push Power": "1.4",
+            "Frozen Break": "❌",
+        },
+
+        "4": {
+            "Damage": "0.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "❌, 0.5",
+            "Down Hit": "❌",
+            "Push Power": "1.0",
+            "Frozen Break": "❌",
+        },
+
+        "5": {
+            "Damage": "0.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "❌, 0.5",
+            "Down Hit": "❌",
+            "Push Power": "1.0",
+            "Frozen Break": "❌",
+        },
+
+        "6": {
+            "Damage": "0.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "❌, 0.5",
+            "Down Hit": "❌",
+            "Push Power": "1.0",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Jump_D1: {
+        "Damage": "6.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.0",
+        "Air Juggle": "✅✅, 2.0",
+        "Down Hit": "❌",
+        "Push Power": "0.75",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D2: {
+        "Damage": "6.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.0",
+        "Down Hit": "❌",
+        "Push Power": "0.75",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D3: {
+        "Damage": "8.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.5",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Jump_Dash_Extend_D1: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Landing_Jump_Hold_D1: {
+        
+        "1": {
+            "Damage": "7.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.0",
+            "Air Juggle": "✅, 1.5",
+            "Down Hit": "✅",
+            "Push Power": "1.4",
+            "Frozen Break": "❌",
+        },
+
+        "2": {
+            "Damage": "0.0",
+            "Defense Break": "❌",
+            "Juggle": "❌, 0.5",
+            "Air Juggle": "❌, 0.5",
+            "Down Hit": "❌",
+            "Push Power": "1.0",
+            "Frozen Break": "❌",
+        },
+    },
+
+    Counter_D1: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.25",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+}];
+
+export const mercenary_256 = [{
+    ID: "256",
+    Name: "Holy Priest",
+    Rarity: "Rare",
+    Sprint: "❌",
+    Jump: "2",
+    Attack_Length: "2",
+    Highest_Damage: "11.0, Charged D Max1 | 11.0, Ground D2 | 11.0, Dash Replace1 | 11.0, Jump Hold D1",
+    "360_Block": "✅",
+    Deflect: "❌",
+    Counter: "❌",
+    Down_Hit: "❌",
+    Special: "Not yet added",
+    Unique_Property: "",
+    Dump: {
+        file_comment_name: " 신성사제",
+    },
+}];
+export const mercenary_256_attacks = [{
+        
+    Charged_D_Min1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 4.0",
+        "Air Juggle": "✅✅, 4.0",
+        "Down Hit": "❌",
+        "Push Power": "0.0",
+        "Frozen Break": "❌",
+        },
+
+    Charged_D_Max1: {
+        "Damage": "11.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 4.4",
+        "Air Juggle": "✅✅, 4.4",
+        "Down Hit": "❌",
+        "Push Power": "0.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.2",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D2: {
+        "Damage": "11.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅, 1.0",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Replace1: {
+        "Damage": "11.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅, 1.25",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D1: {
+        "Damage": "6.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D2: {
+        "Damage": "6.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.25",
+        "Air Juggle": "✅, 1.5",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "11.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "❌, 0.5",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+}];
+
+export const mercenary_257 = [{
+    ID: "257",
+    Name: "Parasite",
+    Rarity: "Unique",
+    Sprint: "✅",
+    Jump: "2",
+    Attack_Length: "4",
+    Highest_Damage: "9.0, Ground D4 | 9.0, Dash Extend D3 | 9.0, Jump Hold D1 | 9.0, Counter D1",
+    "360_Block": "❌",
+    Deflect: "❌",
+    Counter: "✅",
+    Down_Hit: "Jump Hold D1",
+    Special: "Not yet added",
+    Unique_Property: "",
+    Dump: {
+        file_comment_name: " 패러사이트",
+    },
+}];
+export const mercenary_257_attacks = [{
+        
+    Ground_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.2",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D2: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.2",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D3: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.4",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Ground_D4: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅, 1.25",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+
+    Dash_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.4",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Extend_D1: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.1",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Extend_D2: {
+        "Damage": "7.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 2.1",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Dash_Extend_D3: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "✅✅, 3.0",
+        "Air Juggle": "✅✅, 3.4",
+        "Down Hit": "❌",
+        "Push Power": "0.25",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D1: {
+        "Damage": "6.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "✅✅, 1.75",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D2: {
+        "Damage": "4.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 1.75",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D3: {
+        "Damage": "4.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 1.75",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D4: {
+        "Damage": "4.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 1.75",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_D5: {
+        "Damage": "8.0",
+        "Defense Break": "❌",
+        "Juggle": "✅, 1.0",
+        "Air Juggle": "❌, 0.0",
+        "Down Hit": "❌",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Jump_Hold_D1: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅, 1.25",
+        "Down Hit": "✅",
+        "Push Power": "1.0",
+        "Frozen Break": "❌",
+        },
+
+    Counter_D1: {
+        "Damage": "9.0",
+        "Defense Break": "❌",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅, 1.25",
+        "Down Hit": "❌",
+        "Push Power": "1.25",
+        "Frozen Break": "❌",
+        },
+}];
+
 export const mercenary_505 = [{
     ID: "505",
-    Name: "R Medic",
+    Name: "R-Cyber Medic",
     Rarity: "Normal",
     Sprint: "❌",
     Jump: "2",
@@ -49167,46 +51797,46 @@ export const mercenary_601 = [{
     Sprint: "❌",
     Jump: "1",
     Attack_Length: "4",
-    Highest_Damage: "18.0, Jump D1",
+    Highest_Damage: "10.0, Jump Hold D1 | 10.0, Counter D1",
     "360_Block": "❌",
     Deflect: "❌",
     Counter: "✅",
-    Down_Hit: "Dash Extend D1",
+    Down_Hit: "❌",
     Special: "Not yet added",
     Unique_Property: "",
     Dump: {
-        file_comment_name: " Layairama",
+        file_comment_name: " Laya Irama",
     },
 }];
 export const mercenary_601_attacks = [{
         
     Ground_D1: {
-        "Damage": "5.0",
+        "Damage": "6.0",
         "Defense Break": "❌",
-        "Juggle": "✅, 1.0",
-        "Air Juggle": "✅✅, 3.25",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.0",
         "Down Hit": "❌",
-        "Push Power": "1.0",
+        "Push Power": "0.5",
         "Frozen Break": "❌",
         },
 
     Ground_D2: {
-        "Damage": "5.0",
+        "Damage": "6.0",
         "Defense Break": "❌",
-        "Juggle": "✅, 1.0",
-        "Air Juggle": "✅✅, 3.5",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.0",
         "Down Hit": "❌",
-        "Push Power": "1.0",
+        "Push Power": "0.5",
         "Frozen Break": "❌",
         },
 
     Ground_D3: {
-        "Damage": "5.0",
+        "Damage": "8.0",
         "Defense Break": "❌",
-        "Juggle": "✅, 1.0",
-        "Air Juggle": "✅✅, 3.5",
+        "Juggle": "❌, 0.5",
+        "Air Juggle": "✅✅, 3.0",
         "Down Hit": "❌",
-        "Push Power": "1.0",
+        "Push Power": "0.5",
         "Frozen Break": "❌",
         },
 
@@ -49221,7 +51851,7 @@ export const mercenary_601_attacks = [{
         },
 
     Dash_Replace1: {
-        "Damage": "9.0",
+        "Damage": "6.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
         "Air Juggle": "❌, 0.0",
@@ -49231,17 +51861,17 @@ export const mercenary_601_attacks = [{
         },
 
     Dash_Extend_D1: {
-        "Damage": "9.0",
+        "Damage": "8.0",
         "Defense Break": "❌",
         "Juggle": "✅✅, 3.5",
         "Air Juggle": "✅✅, 3.0",
-        "Down Hit": "✅",
+        "Down Hit": "❌",
         "Push Power": "0.5",
         "Frozen Break": "❌",
         },
 
     Jump_D1: {
-        "Damage": "18.0",
+        "Damage": "8.0",
         "Defense Break": "❌",
         "Juggle": "✅, 1.0",
         "Air Juggle": "✅✅, 1.75",
@@ -49264,9 +51894,9 @@ export const mercenary_601_attacks = [{
         "Damage": "10.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.5",
-        "Air Juggle": "✅✅, 3.0",
+        "Air Juggle": "❌, 0.5",
         "Down Hit": "❌",
-        "Push Power": "1.25",
+        "Push Power": "1.75",
         "Frozen Break": "❌",
         },
 }];
@@ -49325,9 +51955,9 @@ export const mercenary_807_attacks = [{
         "Damage": "6.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "❌, 0.9",
+        "Air Juggle": "✅, 1.25",
         "Down Hit": "❌",
-        "Push Power": "2.0",
+        "Push Power": "1.25",
         "Frozen Break": "❌",
         },
 
@@ -49335,9 +51965,9 @@ export const mercenary_807_attacks = [{
         "Damage": "4.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "❌, 0.6",
+        "Air Juggle": "✅, 1.0",
         "Down Hit": "❌",
-        "Push Power": "2.0",
+        "Push Power": "1.0",
         "Frozen Break": "❌",
         },
 
@@ -49345,9 +51975,9 @@ export const mercenary_807_attacks = [{
         "Damage": "4.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "❌, 0.4",
+        "Air Juggle": "✅, 1.0",
         "Down Hit": "❌",
-        "Push Power": "2.0",
+        "Push Power": "1.25",
         "Frozen Break": "❌",
         },
 
@@ -49365,19 +51995,19 @@ export const mercenary_807_attacks = [{
         "Damage": "10.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "✅✅, 2.0",
+        "Air Juggle": "✅, 1.0",
         "Down Hit": "❌",
-        "Push Power": "2.5",
+        "Push Power": "1.25",
         "Frozen Break": "❌",
         },
 
     Charged_D2: {
         "Damage": "7.0",
         "Defense Break": "❌",
-        "Juggle": "✅, 1.0",
-        "Air Juggle": "✅✅, 2.0",
+        "Juggle": "❌, 0.0",
+        "Air Juggle": "✅, 1.0",
         "Down Hit": "❌",
-        "Push Power": "1.5",
+        "Push Power": "1.0",
         "Frozen Break": "❌",
         },
 
@@ -49385,9 +52015,9 @@ export const mercenary_807_attacks = [{
         "Damage": "7.0",
         "Defense Break": "❌",
         "Juggle": "❌, 0.0",
-        "Air Juggle": "✅✅, 2.0",
+        "Air Juggle": "✅, 1.25",
         "Down Hit": "❌",
-        "Push Power": "2.5",
+        "Push Power": "1.25",
         "Frozen Break": "❌",
         },
 }];
@@ -52523,6 +55153,86 @@ export const mercenary_attack_249 = Object.keys(mercenary_249_attacks[0]).map((k
     accessor: key,
 }));
 
+export const mercenary_info_250 = Object.keys(mercenary_250[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_attack_250 = Object.keys(mercenary_250_attacks[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_info_251 = Object.keys(mercenary_251[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_attack_251 = Object.keys(mercenary_251_attacks[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_info_252 = Object.keys(mercenary_252[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_attack_252 = Object.keys(mercenary_252_attacks[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_info_253 = Object.keys(mercenary_253[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_attack_253 = Object.keys(mercenary_253_attacks[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_info_254 = Object.keys(mercenary_254[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_attack_254 = Object.keys(mercenary_254_attacks[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_info_255 = Object.keys(mercenary_255[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_attack_255 = Object.keys(mercenary_255_attacks[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_info_256 = Object.keys(mercenary_256[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_attack_256 = Object.keys(mercenary_256_attacks[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_info_257 = Object.keys(mercenary_257[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_attack_257 = Object.keys(mercenary_257_attacks[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
 export const mercenary_info_505 = Object.keys(mercenary_505[0]).map((key) => ({
     Header: key.replace(/_/g, " "),
     accessor: key,
@@ -52763,6 +55473,26 @@ export const mercenary_attack_007_lv3 = Object.keys(mercenary_007_lv3_attacks[0]
     accessor: key,
 }));
 
+export const mercenary_info_008_lv1 = Object.keys(mercenary_008_lv1[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_attack_008_lv1 = Object.keys(mercenary_008_lv1_attacks[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_info_008_lv2 = Object.keys(mercenary_008_lv2[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_attack_008_lv2 = Object.keys(mercenary_008_lv2_attacks[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
 export const mercenary_info_009_lv1 = Object.keys(mercenary_009_lv1[0]).map((key) => ({
     Header: key.replace(/_/g, " "),
     accessor: key,
@@ -52799,6 +55529,36 @@ export const mercenary_info_010_lv2 = Object.keys(mercenary_010_lv2[0]).map((key
 }));
 
 export const mercenary_attack_010_lv2 = Object.keys(mercenary_010_lv2_attacks[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_info_012_lv1 = Object.keys(mercenary_012_lv1[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_attack_012_lv1 = Object.keys(mercenary_012_lv1_attacks[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_info_012_lv2 = Object.keys(mercenary_012_lv2[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_attack_012_lv2 = Object.keys(mercenary_012_lv2_attacks[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_info_012_lv3 = Object.keys(mercenary_012_lv3[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_attack_012_lv3 = Object.keys(mercenary_012_lv3_attacks[0]).map((key) => ({
     Header: key.replace(/_/g, " "),
     accessor: key,
 }));
@@ -52889,6 +55649,36 @@ export const mercenary_info_015_lv3 = Object.keys(mercenary_015_lv3[0]).map((key
 }));
 
 export const mercenary_attack_015_lv3 = Object.keys(mercenary_015_lv3_attacks[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_info_016_lv1 = Object.keys(mercenary_016_lv1[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_attack_016_lv1 = Object.keys(mercenary_016_lv1_attacks[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_info_016_lv2 = Object.keys(mercenary_016_lv2[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_attack_016_lv2 = Object.keys(mercenary_016_lv2_attacks[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_info_016_lv3 = Object.keys(mercenary_016_lv3[0]).map((key) => ({
+    Header: key.replace(/_/g, " "),
+    accessor: key,
+}));
+
+export const mercenary_attack_016_lv3 = Object.keys(mercenary_016_lv3_attacks[0]).map((key) => ({
     Header: key.replace(/_/g, " "),
     accessor: key,
 }));

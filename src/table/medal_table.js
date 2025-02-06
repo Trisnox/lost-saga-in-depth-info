@@ -53576,6 +53576,176 @@ export const medals = [
     },
 
     {
+        ID: "06531",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +1",
+            "Armor   +1": "Defense   0",
+            "Helmet  0": "Speed     +1",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "10",
+                Hero: "252",
+                },
+        Dump: "252",
+    },
+
+    {
+        ID: "06532",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  -2": "Attack    +2",
+            "Armor   0": "Defense   +1",
+            "Helmet  +1": "Speed     0",
+            "Trinket +1": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "20",
+                Hero: "252",
+                },
+        Dump: "252",
+    },
+
+    {
+        ID: "06533",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +2": "Defense   0",
+            "Helmet  +1": "Speed     +1",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "30",
+                Hero: "252",
+                },
+        Dump: "252",
+    },
+
+    {
+        ID: "06534",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  -2": "Attack    0",
+            "Armor   +3": "Defense   0",
+            "Helmet  0": "Speed     +4",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "40",
+                Hero: "252",
+                },
+        Dump: "252",
+    },
+
+    {
+        ID: "06535",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +1": "Attack    +3",
+            "Armor   +1": "Defense   +2",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "50",
+                Hero: "252",
+                },
+        Dump: "252",
+    },
+
+    {
+        ID: "06536",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    -2",
+            "Armor   0": "Defense   +6",
+            "Helmet  0": "Speed     -2",
+            "Trinket 0": "Dexterity +6",
+        },
+        Restriction: {
+                Level: "60",
+                Hero: "252",
+                },
+        Dump: "252",
+    },
+
+    {
+        ID: "06537",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +1": "Attack    0",
+            "Armor   0": "Defense   0",
+            "Helmet  +2": "Speed     0",
+            "Trinket +2": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "70",
+                Hero: "252",
+                },
+        Dump: "252",
+    },
+
+    {
+        ID: "06538",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +6": "Attack    -3",
+            "Armor   +6": "Defense   -2",
+            "Helmet  +6": "Speed     -3",
+            "Trinket +6": "Dexterity -2",
+        },
+        Restriction: {
+                Level: "80",
+                Hero: "252",
+                },
+        Dump: "252",
+    },
+
+    {
+        ID: "06539",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +1",
+            "Armor   +1": "Defense   +5",
+            "Helmet  +1": "Speed     +1",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "90",
+                Hero: "252",
+                },
+        Dump: "252",
+    },
+
+    {
+        ID: "06540",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +2": "Attack    +5",
+            "Armor   +2": "Defense   +2",
+            "Helmet  +2": "Speed     +1",
+            "Trinket +2": "Dexterity +2",
+        },
+        Restriction: {
+                Level: "100",
+                Hero: "252",
+                },
+        Dump: "252",
+    },
+
+    {
         ID: "04818",
         Icon: "",
         Name: "Kaito Exclusive Medal",
@@ -67896,6 +68066,40 @@ export const medals = [
     },
 
     {
+        ID: "04898",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   0": "Defense   0",
+            "Helmet  +5": "Speed     +10",
+            "Trinket +5": "Dexterity 0",
+        },
+        Restriction: {
+                
+                Hero: "252",
+                },
+        Dump: "252_medal",
+    },
+
+    {
+        ID: "04899",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: {
+                
+                Hero: "252",
+                },
+        Dump: "iconslot_unique_purple",
+    },
+
+    {
         ID: "10000",
         Icon: "",
         Name: "<Furious Zhugeliang>",
@@ -71169,10 +71373,10 @@ export const medals = [
         Icon: "",
         Name: "<Moon Medal>",
         Stats: {
-            "Weapon  +4": "Attack    +4",
-            "Armor   +4": "Defense   +4",
-            "Helmet  +4": "Speed     +4",
-            "Trinket +4": "Dexterity +4",
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
         },
         Restriction: {
                 
@@ -74508,6 +74712,580 @@ export const medals = [
     },
 
     {
+        ID: "05227",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +5",
+            "Armor   0": "Defense   +5",
+            "Helmet  0": "Speed     +5",
+            "Trinket 0": "Dexterity +5",
+        },
+        Restriction: "-",
+        Dump: "Wales",
+    },
+
+    {
+        ID: "05228",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +5",
+            "Armor   0": "Defense   +5",
+            "Helmet  0": "Speed     +5",
+            "Trinket 0": "Dexterity +5",
+        },
+        Restriction: "-",
+        Dump: "Wales",
+    },
+
+    {
+        ID: "05229",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +5",
+            "Armor   0": "Defense   +5",
+            "Helmet  0": "Speed     +5",
+            "Trinket 0": "Dexterity +5",
+        },
+        Restriction: "-",
+        Dump: "Wales",
+    },
+
+    {
+        ID: "05230",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +5",
+            "Armor   0": "Defense   +5",
+            "Helmet  0": "Speed     +5",
+            "Trinket 0": "Dexterity +5",
+        },
+        Restriction: "-",
+        Dump: "Wales",
+    },
+
+    {
+        ID: "05231",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +5",
+            "Armor   0": "Defense   +5",
+            "Helmet  0": "Speed     +5",
+            "Trinket 0": "Dexterity +5",
+        },
+        Restriction: "-",
+        Dump: "Wales",
+    },
+
+    {
+        ID: "05232",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +13": "Attack    +13",
+            "Armor   +13": "Defense   +13",
+            "Helmet  +13": "Speed     +13",
+            "Trinket +13": "Dexterity +13",
+        },
+        Restriction: "-",
+        Dump: "LSO_3rd_Anniversary_Medal_Gold",
+    },
+
+    {
+        ID: "05233",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    +12",
+            "Armor   +12": "Defense   +12",
+            "Helmet  +12": "Speed     +12",
+            "Trinket +12": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "LSO_3rd_Anniversary_Medal_Silver",
+    },
+
+    {
+        ID: "05234",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +11": "Attack    +11",
+            "Armor   +11": "Defense   +11",
+            "Helmet  +11": "Speed     +11",
+            "Trinket +11": "Dexterity +11",
+        },
+        Restriction: "-",
+        Dump: "LSO_3rd_Anniversary_Medal_Bronze",
+    },
+
+    {
+        ID: "05235",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +11": "Attack    +11",
+            "Armor   +11": "Defense   +11",
+            "Helmet  +11": "Speed     +11",
+            "Trinket +11": "Dexterity +11",
+        },
+        Restriction: "-",
+        Dump: "1st_Anniversary_11",
+    },
+
+    {
+        ID: "05236",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    +12",
+            "Armor   +12": "Defense   +12",
+            "Helmet  +12": "Speed     +12",
+            "Trinket +12": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "1st_Anniversary_12",
+    },
+
+    {
+        ID: "05237",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +13": "Attack    +13",
+            "Armor   +13": "Defense   +13",
+            "Helmet  +13": "Speed     +13",
+            "Trinket +13": "Dexterity +13",
+        },
+        Restriction: "-",
+        Dump: "1st_Anniversary_13",
+    },
+
+    {
+        ID: "05238",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +14": "Attack    +14",
+            "Armor   +14": "Defense   +14",
+            "Helmet  +14": "Speed     +14",
+            "Trinket +14": "Dexterity +14",
+        },
+        Restriction: "-",
+        Dump: "1st_Anniversary_14",
+    },
+
+    {
+        ID: "05239",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +15": "Attack    +15",
+            "Armor   +15": "Defense   +15",
+            "Helmet  +15": "Speed     +15",
+            "Trinket +15": "Dexterity +15",
+        },
+        Restriction: "-",
+        Dump: "1st_Anniversary_15",
+    },
+
+    {
+        ID: "05240",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +30",
+            "Armor   0": "Defense   0",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: "-",
+        Dump: "1st_Anniversary_30",
+    },
+
+    {
+        ID: "05241",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +14",
+            "Armor   0": "Defense   +14",
+            "Helmet  +14": "Speed     0",
+            "Trinket +14": "Dexterity 0",
+        },
+        Restriction: "-",
+        Dump: "2018winterolimpick_medal_01",
+    },
+
+    {
+        ID: "05242",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    0",
+            "Armor   +12": "Defense   0",
+            "Helmet  0": "Speed     +12",
+            "Trinket 0": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "2018winterolimpick_medal_02",
+    },
+
+    {
+        ID: "05243",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +15": "Attack    +15",
+            "Armor   +15": "Defense   +15",
+            "Helmet  +15": "Speed     +15",
+            "Trinket +15": "Dexterity +15",
+        },
+        Restriction: "-",
+        Dump: "HantuRaya_medal_15",
+    },
+
+    {
+        ID: "05244",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +14": "Attack    +14",
+            "Armor   +14": "Defense   +14",
+            "Helmet  +14": "Speed     +14",
+            "Trinket +14": "Dexterity +14",
+        },
+        Restriction: "-",
+        Dump: "HantuRaya_medal_14",
+    },
+
+    {
+        ID: "05245",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +13": "Attack    +13",
+            "Armor   +13": "Defense   +13",
+            "Helmet  +13": "Speed     +13",
+            "Trinket +13": "Dexterity +13",
+        },
+        Restriction: "-",
+        Dump: "HantuRaya_medal_13",
+    },
+
+    {
+        ID: "05246",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    +12",
+            "Armor   +12": "Defense   +12",
+            "Helmet  +12": "Speed     +12",
+            "Trinket +12": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "HantuRaya_medal_12",
+    },
+
+    {
+        ID: "05247",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +11": "Attack    +11",
+            "Armor   +11": "Defense   +11",
+            "Helmet  +11": "Speed     +11",
+            "Trinket +11": "Dexterity +11",
+        },
+        Restriction: "-",
+        Dump: "HantuRaya_medal_11",
+    },
+
+    {
+        ID: "05248",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: "-",
+        Dump: "HantuRaya_medal_10",
+    },
+
+    {
+        ID: "05249",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +9": "Attack    +9",
+            "Armor   +9": "Defense   +9",
+            "Helmet  +9": "Speed     +9",
+            "Trinket +9": "Dexterity +9",
+        },
+        Restriction: "-",
+        Dump: "HantuRaya_medal_9",
+    },
+
+    {
+        ID: "05250",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +8": "Attack    +8",
+            "Armor   +8": "Defense   +8",
+            "Helmet  +8": "Speed     +8",
+            "Trinket +8": "Dexterity +8",
+        },
+        Restriction: "-",
+        Dump: "HantuRaya_medal_8",
+    },
+
+    {
+        ID: "05251",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +7": "Attack    +7",
+            "Armor   +7": "Defense   +7",
+            "Helmet  +7": "Speed     +7",
+            "Trinket +7": "Dexterity +7",
+        },
+        Restriction: "-",
+        Dump: "HantuRaya_medal_7",
+    },
+
+    {
+        ID: "05252",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +6": "Attack    +6",
+            "Armor   +6": "Defense   +6",
+            "Helmet  +6": "Speed     +6",
+            "Trinket +6": "Dexterity +6",
+        },
+        Restriction: "-",
+        Dump: "HantuRaya_medal_6",
+    },
+
+    {
+        ID: "05253",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +20",
+            "Armor   +13": "Defense   +13",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: "-",
+        Dump: "WeweGombel_medal",
+    },
+
+    {
+        ID: "05254",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +20",
+            "Armor   0": "Defense   0",
+            "Helmet  +13": "Speed     +13",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: "-",
+        Dump: "Tuyul_medal",
+    },
+
+    {
+        ID: "05255",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +20",
+            "Armor   0": "Defense   0",
+            "Helmet  0": "Speed     0",
+            "Trinket +13": "Dexterity +13",
+        },
+        Restriction: "-",
+        Dump: "Naga_medal",
+    },
+
+    {
+        ID: "05256",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +20": "Attack    0",
+            "Armor   +13": "Defense   +13",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: "-",
+        Dump: "PutriDuyung_medal",
+    },
+
+    {
+        ID: "05257",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +30",
+            "Armor   0": "Defense   0",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: "-",
+        Dump: "Jinn_medal",
+    },
+
+    {
+        ID: "05258",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +30": "Attack    0",
+            "Armor   0": "Defense   0",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: "-",
+        Dump: "Peri_medal",
+    },
+
+    {
+        ID: "05259",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +2": "Defense   +2",
+            "Helmet  +2": "Speed     +2",
+            "Trinket +2": "Dexterity +10",
+        },
+        Restriction: "-",
+        Dump: "RoroKidul_medal",
+    },
+
+    {
+        ID: "05260",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +5": "Attack    +2",
+            "Armor   +5": "Defense   +5",
+            "Helmet  +5": "Speed     +10",
+            "Trinket +5": "Dexterity +3",
+        },
+        Restriction: "-",
+        Dump: "Cepot_medal",
+    },
+
+    {
+        ID: "05261",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +7": "Attack    0",
+            "Armor   +3": "Defense   +8",
+            "Helmet  0": "Speed     +8",
+            "Trinket +5": "Dexterity +9",
+        },
+        Restriction: "-",
+        Dump: "Semar_medal",
+    },
+
+    {
+        ID: "05262",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +7": "Attack    +7",
+            "Armor   +7": "Defense   +7",
+            "Helmet  +8": "Speed     +1",
+            "Trinket +1": "Dexterity +2",
+        },
+        Restriction: "-",
+        Dump: "Petruk_medal",
+    },
+
+    {
+        ID: "05263",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +5": "Attack    +3",
+            "Armor   +9": "Defense   +5",
+            "Helmet  +2": "Speed     0",
+            "Trinket +9": "Dexterity +7",
+        },
+        Restriction: "-",
+        Dump: "Gareng_medal",
+    },
+
+    {
+        ID: "05264",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +3": "Attack    +6",
+            "Armor   0": "Defense   +9",
+            "Helmet  +9": "Speed     0",
+            "Trinket +5": "Dexterity +8",
+        },
+        Restriction: "-",
+        Dump: "Bagong_medal",
+    },
+
+    {
+        ID: "05265",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    0",
+            "Armor   0": "Defense   +10",
+            "Helmet  0": "Speed     0",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: "-",
+        Dump: "Leak_medal",
+    },
+
+    {
+        ID: "05266",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +8",
+            "Armor   0": "Defense   +3",
+            "Helmet  0": "Speed     +10",
+            "Trinket 0": "Dexterity +9",
+        },
+        Restriction: "-",
+        Dump: "Barongan_medal",
+    },
+
+    {
+        ID: "05267",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +1": "Attack    +7",
+            "Armor   +10": "Defense   +8",
+            "Helmet  +10": "Speed     +1",
+            "Trinket +2": "Dexterity +1",
+        },
+        Restriction: "-",
+        Dump: "Lembuswana_medal",
+    },
+
+    {
         ID: "12414",
         Icon: "",
         Name: "<No Name>",
@@ -75333,7 +76111,7 @@ export const medals = [
             "Trinket +11": "Dexterity +11",
         },
         Restriction: "-",
-        Dump: "220818_taegeukgi_medal",
+        Dump: "Medal_04",
     },
 
     {
@@ -75341,13 +76119,13 @@ export const medals = [
         Icon: "",
         Name: "<No Name>",
         Stats: {
-            "Weapon  +12": "Attack    +12",
-            "Armor   +12": "Defense   +12",
-            "Helmet  +12": "Speed     +12",
-            "Trinket +12": "Dexterity +12",
+            "Weapon  +13": "Attack    +13",
+            "Armor   +13": "Defense   +13",
+            "Helmet  +13": "Speed     +13",
+            "Trinket +13": "Dexterity +13",
         },
         Restriction: "-",
-        Dump: "220818_taegeukgi_medal",
+        Dump: "Medal_05",
     },
 
     {
@@ -75355,13 +76133,13 @@ export const medals = [
         Icon: "",
         Name: "<No Name>",
         Stats: {
-            "Weapon  +12": "Attack    +12",
-            "Armor   +12": "Defense   +12",
-            "Helmet  +12": "Speed     +12",
-            "Trinket +12": "Dexterity +12",
+            "Weapon  +14": "Attack    +14",
+            "Armor   +14": "Defense   +14",
+            "Helmet  +14": "Speed     +14",
+            "Trinket +14": "Dexterity +14",
         },
         Restriction: "-",
-        Dump: "220928_kingsejong_medal",
+        Dump: "230613_summer_piece",
     },
 
     {
@@ -75505,6 +76283,2546 @@ export const medals = [
         },
         Restriction: "-",
         Dump: "221228_blackrabbit_medal",
+    },
+
+    {
+        ID: "12485",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    +12",
+            "Armor   +12": "Defense   +12",
+            "Helmet  +12": "Speed     +12",
+            "Trinket +12": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "magpie_gold",
+    },
+
+    {
+        ID: "12486",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +8": "Attack    +8",
+            "Armor   +8": "Defense   +8",
+            "Helmet  +8": "Speed     +8",
+            "Trinket +8": "Dexterity +8",
+        },
+        Restriction: "-",
+        Dump: "magpie_silver",
+    },
+
+    {
+        ID: "12487",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +6": "Attack    +6",
+            "Armor   +6": "Defense   +6",
+            "Helmet  +6": "Speed     +6",
+            "Trinket +6": "Dexterity +6",
+        },
+        Restriction: "-",
+        Dump: "magpie_bronze",
+    },
+
+    {
+        ID: "12488",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +15",
+            "Armor   0": "Defense   +10",
+            "Helmet  +5": "Speed     0",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: "-",
+        Dump: "230125_burningattak_medal",
+    },
+
+    {
+        ID: "12489",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +10": "Defense   +15",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity +5",
+        },
+        Restriction: "-",
+        Dump: "230125_burningdeffece_medal",
+    },
+
+    {
+        ID: "12490",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +13": "Attack    +13",
+            "Armor   +13": "Defense   +13",
+            "Helmet  +13": "Speed     +13",
+            "Trinket +13": "Dexterity +13",
+        },
+        Restriction: "-",
+        Dump: "14year_medal",
+    },
+
+    {
+        ID: "12491",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: "-",
+        Dump: "14th_medal08",
+    },
+
+    {
+        ID: "12492",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +9": "Attack    +9",
+            "Armor   +9": "Defense   +9",
+            "Helmet  +9": "Speed     +9",
+            "Trinket +9": "Dexterity +9",
+        },
+        Restriction: "-",
+        Dump: "14th_medal07",
+    },
+
+    {
+        ID: "12493",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +8": "Attack    +8",
+            "Armor   +8": "Defense   +8",
+            "Helmet  +8": "Speed     +8",
+            "Trinket +8": "Dexterity +8",
+        },
+        Restriction: "-",
+        Dump: "14th_medal06",
+    },
+
+    {
+        ID: "12494",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +7": "Attack    +7",
+            "Armor   +7": "Defense   +7",
+            "Helmet  +7": "Speed     +7",
+            "Trinket +7": "Dexterity +7",
+        },
+        Restriction: "-",
+        Dump: "14th_medal05",
+    },
+
+    {
+        ID: "12495",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +6": "Attack    +6",
+            "Armor   +6": "Defense   +6",
+            "Helmet  +6": "Speed     +6",
+            "Trinket +6": "Dexterity +6",
+        },
+        Restriction: "-",
+        Dump: "14th_medal04",
+    },
+
+    {
+        ID: "12496",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +5": "Attack    +5",
+            "Armor   +5": "Defense   +5",
+            "Helmet  +5": "Speed     +5",
+            "Trinket +5": "Dexterity +5",
+        },
+        Restriction: "-",
+        Dump: "14th_medal03",
+    },
+
+    {
+        ID: "12497",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +4": "Attack    +4",
+            "Armor   +4": "Defense   +4",
+            "Helmet  +4": "Speed     +4",
+            "Trinket +4": "Dexterity +4",
+        },
+        Restriction: "-",
+        Dump: "14th_medal02",
+    },
+
+    {
+        ID: "12498",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +3": "Attack    +3",
+            "Armor   +3": "Defense   +3",
+            "Helmet  +3": "Speed     +3",
+            "Trinket +3": "Dexterity +3",
+        },
+        Restriction: "-",
+        Dump: "14th_medal01",
+    },
+
+    {
+        ID: "06541",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +1",
+            "Armor   +1": "Defense   0",
+            "Helmet  0": "Speed     +1",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "10",
+                Hero: "253",
+                },
+        Dump: "253",
+    },
+
+    {
+        ID: "06542",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  -2": "Attack    +2",
+            "Armor   0": "Defense   +1",
+            "Helmet  +1": "Speed     0",
+            "Trinket +1": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "20",
+                Hero: "253",
+                },
+        Dump: "253",
+    },
+
+    {
+        ID: "06543",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +2": "Defense   0",
+            "Helmet  +1": "Speed     +1",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "30",
+                Hero: "253",
+                },
+        Dump: "253",
+    },
+
+    {
+        ID: "06544",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  -2": "Attack    0",
+            "Armor   +3": "Defense   0",
+            "Helmet  0": "Speed     +4",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "40",
+                Hero: "253",
+                },
+        Dump: "253",
+    },
+
+    {
+        ID: "06545",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +1": "Attack    +3",
+            "Armor   +1": "Defense   +2",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "50",
+                Hero: "253",
+                },
+        Dump: "253",
+    },
+
+    {
+        ID: "06546",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    -2",
+            "Armor   0": "Defense   +6",
+            "Helmet  0": "Speed     -2",
+            "Trinket 0": "Dexterity +6",
+        },
+        Restriction: {
+                Level: "60",
+                Hero: "253",
+                },
+        Dump: "253",
+    },
+
+    {
+        ID: "06547",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +1": "Attack    0",
+            "Armor   0": "Defense   0",
+            "Helmet  +2": "Speed     0",
+            "Trinket +2": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "70",
+                Hero: "253",
+                },
+        Dump: "253",
+    },
+
+    {
+        ID: "06548",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +6": "Attack    -3",
+            "Armor   +6": "Defense   -2",
+            "Helmet  +6": "Speed     -3",
+            "Trinket +6": "Dexterity -2",
+        },
+        Restriction: {
+                Level: "80",
+                Hero: "253",
+                },
+        Dump: "253",
+    },
+
+    {
+        ID: "06549",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +1",
+            "Armor   +1": "Defense   +5",
+            "Helmet  +1": "Speed     +1",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "90",
+                Hero: "253",
+                },
+        Dump: "253",
+    },
+
+    {
+        ID: "06550",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +2": "Attack    +5",
+            "Armor   +2": "Defense   +2",
+            "Helmet  +2": "Speed     +1",
+            "Trinket +2": "Dexterity +2",
+        },
+        Restriction: {
+                Level: "100",
+                Hero: "253",
+                },
+        Dump: "253",
+    },
+
+    {
+        ID: "04900",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   0": "Defense   0",
+            "Helmet  +5": "Speed     +10",
+            "Trinket +5": "Dexterity 0",
+        },
+        Restriction: {
+                
+                Hero: "253",
+                },
+        Dump: "253_medal",
+    },
+
+    {
+        ID: "04901",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: {
+                
+                Hero: "253",
+                },
+        Dump: "iconslot_unique_yellow",
+    },
+
+    {
+        ID: "12499",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: "-",
+        Dump: "230308_Schoolpresident_medal_01",
+    },
+
+    {
+        ID: "12500",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +15",
+            "Armor   0": "Defense   +12",
+            "Helmet  +5": "Speed     0",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: "-",
+        Dump: "230308_Classpresident_medal",
+    },
+
+    {
+        ID: "12501",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +12": "Defense   +15",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity +5",
+        },
+        Restriction: "-",
+        Dump: "230308_Viceclasspresident_medal",
+    },
+
+    {
+        ID: "12502",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +9": "Attack    +9",
+            "Armor   +9": "Defense   +9",
+            "Helmet  +9": "Speed     +9",
+            "Trinket +9": "Dexterity +9",
+        },
+        Restriction: "-",
+        Dump: "230322_spring_medal",
+    },
+
+    {
+        ID: "12503",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: "-",
+        Dump: "Hephaestus_masterpiece_medal",
+    },
+
+    {
+        ID: "12504",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +15",
+            "Armor   0": "Defense   +12",
+            "Helmet  +6": "Speed     0",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: "-",
+        Dump: "ares_spear_medal",
+    },
+
+    {
+        ID: "12505",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +12": "Defense   +15",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity +6",
+        },
+        Restriction: "-",
+        Dump: "atena_shield_medal",
+    },
+
+    {
+        ID: "12506",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +9": "Attack    +9",
+            "Armor   +9": "Defense   +9",
+            "Helmet  +9": "Speed     +9",
+            "Trinket +9": "Dexterity +9",
+        },
+        Restriction: "-",
+        Dump: "Medal_01",
+    },
+
+    {
+        ID: "12507",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    +12",
+            "Armor   +12": "Defense   +12",
+            "Helmet  +12": "Speed     +12",
+            "Trinket +12": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "Medal_02",
+    },
+
+    {
+        ID: "12508",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: "-",
+        Dump: "korea_medal",
+    },
+
+    {
+        ID: "12509",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +11": "Attack    +11",
+            "Armor   +11": "Defense   +11",
+            "Helmet  +11": "Speed     +11",
+            "Trinket +11": "Dexterity +11",
+        },
+        Restriction: "-",
+        Dump: "summer_cool_medal",
+    },
+
+    {
+        ID: "12510",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    +12",
+            "Armor   +12": "Defense   +12",
+            "Helmet  +12": "Speed     +12",
+            "Trinket +12": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "summer_hot_medal",
+    },
+
+    {
+        ID: "12511",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +15",
+            "Armor   0": "Defense   +10",
+            "Helmet  +5": "Speed     0",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: "-",
+        Dump: "230628_burning_attack_medal",
+    },
+
+    {
+        ID: "12512",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +10": "Defense   +15",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity +5",
+        },
+        Restriction: "-",
+        Dump: "230628_burning_defence_medal",
+    },
+
+    {
+        ID: "12513",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +7": "Attack    +7",
+            "Armor   +7": "Defense   +7",
+            "Helmet  +7": "Speed     +7",
+            "Trinket +7": "Dexterity +7",
+        },
+        Restriction: "-",
+        Dump: "230628_burning_passion_medal",
+    },
+
+    {
+        ID: "12514",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +13": "Defense   +15",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity +7",
+        },
+        Restriction: "-",
+        Dump: "230712_summer_medal",
+    },
+
+    {
+        ID: "12515",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: "-",
+        Dump: "Vacation_cruise",
+    },
+
+    {
+        ID: "12516",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +15",
+            "Armor   0": "Defense   +15",
+            "Helmet  +5": "Speed     0",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: "-",
+        Dump: "Vacation_Piscer",
+    },
+
+    {
+        ID: "12517",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +15": "Defense   +15",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity +5",
+        },
+        Restriction: "-",
+        Dump: "vacation_medal",
+    },
+
+    {
+        ID: "04904",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   0": "Defense   0",
+            "Helmet  +5": "Speed     +10",
+            "Trinket +5": "Dexterity 0",
+        },
+        Restriction: {
+                
+                Hero: "254",
+                },
+        Dump: "254_medal",
+    },
+
+    {
+        ID: "04905",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: {
+                
+                Hero: "254",
+                },
+        Dump: "iconslot_unique_purple",
+    },
+
+    {
+        ID: "06551",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +1",
+            "Armor   +1": "Defense   0",
+            "Helmet  0": "Speed     +1",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "10",
+                Hero: "254",
+                },
+        Dump: "254",
+    },
+
+    {
+        ID: "06552",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  -2": "Attack    +2",
+            "Armor   0": "Defense   +1",
+            "Helmet  +1": "Speed     0",
+            "Trinket +1": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "20",
+                Hero: "254",
+                },
+        Dump: "254",
+    },
+
+    {
+        ID: "06553",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +2": "Defense   0",
+            "Helmet  +1": "Speed     +1",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "30",
+                Hero: "254",
+                },
+        Dump: "254",
+    },
+
+    {
+        ID: "06554",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  -2": "Attack    0",
+            "Armor   +3": "Defense   0",
+            "Helmet  0": "Speed     +4",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "40",
+                Hero: "254",
+                },
+        Dump: "254",
+    },
+
+    {
+        ID: "06555",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +1": "Attack    +3",
+            "Armor   +1": "Defense   +2",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "50",
+                Hero: "254",
+                },
+        Dump: "254",
+    },
+
+    {
+        ID: "06556",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    -2",
+            "Armor   0": "Defense   +6",
+            "Helmet  0": "Speed     -2",
+            "Trinket 0": "Dexterity +6",
+        },
+        Restriction: {
+                Level: "60",
+                Hero: "254",
+                },
+        Dump: "254",
+    },
+
+    {
+        ID: "06557",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +1": "Attack    0",
+            "Armor   0": "Defense   0",
+            "Helmet  +2": "Speed     0",
+            "Trinket +2": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "70",
+                Hero: "254",
+                },
+        Dump: "254",
+    },
+
+    {
+        ID: "06558",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +6": "Attack    -3",
+            "Armor   +6": "Defense   -2",
+            "Helmet  +6": "Speed     -3",
+            "Trinket +6": "Dexterity -2",
+        },
+        Restriction: {
+                Level: "80",
+                Hero: "254",
+                },
+        Dump: "254",
+    },
+
+    {
+        ID: "06559",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +1",
+            "Armor   +1": "Defense   +5",
+            "Helmet  +1": "Speed     +1",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "90",
+                Hero: "254",
+                },
+        Dump: "254",
+    },
+
+    {
+        ID: "06560",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +2": "Attack    +5",
+            "Armor   +2": "Defense   +2",
+            "Helmet  +2": "Speed     +1",
+            "Trinket +2": "Dexterity +2",
+        },
+        Restriction: {
+                Level: "100",
+                Hero: "254",
+                },
+        Dump: "254",
+    },
+
+    {
+        ID: "12518",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +15": "Attack    +15",
+            "Armor   +15": "Defense   +15",
+            "Helmet  +15": "Speed     +15",
+            "Trinket +15": "Dexterity +15",
+        },
+        Restriction: "-",
+        Dump: "mosque_medal",
+    },
+
+    {
+        ID: "12519",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +14": "Attack    +14",
+            "Armor   +14": "Defense   +14",
+            "Helmet  +14": "Speed     +14",
+            "Trinket +14": "Dexterity +14",
+        },
+        Restriction: "-",
+        Dump: "full_moon_medal",
+    },
+
+    {
+        ID: "12520",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    +12",
+            "Armor   +12": "Defense   +12",
+            "Helmet  +12": "Speed     +12",
+            "Trinket +12": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "half_moon_medal",
+    },
+
+    {
+        ID: "12521",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: "-",
+        Dump: "crescent_moon_medal",
+    },
+
+    {
+        ID: "06561",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +1",
+            "Armor   +1": "Defense   0",
+            "Helmet  0": "Speed     +1",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "10",
+                Hero: "255",
+                },
+        Dump: "255",
+    },
+
+    {
+        ID: "06562",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  -2": "Attack    +2",
+            "Armor   0": "Defense   +1",
+            "Helmet  +1": "Speed     0",
+            "Trinket +1": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "20",
+                Hero: "255",
+                },
+        Dump: "255",
+    },
+
+    {
+        ID: "06563",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +2": "Defense   0",
+            "Helmet  +1": "Speed     +1",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "30",
+                Hero: "255",
+                },
+        Dump: "255",
+    },
+
+    {
+        ID: "06564",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  -2": "Attack    0",
+            "Armor   +3": "Defense   0",
+            "Helmet  0": "Speed     +4",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "40",
+                Hero: "255",
+                },
+        Dump: "255",
+    },
+
+    {
+        ID: "06565",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +1": "Attack    +3",
+            "Armor   +1": "Defense   +2",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "50",
+                Hero: "255",
+                },
+        Dump: "255",
+    },
+
+    {
+        ID: "06566",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    -2",
+            "Armor   0": "Defense   +6",
+            "Helmet  0": "Speed     -2",
+            "Trinket 0": "Dexterity +6",
+        },
+        Restriction: {
+                Level: "60",
+                Hero: "255",
+                },
+        Dump: "255",
+    },
+
+    {
+        ID: "06567",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +1": "Attack    0",
+            "Armor   0": "Defense   0",
+            "Helmet  +2": "Speed     0",
+            "Trinket +2": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "70",
+                Hero: "255",
+                },
+        Dump: "255",
+    },
+
+    {
+        ID: "06568",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +6": "Attack    -3",
+            "Armor   +6": "Defense   -2",
+            "Helmet  +6": "Speed     -3",
+            "Trinket +6": "Dexterity -2",
+        },
+        Restriction: {
+                Level: "80",
+                Hero: "255",
+                },
+        Dump: "255",
+    },
+
+    {
+        ID: "06569",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +1",
+            "Armor   +1": "Defense   +5",
+            "Helmet  +1": "Speed     +1",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "90",
+                Hero: "255",
+                },
+        Dump: "255",
+    },
+
+    {
+        ID: "06570",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +2": "Attack    +5",
+            "Armor   +2": "Defense   +2",
+            "Helmet  +2": "Speed     +1",
+            "Trinket +2": "Dexterity +2",
+        },
+        Restriction: {
+                Level: "100",
+                Hero: "255",
+                },
+        Dump: "255",
+    },
+
+    {
+        ID: "04906",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   0": "Defense   0",
+            "Helmet  +5": "Speed     +10",
+            "Trinket +5": "Dexterity 0",
+        },
+        Restriction: {
+                
+                Hero: "255",
+                },
+        Dump: "255_medal",
+    },
+
+    {
+        ID: "04907",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: {
+                
+                Hero: "255",
+                },
+        Dump: "iconslot_unique_purple",
+    },
+
+    {
+        ID: "06571",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +1",
+            "Armor   +1": "Defense   0",
+            "Helmet  0": "Speed     +1",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "10",
+                Hero: "256",
+                },
+        Dump: "256",
+    },
+
+    {
+        ID: "06572",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  -2": "Attack    +2",
+            "Armor   0": "Defense   +1",
+            "Helmet  +1": "Speed     0",
+            "Trinket +1": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "20",
+                Hero: "256",
+                },
+        Dump: "256",
+    },
+
+    {
+        ID: "06573",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +2": "Defense   0",
+            "Helmet  +1": "Speed     +1",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "30",
+                Hero: "256",
+                },
+        Dump: "256",
+    },
+
+    {
+        ID: "06574",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  -2": "Attack    0",
+            "Armor   +3": "Defense   0",
+            "Helmet  0": "Speed     +4",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "40",
+                Hero: "256",
+                },
+        Dump: "256",
+    },
+
+    {
+        ID: "06575",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +1": "Attack    +3",
+            "Armor   +1": "Defense   +2",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "50",
+                Hero: "256",
+                },
+        Dump: "256",
+    },
+
+    {
+        ID: "06576",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    -2",
+            "Armor   0": "Defense   +6",
+            "Helmet  0": "Speed     -2",
+            "Trinket 0": "Dexterity +6",
+        },
+        Restriction: {
+                Level: "60",
+                Hero: "256",
+                },
+        Dump: "256",
+    },
+
+    {
+        ID: "06577",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +1": "Attack    0",
+            "Armor   0": "Defense   0",
+            "Helmet  +2": "Speed     0",
+            "Trinket +2": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "70",
+                Hero: "256",
+                },
+        Dump: "256",
+    },
+
+    {
+        ID: "06578",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +6": "Attack    -3",
+            "Armor   +6": "Defense   -2",
+            "Helmet  +6": "Speed     -3",
+            "Trinket +6": "Dexterity -2",
+        },
+        Restriction: {
+                Level: "80",
+                Hero: "256",
+                },
+        Dump: "256",
+    },
+
+    {
+        ID: "06579",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +1",
+            "Armor   +1": "Defense   +5",
+            "Helmet  +1": "Speed     +1",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "90",
+                Hero: "256",
+                },
+        Dump: "256",
+    },
+
+    {
+        ID: "06580",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +2": "Attack    +5",
+            "Armor   +2": "Defense   +2",
+            "Helmet  +2": "Speed     +1",
+            "Trinket +2": "Dexterity +2",
+        },
+        Restriction: {
+                Level: "100",
+                Hero: "256",
+                },
+        Dump: "256",
+    },
+
+    {
+        ID: "04908",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    0",
+            "Armor   0": "Defense   +10",
+            "Helmet  +5": "Speed     0",
+            "Trinket +5": "Dexterity +10",
+        },
+        Restriction: {
+                
+                Hero: "256",
+                },
+        Dump: "256_medal",
+    },
+
+    {
+        ID: "04909",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: {
+                
+                Hero: "256",
+                },
+        Dump: "iconslot_unique_purple",
+    },
+
+    {
+        ID: "12522",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +8": "Attack    +8",
+            "Armor   +8": "Defense   +8",
+            "Helmet  +8": "Speed     +8",
+            "Trinket +8": "Dexterity +8",
+        },
+        Restriction: "-",
+        Dump: "Pumpkin",
+    },
+
+    {
+        ID: "12523",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: "-",
+        Dump: "231025_Developer",
+    },
+
+    {
+        ID: "12524",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +15",
+            "Armor   0": "Defense   +15",
+            "Helmet  +5": "Speed     0",
+            "Trinket +5": "Dexterity 0",
+        },
+        Restriction: "-",
+        Dump: "golden_envoy",
+    },
+
+    {
+        ID: "12525",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +15": "Defense   +15",
+            "Helmet  +5": "Speed     0",
+            "Trinket 0": "Dexterity +5",
+        },
+        Restriction: "-",
+        Dump: "gold_shield",
+    },
+
+    {
+        ID: "12526",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +13",
+            "Armor   0": "Defense   +13",
+            "Helmet  +5": "Speed     0",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: "-",
+        Dump: "silver_envoy",
+    },
+
+    {
+        ID: "12527",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +13": "Defense   +13",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity +5",
+        },
+        Restriction: "-",
+        Dump: "silver_shield",
+    },
+
+    {
+        ID: "12528",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    +12",
+            "Armor   +12": "Defense   +12",
+            "Helmet  +12": "Speed     +12",
+            "Trinket +12": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "perfect_score_medal",
+    },
+
+    {
+        ID: "12529",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +11": "Attack    +11",
+            "Armor   +11": "Defense   +11",
+            "Helmet  +11": "Speed     +11",
+            "Trinket +11": "Dexterity +11",
+        },
+        Restriction: "-",
+        Dump: "exam_jackpot_medal",
+    },
+
+    {
+        ID: "12530",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    +12",
+            "Armor   +12": "Defense   +12",
+            "Helmet  +12": "Speed     +12",
+            "Trinket +12": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "Black_Friday_festival",
+    },
+
+    {
+        ID: "12531",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: "-",
+        Dump: "Black_Friday_commemoration",
+    },
+
+    {
+        ID: "12532",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +13": "Attack    +13",
+            "Armor   +13": "Defense   +13",
+            "Helmet  +13": "Speed     +13",
+            "Trinket +13": "Dexterity +13",
+        },
+        Restriction: "-",
+        Dump: "evil_spirit",
+    },
+
+    {
+        ID: "12533",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    +12",
+            "Armor   +12": "Defense   +12",
+            "Helmet  +12": "Speed     +12",
+            "Trinket +12": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "MERRY",
+    },
+
+    {
+        ID: "12534",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +1": "Attack    +11",
+            "Armor   +2": "Defense   +11",
+            "Helmet  +2": "Speed     +11",
+            "Trinket +5": "Dexterity +11",
+        },
+        Restriction: "-",
+        Dump: "HAPPY",
+    },
+
+    {
+        ID: "12535",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +11": "Attack    +1",
+            "Armor   +11": "Defense   +2",
+            "Helmet  +11": "Speed     +2",
+            "Trinket +11": "Dexterity +5",
+        },
+        Restriction: "-",
+        Dump: "WHITE",
+    },
+
+    {
+        ID: "12536",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: "-",
+        Dump: "Blue_Dragon_medal",
+    },
+
+    {
+        ID: "12537",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +15",
+            "Armor   0": "Defense   +12",
+            "Helmet  +5": "Speed     0",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: "-",
+        Dump: "23_Burning_Attack_medal",
+    },
+
+    {
+        ID: "12538",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +12": "Defense   +15",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity +5",
+        },
+        Restriction: "-",
+        Dump: "23_Burning_Defense_medal",
+    },
+
+    {
+        ID: "12539",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    +12",
+            "Armor   +12": "Defense   +12",
+            "Helmet  +12": "Speed     +12",
+            "Trinket +12": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "magpie_gold",
+    },
+
+    {
+        ID: "12540",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +9": "Attack    +9",
+            "Armor   +9": "Defense   +9",
+            "Helmet  +9": "Speed     +9",
+            "Trinket +9": "Dexterity +9",
+        },
+        Restriction: "-",
+        Dump: "magpie_silver",
+    },
+
+    {
+        ID: "12541",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +7": "Attack    +7",
+            "Armor   +7": "Defense   +7",
+            "Helmet  +7": "Speed     +7",
+            "Trinket +7": "Dexterity +7",
+        },
+        Restriction: "-",
+        Dump: "magpie_bronze",
+    },
+
+    {
+        ID: "12542",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +15",
+            "Armor   +5": "Defense   +15",
+            "Helmet  +5": "Speed     0",
+            "Trinket +15": "Dexterity 0",
+        },
+        Restriction: "-",
+        Dump: "Blue_Dragon_teeth",
+    },
+
+    {
+        ID: "12543",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +15": "Defense   +15",
+            "Helmet  +5": "Speed     0",
+            "Trinket +5": "Dexterity +15",
+        },
+        Restriction: "-",
+        Dump: "Blue_Dragon_wing",
+    },
+
+    {
+        ID: "12544",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +5",
+            "Armor   0": "Defense   +15",
+            "Helmet  +15": "Speed     0",
+            "Trinket +15": "Dexterity +5",
+        },
+        Restriction: "-",
+        Dump: "Blue_Dragon_tail",
+    },
+
+    {
+        ID: "12545",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +13": "Attack    +13",
+            "Armor   +13": "Defense   +13",
+            "Helmet  +13": "Speed     +13",
+            "Trinket +13": "Dexterity +13",
+        },
+        Restriction: "-",
+        Dump: "15th_special_medal",
+    },
+
+    {
+        ID: "12546",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: "-",
+        Dump: "15th_medal08",
+    },
+
+    {
+        ID: "12547",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +9": "Attack    +9",
+            "Armor   +9": "Defense   +9",
+            "Helmet  +9": "Speed     +9",
+            "Trinket +9": "Dexterity +9",
+        },
+        Restriction: "-",
+        Dump: "15th_medal07",
+    },
+
+    {
+        ID: "12548",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +8": "Attack    +8",
+            "Armor   +8": "Defense   +8",
+            "Helmet  +8": "Speed     +8",
+            "Trinket +8": "Dexterity +8",
+        },
+        Restriction: "-",
+        Dump: "15th_medal06",
+    },
+
+    {
+        ID: "12549",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +7": "Attack    +7",
+            "Armor   +7": "Defense   +7",
+            "Helmet  +7": "Speed     +7",
+            "Trinket +7": "Dexterity +7",
+        },
+        Restriction: "-",
+        Dump: "15th_medal05",
+    },
+
+    {
+        ID: "12550",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +6": "Attack    +6",
+            "Armor   +6": "Defense   +6",
+            "Helmet  +6": "Speed     +6",
+            "Trinket +6": "Dexterity +6",
+        },
+        Restriction: "-",
+        Dump: "15th_medal04",
+    },
+
+    {
+        ID: "12551",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +5": "Attack    +5",
+            "Armor   +5": "Defense   +5",
+            "Helmet  +5": "Speed     +5",
+            "Trinket +5": "Dexterity +5",
+        },
+        Restriction: "-",
+        Dump: "15th_medal03",
+    },
+
+    {
+        ID: "12552",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +4": "Attack    +4",
+            "Armor   +4": "Defense   +4",
+            "Helmet  +4": "Speed     +4",
+            "Trinket +4": "Dexterity +4",
+        },
+        Restriction: "-",
+        Dump: "15th_medal02",
+    },
+
+    {
+        ID: "12553",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +3": "Attack    +3",
+            "Armor   +3": "Defense   +3",
+            "Helmet  +3": "Speed     +3",
+            "Trinket +3": "Dexterity +3",
+        },
+        Restriction: "-",
+        Dump: "15th_medal01",
+    },
+
+    {
+        ID: "12554",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +13": "Attack    +13",
+            "Armor   +13": "Defense   +13",
+            "Helmet  +13": "Speed     +13",
+            "Trinket +13": "Dexterity +13",
+        },
+        Restriction: "-",
+        Dump: "230308_Schoolpresident_medal_01",
+    },
+
+    {
+        ID: "12555",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +15",
+            "Armor   0": "Defense   +15",
+            "Helmet  +10": "Speed     0",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: "-",
+        Dump: "230308_Classpresident_medal",
+    },
+
+    {
+        ID: "12556",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +15": "Defense   +15",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity +10",
+        },
+        Restriction: "-",
+        Dump: "230308_Viceclasspresident_medal",
+    },
+
+    {
+        ID: "12557",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    +12",
+            "Armor   +12": "Defense   +12",
+            "Helmet  +12": "Speed     +12",
+            "Trinket +12": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "cherry_blossoms_medal",
+    },
+
+    {
+        ID: "12558",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +11": "Attack    +11",
+            "Armor   +11": "Defense   +11",
+            "Helmet  +11": "Speed     +11",
+            "Trinket +11": "Dexterity +11",
+        },
+        Restriction: "-",
+        Dump: "spring_medal",
+    },
+
+    {
+        ID: "06581",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +1",
+            "Armor   +1": "Defense   0",
+            "Helmet  0": "Speed     +1",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "10",
+                Hero: "257",
+                },
+        Dump: "257",
+    },
+
+    {
+        ID: "06582",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  -2": "Attack    +2",
+            "Armor   0": "Defense   +1",
+            "Helmet  +1": "Speed     0",
+            "Trinket +1": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "20",
+                Hero: "257",
+                },
+        Dump: "257",
+    },
+
+    {
+        ID: "06583",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +2": "Defense   0",
+            "Helmet  +1": "Speed     +1",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "30",
+                Hero: "257",
+                },
+        Dump: "257",
+    },
+
+    {
+        ID: "06584",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  -2": "Attack    0",
+            "Armor   +3": "Defense   0",
+            "Helmet  0": "Speed     +4",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "40",
+                Hero: "257",
+                },
+        Dump: "257",
+    },
+
+    {
+        ID: "06585",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +1": "Attack    +3",
+            "Armor   +1": "Defense   +2",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "50",
+                Hero: "257",
+                },
+        Dump: "257",
+    },
+
+    {
+        ID: "06586",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    -2",
+            "Armor   0": "Defense   +6",
+            "Helmet  0": "Speed     -2",
+            "Trinket 0": "Dexterity +6",
+        },
+        Restriction: {
+                Level: "60",
+                Hero: "257",
+                },
+        Dump: "257",
+    },
+
+    {
+        ID: "06587",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +1": "Attack    0",
+            "Armor   0": "Defense   0",
+            "Helmet  +2": "Speed     0",
+            "Trinket +2": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "70",
+                Hero: "257",
+                },
+        Dump: "257",
+    },
+
+    {
+        ID: "06588",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +6": "Attack    -3",
+            "Armor   +6": "Defense   -2",
+            "Helmet  +6": "Speed     -3",
+            "Trinket +6": "Dexterity -2",
+        },
+        Restriction: {
+                Level: "80",
+                Hero: "256",
+                },
+        Dump: "257",
+    },
+
+    {
+        ID: "06589",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +1",
+            "Armor   +1": "Defense   +5",
+            "Helmet  +1": "Speed     +1",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "90",
+                Hero: "257",
+                },
+        Dump: "257",
+    },
+
+    {
+        ID: "06590",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +2": "Attack    +5",
+            "Armor   +2": "Defense   +2",
+            "Helmet  +2": "Speed     +1",
+            "Trinket +2": "Dexterity +2",
+        },
+        Restriction: {
+                Level: "100",
+                Hero: "257",
+                },
+        Dump: "257",
+    },
+
+    {
+        ID: "06591",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +1",
+            "Armor   +1": "Defense   0",
+            "Helmet  0": "Speed     +1",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "10",
+                Hero: "258",
+                },
+        Dump: "258",
+    },
+
+    {
+        ID: "06592",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  -2": "Attack    +2",
+            "Armor   0": "Defense   +1",
+            "Helmet  +1": "Speed     0",
+            "Trinket +1": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "20",
+                Hero: "258",
+                },
+        Dump: "258",
+    },
+
+    {
+        ID: "06593",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    0",
+            "Armor   +2": "Defense   0",
+            "Helmet  +1": "Speed     +1",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "30",
+                Hero: "258",
+                },
+        Dump: "258",
+    },
+
+    {
+        ID: "06594",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  -2": "Attack    0",
+            "Armor   +3": "Defense   0",
+            "Helmet  0": "Speed     +4",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "40",
+                Hero: "258",
+                },
+        Dump: "258",
+    },
+
+    {
+        ID: "06595",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +1": "Attack    +3",
+            "Armor   +1": "Defense   +2",
+            "Helmet  0": "Speed     0",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "50",
+                Hero: "258",
+                },
+        Dump: "258",
+    },
+
+    {
+        ID: "06596",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    -2",
+            "Armor   0": "Defense   +6",
+            "Helmet  0": "Speed     -2",
+            "Trinket 0": "Dexterity +6",
+        },
+        Restriction: {
+                Level: "60",
+                Hero: "258",
+                },
+        Dump: "258",
+    },
+
+    {
+        ID: "06597",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +1": "Attack    0",
+            "Armor   0": "Defense   0",
+            "Helmet  +2": "Speed     0",
+            "Trinket +2": "Dexterity 0",
+        },
+        Restriction: {
+                Level: "70",
+                Hero: "258",
+                },
+        Dump: "258",
+    },
+
+    {
+        ID: "06598",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +6": "Attack    -3",
+            "Armor   +6": "Defense   -2",
+            "Helmet  +6": "Speed     -3",
+            "Trinket +6": "Dexterity -2",
+        },
+        Restriction: {
+                Level: "80",
+                Hero: "258",
+                },
+        Dump: "258",
+    },
+
+    {
+        ID: "06599",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  0": "Attack    +1",
+            "Armor   +1": "Defense   +5",
+            "Helmet  +1": "Speed     +1",
+            "Trinket 0": "Dexterity +1",
+        },
+        Restriction: {
+                Level: "90",
+                Hero: "258",
+                },
+        Dump: "258",
+    },
+
+    {
+        ID: "06600",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +2": "Attack    +5",
+            "Armor   +2": "Defense   +2",
+            "Helmet  +2": "Speed     +1",
+            "Trinket +2": "Dexterity +2",
+        },
+        Restriction: {
+                Level: "100",
+                Hero: "258",
+                },
+        Dump: "258",
+    },
+
+    {
+        ID: "04910",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +5": "Defense   0",
+            "Helmet  +5": "Speed     +10",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: {
+                
+                Hero: "257",
+                },
+        Dump: "257_medal",
+    },
+
+    {
+        ID: "04911",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: {
+                
+                Hero: "257",
+                },
+        Dump: "iconslot_unique_purple",
+    },
+
+    {
+        ID: "04912",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +5": "Defense   +10",
+            "Helmet  0": "Speed     +5",
+            "Trinket 0": "Dexterity 0",
+        },
+        Restriction: {
+                
+                Hero: "258",
+                },
+        Dump: "258_medal",
+    },
+
+    {
+        ID: "04913",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: {
+                
+                Hero: "258",
+                },
+        Dump: "iconslot_unique_purple",
+    },
+
+    {
+        ID: "12559",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    +12",
+            "Armor   +12": "Defense   +12",
+            "Helmet  +12": "Speed     +12",
+            "Trinket +12": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "Clover_medal",
+    },
+
+    {
+        ID: "12560",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +10": "Attack    +10",
+            "Armor   +10": "Defense   +10",
+            "Helmet  +10": "Speed     +10",
+            "Trinket +10": "Dexterity +10",
+        },
+        Restriction: "-",
+        Dump: "PinkClover_medal_10",
+    },
+
+    {
+        ID: "12561",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +9": "Attack    +9",
+            "Armor   +9": "Defense   +9",
+            "Helmet  +9": "Speed     +9",
+            "Trinket +9": "Dexterity +9",
+        },
+        Restriction: "-",
+        Dump: "PinkClover_medal_9",
+    },
+
+    {
+        ID: "12562",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +8": "Attack    +8",
+            "Armor   +8": "Defense   +8",
+            "Helmet  +8": "Speed     +8",
+            "Trinket +8": "Dexterity +8",
+        },
+        Restriction: "-",
+        Dump: "PinkClover_medal_8",
+    },
+
+    {
+        ID: "12563",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +7": "Attack    +7",
+            "Armor   +7": "Defense   +7",
+            "Helmet  +7": "Speed     +7",
+            "Trinket +7": "Dexterity +7",
+        },
+        Restriction: "-",
+        Dump: "PinkClover_medal_7",
+    },
+
+    {
+        ID: "12564",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +6": "Attack    +6",
+            "Armor   +6": "Defense   +6",
+            "Helmet  +6": "Speed     +6",
+            "Trinket +6": "Dexterity +6",
+        },
+        Restriction: "-",
+        Dump: "PinkClover_medal_6",
+    },
+
+    {
+        ID: "12565",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +5": "Attack    +5",
+            "Armor   +5": "Defense   +5",
+            "Helmet  +5": "Speed     +5",
+            "Trinket +5": "Dexterity +5",
+        },
+        Restriction: "-",
+        Dump: "PinkClover_medal_5",
+    },
+
+    {
+        ID: "12566",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +4": "Attack    +4",
+            "Armor   +4": "Defense   +4",
+            "Helmet  +4": "Speed     +4",
+            "Trinket +4": "Dexterity +4",
+        },
+        Restriction: "-",
+        Dump: "PinkClover_medal_4",
+    },
+
+    {
+        ID: "12567",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +3": "Attack    +3",
+            "Armor   +3": "Defense   +3",
+            "Helmet  +3": "Speed     +3",
+            "Trinket +3": "Dexterity +3",
+        },
+        Restriction: "-",
+        Dump: "PinkClover_medal_3",
+    },
+
+    {
+        ID: "12568",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +2": "Attack    +2",
+            "Armor   +2": "Defense   +2",
+            "Helmet  +2": "Speed     +2",
+            "Trinket +2": "Dexterity +2",
+        },
+        Restriction: "-",
+        Dump: "PinkClover_medal_2",
+    },
+
+    {
+        ID: "12569",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +1": "Attack    +1",
+            "Armor   +1": "Defense   +1",
+            "Helmet  +1": "Speed     +1",
+            "Trinket +1": "Dexterity +1",
+        },
+        Restriction: "-",
+        Dump: "PinkClover_medal_1",
+    },
+
+    {
+        ID: "12570",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +13": "Attack    +13",
+            "Armor   +13": "Defense   +13",
+            "Helmet  +13": "Speed     +13",
+            "Trinket +13": "Dexterity +13",
+        },
+        Restriction: "-",
+        Dump: "rascal_medal",
+    },
+
+    {
+        ID: "12571",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    +12",
+            "Armor   +12": "Defense   +12",
+            "Helmet  +12": "Speed     +12",
+            "Trinket +12": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "happyfamily_medal",
+    },
+
+    {
+        ID: "12572",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    +12",
+            "Armor   +12": "Defense   +12",
+            "Helmet  +12": "Speed     +12",
+            "Trinket +12": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "independence_coin",
+    },
+
+    {
+        ID: "12573",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +11": "Attack    +11",
+            "Armor   +11": "Defense   +11",
+            "Helmet  +11": "Speed     +11",
+            "Trinket +11": "Dexterity +11",
+        },
+        Restriction: "-",
+        Dump: "happyfamily_medal",
+    },
+
+    {
+        ID: "12574",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +11": "Attack    +11",
+            "Armor   +11": "Defense   +11",
+            "Helmet  +11": "Speed     +11",
+            "Trinket +11": "Dexterity +11",
+        },
+        Restriction: "-",
+        Dump: "happyfamily_medal",
+    },
+
+    {
+        ID: "12575",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +13": "Attack    +13",
+            "Armor   +13": "Defense   +13",
+            "Helmet  +13": "Speed     +13",
+            "Trinket +13": "Dexterity +13",
+        },
+        Restriction: "-",
+        Dump: "happyfamily_medal",
+    },
+
+    {
+        ID: "12576",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    +12",
+            "Armor   +12": "Defense   +12",
+            "Helmet  +12": "Speed     +12",
+            "Trinket +12": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "Hephaitos_medal01",
+    },
+
+    {
+        ID: "12577",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +13": "Attack    +13",
+            "Armor   +13": "Defense   +13",
+            "Helmet  +13": "Speed     +13",
+            "Trinket +13": "Dexterity +13",
+        },
+        Restriction: "-",
+        Dump: "potter_medal",
+    },
+
+    {
+        ID: "12578",
+        Icon: "",
+        Name: "<No Name>",
+        Stats: {
+            "Weapon  +12": "Attack    +12",
+            "Armor   +12": "Defense   +12",
+            "Helmet  +12": "Speed     +12",
+            "Trinket +12": "Dexterity +12",
+        },
+        Restriction: "-",
+        Dump: "New_Moon_Medal01",
     },
 ];
 

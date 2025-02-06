@@ -12,6 +12,6 @@ Wiki ini menjelaskan tentang informasi lebih lanjut terkait data tersebut, seper
 Pengumpulan data ini berdasarkan file rs.iop untuk kegunaan edukasi
 
 # Versi Patch
-Patch: 12-7-2023
+Patch: 6-2-2025
 
 Client: Lost Saga Origin (valofe)

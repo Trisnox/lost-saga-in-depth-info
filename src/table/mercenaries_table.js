@@ -406,6 +406,44 @@ export const mercenaries = [
     },
 
     {
+        ID: "008 lv1",
+        Name: "Crazy Miner",
+        Rarity: "Normal",
+        Sprint: "❌",
+        Jump: "1",
+        Attack_Length: "3",
+        Highest_Damage: "15.0, Charged D1 | 15.0, Charged D2 | 15.0, Charged D3",
+        "360_Block": "❌",
+        Deflect: "✅",
+        Counter: "❌",
+        Down_Hit: "Charged D1, Charged D2, Charged D3",
+        Special: "Not yet added",
+        Unique_Property: "",
+        Dump: {
+            File_Comment_Name: " Crazy Miner.",
+        },
+    },
+
+    {
+        ID: "008 lv2",
+        Name: "Crazy Miner",
+        Rarity: "Normal",
+        Sprint: "❌",
+        Jump: "1",
+        Attack_Length: "3",
+        Highest_Damage: "15.0, Charged D1 | 15.0, Charged D2 | 15.0, Charged D3",
+        "360_Block": "❌",
+        Deflect: "✅",
+        Counter: "❌",
+        Down_Hit: "Charged D1, Charged D2, Charged D3",
+        Special: "Not yet added",
+        Unique_Property: "",
+        Dump: {
+            File_Comment_Name: " Crazy Miner.",
+        },
+    },
+
+    {
         ID: "009",
         Name: "Ice Mage",
         Rarity: "Normal",
@@ -540,6 +578,63 @@ export const mercenaries = [
 
     {
         ID: "012",
+        Name: "Shadow Assasin",
+        Rarity: "Normal",
+        Sprint: "✅",
+        Jump: "1",
+        Attack_Length: "4",
+        Highest_Damage: "12.0, Counter D1",
+        "360_Block": "❌",
+        Deflect: "❌",
+        Counter: "✅",
+        Down_Hit: "❌",
+        Special: "Not yet added",
+        Unique_Property: "",
+        Dump: {
+            File_Comment_Name: " Shadow Assassin.",
+        },
+    },
+
+    {
+        ID: "012 lv1",
+        Name: "Shadow Assasin",
+        Rarity: "Normal",
+        Sprint: "✅",
+        Jump: "1",
+        Attack_Length: "4",
+        Highest_Damage: "12.0, Counter D1",
+        "360_Block": "❌",
+        Deflect: "❌",
+        Counter: "✅",
+        Down_Hit: "❌",
+        Special: "Not yet added",
+        Unique_Property: "",
+        Dump: {
+            File_Comment_Name: " Shadow Assassin.",
+        },
+    },
+
+    {
+        ID: "012 lv2",
+        Name: "Shadow Assasin",
+        Rarity: "Normal",
+        Sprint: "✅",
+        Jump: "1",
+        Attack_Length: "4",
+        Highest_Damage: "12.0, Counter D1",
+        "360_Block": "❌",
+        Deflect: "❌",
+        Counter: "✅",
+        Down_Hit: "❌",
+        Special: "Not yet added",
+        Unique_Property: "",
+        Dump: {
+            File_Comment_Name: " Shadow Assassin.",
+        },
+    },
+
+    {
+        ID: "012 lv3",
         Name: "Shadow Assasin",
         Rarity: "Normal",
         Sprint: "✅",
@@ -805,6 +900,63 @@ export const mercenaries = [
     },
 
     {
+        ID: "016 lv1",
+        Name: "Viking",
+        Rarity: "Normal",
+        Sprint: "✅",
+        Jump: "1",
+        Attack_Length: "3",
+        Highest_Damage: "16.0, Ground D3",
+        "360_Block": "❌",
+        Deflect: "✅",
+        Counter: "❌",
+        Down_Hit: "❌",
+        Special: "Not yet added",
+        Unique_Property: "",
+        Dump: {
+            File_Comment_Name: " Viking Sven.",
+        },
+    },
+
+    {
+        ID: "016 lv2",
+        Name: "Viking",
+        Rarity: "Normal",
+        Sprint: "✅",
+        Jump: "1",
+        Attack_Length: "3",
+        Highest_Damage: "16.0, Ground D3",
+        "360_Block": "❌",
+        Deflect: "✅",
+        Counter: "❌",
+        Down_Hit: "❌",
+        Special: "Not yet added",
+        Unique_Property: "",
+        Dump: {
+            File_Comment_Name: " Viking Sven.",
+        },
+    },
+
+    {
+        ID: "016 lv3",
+        Name: "Viking",
+        Rarity: "Normal",
+        Sprint: "✅",
+        Jump: "1",
+        Attack_Length: "3",
+        Highest_Damage: "16.0, Ground D3",
+        "360_Block": "❌",
+        Deflect: "✅",
+        Counter: "❌",
+        Down_Hit: "❌",
+        Special: "Not yet added",
+        Unique_Property: "",
+        Dump: {
+            File_Comment_Name: " Viking Sven.",
+        },
+    },
+
+    {
         ID: "017",
         Name: "Kage Ninja",
         Rarity: "Normal",
@@ -963,7 +1115,7 @@ export const mercenaries = [
         Sprint: "✅",
         Jump: "1",
         Attack_Length: "4",
-        Highest_Damage: "10.0, Dash Extend D1 | 10.0, Dash Hold D1 | 10.0, Counter D1 | 10.0, Charged D1 | 10.0, Charged D2 | 10.0, Charged D3 | 10.0, Charged D4",
+        Highest_Damage: "10.0, Ground D4 | 10.0, Dash Extend D1 | 10.0, Dash Hold D1 | 10.0, Counter D1 | 10.0, Charged D1 | 10.0, Charged D2 | 10.0, Charged D3 | 10.0, Charged D4",
         "360_Block": "❌",
         Deflect: "❌",
         Counter: "✅",
@@ -982,7 +1134,7 @@ export const mercenaries = [
         Sprint: "✅",
         Jump: "1",
         Attack_Length: "4",
-        Highest_Damage: "11.0, Charged D1 | 11.0, Charged D2 | 11.0, Charged D3 | 11.0, Charged D4",
+        Highest_Damage: "10.0, Ground D4 | 10.0, Dash Extend D1 | 10.0, Dash Hold D1 | 10.0, Charged D1 | 10.0, Charged D2 | 10.0, Charged D3 | 10.0, Charged D4",
         "360_Block": "❌",
         Deflect: "✅",
         Counter: "❌",
@@ -1001,7 +1153,7 @@ export const mercenaries = [
         Sprint: "✅",
         Jump: "1",
         Attack_Length: "4",
-        Highest_Damage: "11.0, Charged D1 | 11.0, Charged D2 | 11.0, Charged D3 | 11.0, Charged D4",
+        Highest_Damage: "10.0, Ground D4 | 10.0, Dash Extend D1 | 10.0, Dash Hold D1 | 10.0, Charged D1 | 10.0, Charged D2 | 10.0, Charged D3 | 10.0, Charged D4",
         "360_Block": "❌",
         Deflect: "✅",
         Counter: "❌",
@@ -3129,7 +3281,7 @@ export const mercenaries = [
         Sprint: "✅",
         Jump: "1",
         Attack_Length: "4",
-        Highest_Damage: "8.0, Ground D4 | 8.0, Ground D4",
+        Highest_Damage: "9.0, Jump D3 | 9.0, Jump D3",
         "360_Block": "❌",
         Deflect: "✅",
         Counter: "❌",
@@ -3409,7 +3561,7 @@ export const mercenaries = [
 
     {
         ID: "073",
-        Name: "Grafitti",
+        Name: "Graffity",
         Rarity: "Normal",
         Sprint: "✅",
         Jump: "1",
@@ -3452,7 +3604,7 @@ export const mercenaries = [
         Sprint: "❌",
         Jump: "1",
         Attack_Length: "4",
-        Highest_Damage: "9.0, Dash Extend D1",
+        Highest_Damage: "9.0, Ground D4 | 9.0, Ground D4 | 9.0, Dash Extend D1",
         "360_Block": "❌",
         Deflect: "❌",
         Counter: "❌",
@@ -3884,7 +4036,7 @@ export const mercenaries = [
 
     {
         ID: "096",
-        Name: "Monk",
+        Name: "Battle Monk",
         Rarity: "Rare",
         Sprint: "✅",
         Jump: "2",
@@ -5005,7 +5157,7 @@ export const mercenaries = [
 
     {
         ID: "155",
-        Name: "Dark Monk",
+        Name: "Apostate Monk",
         Rarity: "Rare",
         Sprint: "✅",
         Jump: "1",
@@ -5086,7 +5238,7 @@ export const mercenaries = [
         Sprint: "✅",
         Jump: "2",
         Attack_Length: "3",
-        Highest_Damage: "9.0, Ground D3 | 9.0, Jump D3 | 9.0, Counter D1",
+        Highest_Damage: "9.0, Ground D3 | 9.0, Counter D1",
         "360_Block": "❌",
         Deflect: "❌",
         Counter: "✅",
@@ -5670,7 +5822,7 @@ export const mercenaries = [
 
     {
         ID: "190",
-        Name: "MasterPanda",
+        Name: "Master Panda",
         Rarity: "Rare",
         Sprint: "✅",
         Jump: "1",
@@ -5960,10 +6112,10 @@ export const mercenaries = [
         Sprint: "✅",
         Jump: "2",
         Attack_Length: "3",
-        Highest_Damage: "9.0, Ground D3 | 9.0, Dash Extend D1",
+        Highest_Damage: "9.0, Ground D3 | 9.0, Dash Extend D1 | 9.0, Counter D1",
         "360_Block": "❌",
         Deflect: "❌",
-        Counter: "❌",
+        Counter: "✅",
         Down_Hit: "❌",
         Special: "Not yet added",
         Unique_Property: "",
@@ -6278,7 +6430,7 @@ export const mercenaries = [
 
     {
         ID: "222",
-        Name: "Ice God",
+        Name: "Yukime",
         Rarity: "Rare",
         Sprint: "✅",
         Jump: "1",
@@ -6316,7 +6468,7 @@ export const mercenaries = [
 
     {
         ID: "224",
-        Name: "Skywalker",
+        Name: "Sky Walker",
         Rarity: "Rare",
         Sprint: "✅",
         Jump: "3",
@@ -6468,7 +6620,7 @@ export const mercenaries = [
 
     {
         ID: "232",
-        Name: "Taoist",
+        Name: "Tae Eul Jin",
         Rarity: "Unique",
         Sprint: "✅",
         Jump: "2",
@@ -6525,12 +6677,12 @@ export const mercenaries = [
 
     {
         ID: "235",
-        Name: "Demonlord",
+        Name: "Demon Lord",
         Rarity: "Unique",
         Sprint: "✅",
         Jump: "1",
         Attack_Length: "3",
-        Highest_Damage: "10.0, Ground D3 | 10.0, Dash Extend D1",
+        Highest_Damage: "10.0, Ground D3 | 10.0, Dash Extend D1 | 10.0, Dash Hold D1 | 10.0, Dash Hold D1 | 10.0, Dash Hold D1 | 10.0, Dash Hold D1 | 10.0, Dash Hold D1 | 10.0, Charged D1 | 10.0, Charged D1 | 10.0, Charged D1 | 10.0, Charged D1 | 10.0, Charged D1 | 10.0, Charged D2 | 10.0, Charged D2 | 10.0, Charged D2 | 10.0, Charged D2 | 10.0, Charged D2 | 10.0, Charged D3 | 10.0, Charged D3 | 10.0, Charged D3 | 10.0, Charged D3 | 10.0, Charged D3",
         "360_Block": "❌",
         Deflect: "✅",
         Counter: "❌",
@@ -6544,7 +6696,7 @@ export const mercenaries = [
 
     {
         ID: "236",
-        Name: "Medium",
+        Name: "Ghost Magician",
         Rarity: "Rare",
         Sprint: "❌",
         Jump: "1",
@@ -6601,7 +6753,7 @@ export const mercenaries = [
 
     {
         ID: "239",
-        Name: "Gigasuit",
+        Name: "Giga Suit",
         Rarity: "Unique",
         Sprint: "✅",
         Jump: "1",
@@ -6620,7 +6772,7 @@ export const mercenaries = [
 
     {
         ID: "240",
-        Name: "Warmachine",
+        Name: "Combat Engineer",
         Rarity: "Rare",
         Sprint: "✅",
         Jump: "1",
@@ -6639,7 +6791,7 @@ export const mercenaries = [
 
     {
         ID: "241",
-        Name: "Royalguard",
+        Name: "Royal Guard",
         Rarity: "Rare",
         Sprint: "✅",
         Jump: "1",
@@ -6696,7 +6848,7 @@ export const mercenaries = [
 
     {
         ID: "244",
-        Name: "Avenger",
+        Name: "Avengers",
         Rarity: "Rare",
         Sprint: "✅",
         Jump: "2",
@@ -6720,7 +6872,7 @@ export const mercenaries = [
         Sprint: "✅",
         Jump: "1",
         Attack_Length: "4",
-        Highest_Damage: "10.0, Dash Extend D3 | 10.0, Jump Hold D1 | 10.0, Landing Jump Hold D1 | 10.0, Counter D1",
+        Highest_Damage: "9.0, Dash Extend D3 | 9.0, Jump Hold D1 | 9.0, Landing Jump Hold D1 | 9.0, Counter D1",
         "360_Block": "❌",
         Deflect: "❌",
         Counter: "✅",
@@ -6809,8 +6961,160 @@ export const mercenaries = [
     },
 
     {
+        ID: "250",
+        Name: "Nuada",
+        Rarity: "Rare",
+        Sprint: "✅",
+        Jump: "1",
+        Attack_Length: "4",
+        Highest_Damage: "10.0, Dash Extend D2 | 10.0, Counter D1",
+        "360_Block": "❌",
+        Deflect: "❌",
+        Counter: "✅",
+        Down_Hit: "❌",
+        Special: "Not yet added",
+        Unique_Property: "",
+        Dump: {
+            File_Comment_Name: "누아다",
+        },
+    },
+
+    {
+        ID: "251",
+        Name: "Alchemist",
+        Rarity: "Rare",
+        Sprint: "✅",
+        Jump: "2",
+        Attack_Length: "4",
+        Highest_Damage: "10.0, Ground D4",
+        "360_Block": "❌",
+        Deflect: "✅",
+        Counter: "❌",
+        Down_Hit: "Jump D1, Jump D2, Jump D3",
+        Special: "Not yet added",
+        Unique_Property: "",
+        Dump: {
+            File_Comment_Name: " Alchemist",
+        },
+    },
+
+    {
+        ID: "252",
+        Name: "Freischutz",
+        Rarity: "Unique",
+        Sprint: "✅",
+        Jump: "1",
+        Attack_Length: "3",
+        Highest_Damage: "9.0, Ground D3 | 9.0, Dash Extend D2 | 9.0, Counter D1",
+        "360_Block": "❌",
+        Deflect: "❌",
+        Counter: "✅",
+        Down_Hit: "❌",
+        Special: "Not yet added",
+        Unique_Property: "",
+        Dump: {
+            File_Comment_Name: " 프라이슈츠",
+        },
+    },
+
+    {
+        ID: "253",
+        Name: "Transcendent",
+        Rarity: "Rare",
+        Sprint: "✅",
+        Jump: "2",
+        Attack_Length: "3",
+        Highest_Damage: "11.0, Charged D1 | 11.0, Charged D2 | 11.0, Charged D3",
+        "360_Block": "❌",
+        Deflect: "✅",
+        Counter: "❌",
+        Down_Hit: "❌",
+        Special: "Not yet added",
+        Unique_Property: "",
+        Dump: {
+            File_Comment_Name: "초월자",
+        },
+    },
+
+    {
+        ID: "254",
+        Name: "Elaim",
+        Rarity: "Rare",
+        Sprint: "❌",
+        Jump: "2",
+        Attack_Length: "3",
+        Highest_Damage: "10.0, Ground D3",
+        "360_Block": "✅",
+        Deflect: "❌",
+        Counter: "❌",
+        Down_Hit: "Jump D1, Jump D2",
+        Special: "Not yet added",
+        Unique_Property: "",
+        Dump: {
+            File_Comment_Name: "엘라임",
+        },
+    },
+
+    {
+        ID: "255",
+        Name: "Lich",
+        Rarity: "Unique",
+        Sprint: "✅",
+        Jump: "2",
+        Attack_Length: "3",
+        Highest_Damage: "9.0, Ground D3 | 9.0, Jump Dash Extend D1 | 9.0, Counter D1",
+        "360_Block": "✅",
+        Deflect: "❌",
+        Counter: "✅",
+        Down_Hit: "Landing Jump Hold D1",
+        Special: "Not yet added",
+        Unique_Property: "",
+        Dump: {
+            File_Comment_Name: " 리치",
+        },
+    },
+
+    {
+        ID: "256",
+        Name: "Holy Priest",
+        Rarity: "Rare",
+        Sprint: "❌",
+        Jump: "2",
+        Attack_Length: "2",
+        Highest_Damage: "11.0, Charged D Max1 | 11.0, Ground D2 | 11.0, Dash Replace1 | 11.0, Jump Hold D1",
+        "360_Block": "✅",
+        Deflect: "❌",
+        Counter: "❌",
+        Down_Hit: "❌",
+        Special: "Not yet added",
+        Unique_Property: "",
+        Dump: {
+            File_Comment_Name: " 신성사제",
+        },
+    },
+
+    {
+        ID: "257",
+        Name: "Parasite",
+        Rarity: "Unique",
+        Sprint: "✅",
+        Jump: "2",
+        Attack_Length: "4",
+        Highest_Damage: "9.0, Ground D4 | 9.0, Dash Extend D3 | 9.0, Jump Hold D1 | 9.0, Counter D1",
+        "360_Block": "❌",
+        Deflect: "❌",
+        Counter: "✅",
+        Down_Hit: "Jump Hold D1",
+        Special: "Not yet added",
+        Unique_Property: "",
+        Dump: {
+            File_Comment_Name: " 패러사이트",
+        },
+    },
+
+    {
         ID: "505",
-        Name: "R Medic",
+        Name: "R-Cyber Medic",
         Rarity: "Normal",
         Sprint: "❌",
         Jump: "2",
@@ -6891,15 +7195,15 @@ export const mercenaries = [
         Sprint: "❌",
         Jump: "1",
         Attack_Length: "4",
-        Highest_Damage: "18.0, Jump D1",
+        Highest_Damage: "10.0, Jump Hold D1 | 10.0, Counter D1",
         "360_Block": "❌",
         Deflect: "❌",
         Counter: "✅",
-        Down_Hit: "Dash Extend D1",
+        Down_Hit: "❌",
         Special: "Not yet added",
         Unique_Property: "",
         Dump: {
-            File_Comment_Name: " Layairama",
+            File_Comment_Name: " Laya Irama",
         },
     },
 
